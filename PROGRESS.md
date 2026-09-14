@@ -1,5 +1,13 @@
 # Research Progress
 
+## Active idea 002: task consequence and decoder geometry
+
+The supplied second protocol is active under `experiments/002_task_consequence_basin/`. P0 passes at `4393c75`: 16/16 paired-clean worlds, 64/64 exact target endpoints, input-gradient and native-recovery checks. The output pipeline smoke at `d4a4b0a` also passes. These establish measurement feasibility only; H1/H2 remain unmeasured. Fresh full decoder readout is retained because cached raw logits differ despite identical greedy tokens.
+
+Fixed cohorts contain 16 smoke, 64 development and 256 test worlds, using the supplied templates/name pool. Next: lexical-only development calibration, then frozen P1/H1 and P2/H2 core measurements and interpretation controls. Natural-data and training stages remain extensions. Long waits use a monitor subagent; primary storage stays on nebula.
+
+## Completed idea 001
+
 ## Current state and decision
 
 Idea 001's current execution scheme is formally closed; the no-training decision

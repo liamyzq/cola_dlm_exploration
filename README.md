@@ -34,3 +34,5 @@ Use short-lived development branches for code changes. After baseline integratio
 - [AGENTS.md](AGENTS.md): persistent project instructions, informed by `research-repo` and `ccf-humanization`.
 
 The first idea is [future value beyond the emitted prefix](experiments/001_same_prefix_state/README.md). Its [English protocol](experiments/001_same_prefix_state/PROTOCOL.md) specifies R0-R5: bounded capability diagnosis, native same-token F/M cohorts, independent distribution and value measurement, and a conditional training-free cost study. LoRA and learned selectors are outside the current plan. The [completed study report](experiments/001_same_prefix_state/results/FINAL_REPORT.md) establishes native same-text feasibility, records zero-compatible distribution evidence and a task-reward floor, and explains why larger selection and utility stages were not activated.
+
+The second idea, [task consequence and decoder boundary geometry](experiments/002_task_consequence_basin/README.md), now has a validated encoded-reference interface. Development calibration precedes the frozen H1/H2 measurements; it does not reopen idea 001.
