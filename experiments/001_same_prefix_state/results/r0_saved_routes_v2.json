@@ -1,0 +1,149 @@
+{
+  "experiment_id": "001-r0-saved-routes-v2",
+  "kind": "CPU reconstruction of existing P0 generations",
+  "implementation_commit": "827285209957d870812bc4fe9b13f99345e2a2ab",
+  "source_run_commit": "3b1fb15cf78f234660169f5fcb1686d61286217b",
+  "difficulties": {
+    "easy": {
+      "graphs": 128,
+      "samples": 512,
+      "prompt_token_range": [
+        386,
+        470
+      ],
+      "generated_token_range": [
+        80,
+        110
+      ],
+      "total_position_range": [
+        480,
+        560
+      ],
+      "total_positions_above_512": 47,
+      "original_boundary_positions_above_512": 0,
+      "missing_full_layout": 10,
+      "earlier_full_boundary": 13,
+      "all_first_successors_reach_waypoint": 81,
+      "mixed_layout_graphs": 118,
+      "counts": {
+        "parseable": 422,
+        "reward": 0,
+        "eligible": 0,
+        "first_edge_correct": 22,
+        "terminated_within_horizon": 436,
+        "unsuccessful_answer_termination": 436,
+        "terminated_legal_trunk": 0,
+        "generated_after_termination": 436
+      },
+      "mixed_anchor_status": {
+        "wrong_trunk": 208,
+        "terminated": 188,
+        "eligible": 76,
+        "aligned_prompt_no_mixed": 40
+      },
+      "first_causal_full_status": {
+        "terminated": 430,
+        "wrong_trunk": 82
+      },
+      "original_boundary_status_with_termination": {
+        "terminated": 392,
+        "wrong_trunk": 80,
+        "no_layout": 40
+      },
+      "answer_failure_reasons": {
+        "end,waypoint,roads": 22,
+        "start,end,unique,roads": 8,
+        "end,unique,roads": 44,
+        "roads": 77,
+        "waypoint,roads": 35,
+        "end,roads": 177,
+        "format": 90,
+        "start,roads": 5,
+        "waypoint,unique,roads": 24,
+        "start,end,roads": 9,
+        "start,unique,roads": 4,
+        "unique,roads": 14,
+        "end,waypoint,unique,roads": 2,
+        "start,waypoint,roads": 1
+      },
+      "legal_prefix_towns_histogram": {
+        "1": 459,
+        "0": 31,
+        "2": 22
+      },
+      "generated_tokens_after_termination": 35031,
+      "source_generation_worker_seconds": 5292.940862527816
+    },
+    "hard": {
+      "graphs": 128,
+      "samples": 512,
+      "prompt_token_range": [
+        278,
+        392
+      ],
+      "generated_token_range": [
+        80,
+        110
+      ],
+      "total_position_range": [
+        368,
+        496
+      ],
+      "total_positions_above_512": 0,
+      "original_boundary_positions_above_512": 0,
+      "missing_full_layout": 7,
+      "earlier_full_boundary": 19,
+      "all_first_successors_reach_waypoint": 104,
+      "mixed_layout_graphs": 112,
+      "counts": {
+        "parseable": 331,
+        "reward": 0,
+        "eligible": 0,
+        "first_edge_correct": 11,
+        "terminated_within_horizon": 352,
+        "unsuccessful_answer_termination": 352,
+        "terminated_legal_trunk": 0,
+        "generated_after_termination": 350
+      },
+      "mixed_anchor_status": {
+        "wrong_trunk": 247,
+        "terminated": 140,
+        "eligible": 61,
+        "aligned_prompt_no_mixed": 64
+      },
+      "first_causal_full_status": {
+        "wrong_trunk": 175,
+        "terminated": 337
+      },
+      "original_boundary_status_with_termination": {
+        "wrong_trunk": 172,
+        "terminated": 312,
+        "no_layout": 28
+      },
+      "answer_failure_reasons": {
+        "format": 181,
+        "end,roads": 120,
+        "end,waypoint,roads": 19,
+        "start,end,roads": 11,
+        "roads": 54,
+        "start,roads": 9,
+        "end,unique,roads": 39,
+        "waypoint,unique,roads": 31,
+        "start,unique,roads": 4,
+        "waypoint,roads": 23,
+        "start,end,unique,roads": 6,
+        "unique,roads": 12,
+        "end,waypoint,unique,roads": 2,
+        "start,waypoint,roads": 1
+      },
+      "legal_prefix_towns_histogram": {
+        "1": 454,
+        "0": 47,
+        "2": 11
+      },
+      "generated_tokens_after_termination": 27800,
+      "source_generation_worker_seconds": 5228.870411294105
+    }
+  },
+  "audit_cpu_wall_seconds": 0.7466603709908668
+}

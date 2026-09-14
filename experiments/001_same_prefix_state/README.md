@@ -1,6 +1,6 @@
 # 001_same_prefix_state: Future information beyond emitted tokens
 
-Status: P0 completed; revised no-training R-series plan adopted. No R-series GPU experiment has run yet.
+Status: P0 and the R0 saved-output audit completed. Fixed official capability inputs are prepared; no R-series GPU experiment has run yet.
 
 Can naturally generated continuous states preserve exactly the same emitted tokens and closely preserve the decoder readout while changing future text distributions or task value? The released CoLa model remains frozen. The [active English protocol](PROTOCOL.md) separates H1a distribution effects, H1b task-value variation, H2 independent selection gain, and H3 equal-cost utility.
 
@@ -12,7 +12,7 @@ The 32-example native-parity, state-replay, and cache suite passed. Original rou
 
 ## Next work
 
-R0 reuses full existing records for layout/termination diagnosis. R1 checks official LAMBADA/SQuAD capability; R2 decomposes route difficulty with a 256-generation ceiling. R3 tests same-text candidates independently of route competence. Full generated blocks (F) and first mixed blocks with fixed prompt latents (M) are separate cohorts. R4 measures and independently confirms future-distribution effects; R5 conditionally tests reward gain and training-free compute value.
+The [R0 report](results/R0_REPORT.md) reproduces the static audit and finds 76 Easy and 61 Hard potential M roots, while causal F eligibility remains zero. R1 checks official LAMBADA/SQuAD capability; R2 decomposes route difficulty with a 256-generation ceiling. R3 tests same-text candidates independently of route competence. Full generated blocks (F) and first mixed blocks with fixed prompt latents (M) are separate cohorts. R4 measures and independently confirms future-distribution effects; R5 conditionally tests reward gain and training-free compute value.
 
 The first milestone is a validated same-text pair and its acceptance/cost funnel. The study continues to supported independent confirmation and an evidence-based disposition of the remaining stages.
 
