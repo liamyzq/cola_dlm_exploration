@@ -44,3 +44,5 @@ activated by these observations; this is a task-coverage limitation, not evidenc
 against H1b/H2. Do not train to rescue the route task.
 
 Matched-full generation cost 940.14 worker-seconds; all four cells together used 3,733.67 worker-seconds for 256 generations.
+
+![R2 task diagnosis](../figures/r2_route_diagnosis.png)

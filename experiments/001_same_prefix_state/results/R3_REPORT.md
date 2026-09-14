@@ -46,3 +46,5 @@ confirmation before interpreting future-distribution effects. Preserve the
 route capability limitations rather than adding training.
 
 Block KL divided by the number of generated positions ranges from 6.33e-07 to 0.000267 for F and 3.02e-08 to 0.000376 for M in collection. These per-position values supplement the unchanged block acceptance limits.
+
+![R3 native-state feasibility](../figures/r3_feasibility.png)

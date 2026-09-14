@@ -5,7 +5,7 @@
 The revised no-training protocol governs idea 001. R0 and R1 are complete;
 R2 is complete with only Copy succeeding (3/64). R3 reached 32 strict
 native pairs in each F/M cohort. The F pilot is complete: H_token mean 0,
-95% source interval [-0.000214,0.000244]. Independent confirmation is next.
+95% source interval [-0.000214,0.000244]. Independent confirmation is running on GPUs 5-8.
 The pilot does not establish H1a; H1b/H2/H3 remain unmeasured. No model training has run.
 
 ## Evidence and interpretation
@@ -32,11 +32,12 @@ These validate execution without establishing a future-distribution effect.
 
 ## Active work and next decisions
 
-All R2, R3 and pilot workers are terminal. The pilot completed 512 futures on
+All R2, R3 and pilot workers are terminal. The four confirmation workers are active
+from frozen commit `3f63ae2`, under experiment `001-r4-confirmation-f-v1`. The pilot completed 512 futures on
 32 source-disjoint development pairs. Although 156/256 paired suffixes differ,
 the independent cross-split endpoint is centered at zero. See the pilot report.
 
-Launch the locked 128-source independent F confirmation with eight A/eight B
+Complete the active locked 128-source independent F confirmation with eight A/eight B
 samples, preserving all failed roots and reference fallbacks. Do not top up by
 outcomes or change the primary setting. The positive-effect cache-path diagnostic
 is not activated by the pilot. Actual jobs and artifact paths are in jobs/jobs.jsonl;
