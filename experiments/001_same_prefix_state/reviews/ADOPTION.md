@@ -32,3 +32,18 @@ reproduced the saved outputs and static layout counts, and [R1](../results/R1_RE
 validated the pinned official inference paths and recorded the bounded capability
 subset. Those reports contain project measurements; the supplied review remains
 unchanged as historical source material.
+
+## Closing review of 4922a00
+
+The user's [final review](FINAL_REVIEW_4922a00.md), recorded in English, endorses
+closure of the current execution scheme and continued no-training. Its reporting
+clarifications are adopted in FINAL_REPORT.md, the R4/R5 reports, and PROGRESS.md:
+candidate feasibility is positive; R4 is a completed conditional measurement on
+93 pairs/128 attempts with no positive support; R5 weakly constrains H1b/H2 at a
+task floor; H3 is unmeasured. F and M evidence are explicitly separated, and
+closure is a budget decision rather than proof of universal zero benefit.
+
+No implementation, configuration, numerical result, job event, or experimental
+outcome is changed by this audit update. No further GPU or offline analysis is
+launched. The optional saved-continuation analysis remains an exploratory future
+suggestion requiring a stated hypothesis, not a reopening of this study.

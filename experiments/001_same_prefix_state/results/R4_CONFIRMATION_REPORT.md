@@ -8,9 +8,12 @@ was replaced. See [compact results](r4_confirmation_f_v1.json),
 
 ## Primary result
 
-The mean signed cross-split **H_token is -0.0000551285**, with a 95%
+On **93 accepted pairs out of 128 attempted sources**, the conditional mean
+signed cross-split **H_token is -0.0000551285**, with a 95%
 source-document bootstrap interval **[-0.0001395089, 0.0000295180]**.
-The interval includes zero and is not degenerate. This independent cohort does
+The 34 reference-only fallbacks count toward coverage and cost, but do not
+contribute two-state heterogeneity observations. The interval includes zero
+and is not degenerate. This independent cohort does
 not establish a positive difference in the declared future token-position
 probability observable. Negative finite-sample estimates are retained; they
 do not imply negative population heterogeneity.
@@ -21,7 +24,10 @@ For two candidates its population target is half the mean squared L2 distance
 between their token-position probability vectors. Inference is conditional on
 accepted pairs. It does not test every joint text distribution, longer horizons,
 or other proposal settings, and it does not establish that emitted text is a
-sufficient description of every future generation state.
+sufficient description of every future generation state. This squared-L2
+interval has no established mapping to task success or semantic importance,
+so it does not establish practical equivalence. The natural-text confirmation
+is F-specific; M did not receive the same distribution study.
 
 ## Native-candidate funnel
 
@@ -43,7 +49,8 @@ and maximum-position KL <=0.0025 at eta=0.03. Accepted block KL ranges from
 3.3056573e-06 to 0.0057926078; the largest
 position KL is 0.0023547988. Median latent displacement is
 0.348084, and after BF16 conversion it is
-0.350572. Feasibility remains strong in fresh sources.
+0.350572. The fixed-source pair yield is 93/128=72.7%; overall proposal acceptance is
+93/1,520=6.1%. Feasibility is established, while efficient search remains unproven.
 
 The common-noise suffixes differ in 807/1488
 paired realizations, with mean token-position disagreement
@@ -65,5 +72,7 @@ The fixed confirmation is complete. Do not extend it or retune eta/KL using its
 result. The positive-mechanism trigger is not met, so the eight-root cache-path
 diagnostic remains unactivated with zero diagnostic GPU trajectories. Natural
 continuation has no task reward here; H1b/H2 and H3 require separate evidence.
-The bounded eight-root Branch-M probe addresses the remaining development
-headroom question without enlarging this confirmation or initiating training.
+The [completed Branch-M probe](R5_PROBE_REPORT.md) remains limited by an all-zero
+reward floor. The [closing audit](../reviews/FINAL_REVIEW_4922a00.md) records the
+decision not to extend either study: current evidence does not justify further
+budget, without requiring proof that every possible gain is zero.

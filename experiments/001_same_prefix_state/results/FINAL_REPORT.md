@@ -2,13 +2,19 @@
 
 ## Conclusion
 
-**Native continuous states can preserve exactly the same emitted text while
-remaining distinct, but this study does not establish a useful distribution
-or task-value advantage from selecting among them.** The strict candidate
-construction works on independent sources. The declared future-distribution
-endpoint remains compatible with zero, and the bounded route-value probe stays
-at a zero-reward floor. Stop the present large-scale selection route without
-training. Keep the shared state engine and candidate machinery for other ideas.
+**Strict same-text, effectively distinct native continuous states are
+constructible. The specified future marginal-distribution effect has no positive
+support; the route task provides no usable reward signal.** Candidate feasibility
+is an established positive result, and the core F distribution observable has
+completed independent measurement. This is materially different from the original
+P0 state, where qualified starting points were unavailable.
+
+Close the current execution scheme as a research-budget decision: the present
+proposal, observable, and route setting do not provide enough positive evidence
+for further investment. R4 is a completed measurement with an unsupported effect;
+R5 remains weakly informative because of its task-reward floor. Neither establishes
+that all possible gains are zero. Preserve the shared tools and keep the no-training
+decision. See the [closing user audit](../reviews/FINAL_REVIEW_4922a00.md).
 
 This completes the adopted no-training study: R0-R4 and the bounded R5 development
 probe ran to their specified limits. The evidence did not activate cache
@@ -32,6 +38,10 @@ KL sum <=0.01 and maximum-position KL <=0.0025, and remain effectively distinct.
 Eta=0.03 was chosen on development feasibility, without future rewards. K is at
 most two; failed proposals and reference-only fallbacks are retained.
 
+F completed the natural-text distribution pilot and independent confirmation.
+M completed feasibility validation and the small Branch-M reward probe; M did
+not receive an equivalent natural-text distribution confirmation.
+
 The source-document continuation study uses independent development and
 confirmation articles. For fixed candidate sets, A and B future noises are
 independent between splits and shared across candidates within each split.
@@ -39,6 +49,8 @@ The primary H_token estimates variation in token-position probability vectors
 over a 32-token future. For K=2 its population target is half their mean squared
 L2 distance. Single common-noise suffix differences measure a coupling, not this
 marginal distribution difference. Signed finite-sample H estimates are preserved.
+The conditional confirmation mean uses 93 accepted source pairs; the 34 reference
+fallbacks contribute coverage and cost, not two-state heterogeneity observations.
 
 ## Completed evidence
 
@@ -48,8 +60,8 @@ marginal distribution difference. Signed finite-sample H estimates are preserved
 | R1 official capability | LAMBADA 63/128; SQuAD 43/128; eight exact paired inference/replay checks | The frozen model and wrapper have nonzero official-task capability |
 | R2 matched route diagnostics | Copy 3/64; Chain, Branch, Matched-full each 0/64 | The route tasks remain a poor task-value substrate |
 | R3 development feasibility | 32 F pairs from 45 sources; 32 M pairs from 41 sources | Strict same-text native alternatives exist; adaptive collection coverage is descriptive |
-| R4 independent feasibility | 93 pairs /128 fixed sources; 34 reference fallbacks; one terminated anchor | Feasibility transfers to fresh source articles |
-| R4 distribution confirmation | H_token=-0.00005513; 95% source interval [-0.00013951, 0.00002952] | No positive H1a support for the declared setting and observable |
+| R4 independent feasibility | 93/128 fixed sources yield pairs (72.7%); 34 fallbacks; one terminated anchor | Candidate feasibility is established on fresh sources |
+| R4 distribution confirmation | Conditional mean on 93 accepted pairs /128 attempts: H_token=-0.00005513; 95% source interval [-0.00013951, 0.00002952] | No positive H1a support for the declared setting and observable |
 | R5 bounded Branch-M probe | 8/8 accepted pairs; reference 0/64 and alternative 0/64 successful futures | No observed task-value headroom; H_reward=0 and G=0 at a reward floor |
 
 The capability scores are fixed 128-item subsets, not reproductions of the full
@@ -78,7 +90,8 @@ The 32-pair F pilot had H_token=0 with a 95% interval
 samples per live root and completed 3,520 futures. Its interval is narrower but
 still includes zero. Meanwhile, 807/1,488 common-noise suffix pairs differ, with
 mean token-position disagreement 0.102025. Those differences are real realized
-outputs; they do not establish different marginal future distributions.
+outputs; they do not establish different marginal future distributions. The
+807/1,488 disagreement rate is 54.2%, compared with 10.2% mean position disagreement.
 
 ![Independent distribution endpoint and candidate coverage](../figures/r4_distribution.png)
 
@@ -86,7 +99,8 @@ The confirmation does not prove universal text-state sufficiency. Its conclusion
 is limited to this checkpoint, native proposal setting, accepted F pairs,
 32-token horizon, and token-position observable. Joint sequence structure,
 other horizons, and other proposal mechanisms remain outside the tested claim.
-Do not turn this bounded result into a theorem about continuous DLMs.
+The interval is not a practical-equivalence result: no mapping from this squared
+L2 scale to task success or semantic importance has been established.
 
 The Branch-M probe completed 128 futures and rescored all stored answers with
 public graph constraints. Only 42/128 are parseable, and every parseable answer
@@ -98,6 +112,8 @@ and poorly constrained by this task floor, not universally refuted.
 
 ## Costs and stage decisions
 
+Fixed-source pair yield is 93/128=72.7%, while overall proposal acceptance is
+93/1,520=6.1%. Constructibility alone does not establish efficient search.
 The independent F confirmation charges 1,520 proposals, including 256 same-token
 KL rejections, and all 3,520 futures including fallbacks. Construction costs
 2,813.21 summed worker-seconds; future inference and replay cost 11,151.97 seconds.
@@ -124,12 +140,27 @@ also established. The remaining bottlenecks are scientific: the strict proposal
 has no supported positive effect on the declared distribution observable, and
 the route task gives insufficient reward signal for a selection study.
 
+Retire the current route family as the main task for state-value and selection
+measurement with this frozen checkpoint. Lowering a success threshold does not
+resolve its capability mismatch; removing road validity changes the task.
+
+The [official answer-position audit](r0_official_answer_positions_v1.json) finds
+only one LAMBADA and 15 SQuAD gold answers crossing the first mixed boundary
+in the fixed 128-item subsets. These counts precede natural-prefix correctness,
+unfinished-answer, and candidate requirements. They are not available-root counts
+or sufficient justification for a new large study. A future task should first
+show measurable conditional reward variation after its native boundary.
+
 Keep the frozen state engine, configurable native proposals, paired-future
 measurement, source/graph aggregation, and experiment records. Stop further
 budget expansion on the present route-value floor. A future idea should first
 identify a native task with measurable conditional reward within the frozen
 model's capabilities, or state a distinct observable/proposal hypothesis. It
-should not reopen this run through outcome-dependent top-ups or training.
+should not reopen this run through outcome-dependent top-ups or training. Any
+new study needs a distinct, explicit hypothesis and a rationale for its task,
+observable, or proposal. A possible bounded saved-continuation sequence analysis
+would be post hoc and exploratory; it has not been run and could not overwrite
+the original R4 confirmation conclusion.
 
 The primary repository and all large artifacts remain on nebula; Git tracks
 code, configurations, compact results, and reports. Full commands and frozen

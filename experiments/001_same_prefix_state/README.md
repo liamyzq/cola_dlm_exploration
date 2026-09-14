@@ -1,6 +1,6 @@
 # 001_same_prefix_state: Future information beyond emitted tokens
 
-Status: the adopted no-training study is complete. Native same-text states are feasible; the tested distribution and value studies do not establish useful gains. See the [final report](results/FINAL_REPORT.md).
+Status: the adopted no-training study is complete. Candidate feasibility is established; the measured F distribution effect has no positive support, while M task value remains weakly constrained by a reward floor. See the [final report](results/FINAL_REPORT.md).
 
 Can naturally generated continuous states preserve exactly the same emitted tokens and closely preserve the decoder readout while changing future text distributions or task value? The released CoLa model remains frozen. The [active English protocol](PROTOCOL.md) separates H1a distribution effects, H1b task-value variation, H2 independent selection gain, and H3 equal-cost utility.
 
@@ -20,7 +20,7 @@ The native-parity and cache-replay suite passed all 32 original examples. The M/
 
 The [independent F confirmation](results/R4_CONFIRMATION_REPORT.md) has a zero-compatible H_token interval. The [bounded Branch-M probe](results/R5_PROBE_REPORT.md) completes all eight roots with zero successful reference or alternative futures. Cache localization, large reward confirmation, and the equal-cost study are not activated. LoRA, learned selectors, and the original transfer study remain outside the adopted scope.
 
-Keep the shared state engine and strict candidate machinery. Do not expand this route-value floor. The [final report](results/FINAL_REPORT.md) separates feasibility, H1a, H1b/H2, and unmeasured H3, including intervals and explicit stopping decisions. Full facts and provenance remain in [the experiment ledger](../results.tsv) and [job history](../../jobs/jobs.jsonl).
+Keep the shared state engine and strict candidate machinery. The [closing audit](reviews/FINAL_REVIEW_4922a00.md) records a budget-based stop of the current proposal, observable, and route setting. Retire this route family from the main value measurement; do not expand its reward floor. The [final report](results/FINAL_REPORT.md) separates feasibility, H1a, H1b/H2, and unmeasured H3, including intervals and explicit stopping decisions. Full facts and provenance remain in [the experiment ledger](../results.tsv) and [job history](../../jobs/jobs.jsonl).
 
 ## Runtime
 

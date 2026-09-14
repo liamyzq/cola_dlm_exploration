@@ -2,12 +2,18 @@
 
 ## Current state and decision
 
-Idea 001's adopted no-training study is complete. R0-R4 and the bounded R5
-Branch-M development probe finished; no active experiment remains. Native
-same-text states are feasible, but the tested setting does not establish a
-positive distribution effect or useful task-value gain. Stop budget expansion
-on this route-value floor and keep the shared engine and experiment machinery.
-See the [final report](experiments/001_same_prefix_state/results/FINAL_REPORT.md).
+Idea 001's current execution scheme is formally closed; the no-training decision
+remains in force. Candidate feasibility is an established positive result, and
+the core F distribution observable has completed independent measurement.
+R4 provides no positive support under the declared setting. R5 remains weakly
+informative because the route task has an all-zero reward floor; H3 is unmeasured.
+
+Stopping is a research-budget decision: the current proposal, observable, and
+route setting lack enough positive evidence to justify further investment.
+This supersedes the original P0 limitation of having no qualified starting
+points; it does not assert that nothing was measured or every possible gain is
+zero. See the [final report](experiments/001_same_prefix_state/results/FINAL_REPORT.md)
+and [closing audit](experiments/001_same_prefix_state/reviews/FINAL_REVIEW_4922a00.md).
 
 ## Established evidence
 
@@ -22,10 +28,14 @@ F layout on its short common trunk. Geometry and capability are distinct.
 
 R3 reaches 32 strict pairs in each F/M development cohort. Independent F
 confirmation yields 93 pairs from 128 fixed sources, at eta=0.03 and epsilon=0.01.
-It retains 34 reference fallbacks and one terminated anchor. H_token is
+Fixed-source pair yield is 72.7%; 93 alternatives from 1,520 proposals give
+6.1% overall proposal acceptance. It retains 34 reference fallbacks and one
+terminated anchor. The conditional mean on the 93 accepted pairs is
 -0.00005513 with 95% source interval [-0.00013951, 0.00002952]. The interval
-includes zero. Coupled suffix disagreement does not establish a marginal-law
-effect, and this result does not prove universal text-state sufficiency.
+includes zero. F completed natural-text distribution confirmation; M completed
+feasibility and a small route-reward probe, without equivalent natural-text
+confirmation. The L2 interval does not establish practical equivalence. Coupled
+suffix disagreement does not establish a marginal-law effect, and this result does not prove universal text-state sufficiency.
 
 The bounded R5 probe accepts alternatives at all eight M roots on four graphs,
 but reference and alternative futures both succeed 0/64. H_reward=0 and G=0.
@@ -40,11 +50,20 @@ the bounded probe shows no reward headroom. LoRA, learned selectors, and the
 original human-reviewed transfer study remain outside the adopted scope. None
 is reported as executed. All actual jobs and outcomes are recorded.
 
+The current route family leaves the main state-value experiment because it is
+mismatched to the frozen checkpoint. Lowering thresholds or dropping road
+validity does not solve this measurement problem. Official answer-boundary
+metadata offer only one LAMBADA and 15 SQuAD crossing answers in the fixed
+128-item subsets, before native-root requirements. Future task screening must
+first establish conditional reward variation after the intervention boundary.
+
 The strongest reusable result is strict native same-text candidate construction
 with independently measured futures. The open research question is whether a
 different explicitly stated proposal/observable, or a native task with measurable
 conditional reward, reveals useful hidden-state control. Treat that as a new
 idea or separately frozen follow-up, not an extension until significance.
+A possible bounded offline sequence-dependence analysis is only a recorded suggestion, not an active task; any
+post-hoc result would be exploratory and would not alter R4 confirmation.
 
 Primary storage stays on nebula. Formal worktrees and raw artifacts preserve
 all tested commits and commands. Two pre-existing untracked P0 drafts remain

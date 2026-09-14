@@ -56,3 +56,14 @@ LoRA. The variance-based R5 reward confirmation and equal-cost H3 study are not
 activated. H1b/H2 remain unsupported and poorly constrained by this task floor;
 H3 is unmeasured. No claim that candidate search beats repeated reference
 sampling follows from this probe.
+
+## Closing audit clarification
+
+M completed native-candidate feasibility and this small route-value probe; it
+has no equivalent natural-text distribution confirmation. R4's unsupported
+measured F effect and R5's capability-limited reward measurement are different
+outcomes. Retire the current route family from the main state-value experiment
+with this frozen checkpoint. Stop further spending on the current setting
+because it lacks positive evidence, not because zero gain has been established
+for every possible task or state intervention. See the
+[closing user audit](../reviews/FINAL_REVIEW_4922a00.md).
