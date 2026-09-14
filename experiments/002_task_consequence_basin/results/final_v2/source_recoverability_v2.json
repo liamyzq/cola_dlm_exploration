@@ -1,0 +1,42 @@
+{
+  "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-control-source_recoverability-v1/measurements/records.jsonl",
+  "scorer_commit": "52244c9c04a2e4628bd2a4b7678e5a55b0d6d812",
+  "worlds": 64,
+  "records": 1152,
+  "conditions": {
+    "zero": {
+      "records": 128,
+      "fields": 256,
+      "correct_fields": 0,
+      "valid_wrong_fields": 0,
+      "unparseable_fields": 256,
+      "by_domain": {
+        "number": {
+          "records": 64,
+          "correct_fields": 0
+        },
+        "entity": {
+          "records": 64,
+          "correct_fields": 0
+        }
+      }
+    },
+    "high_noise": {
+      "records": 1024,
+      "fields": 2048,
+      "correct_fields": 0,
+      "valid_wrong_fields": 0,
+      "unparseable_fields": 2048,
+      "by_domain": {
+        "number": {
+          "records": 512,
+          "correct_fields": 0
+        },
+        "entity": {
+          "records": 512,
+          "correct_fields": 0
+        }
+      }
+    }
+  }
+}

@@ -39,7 +39,7 @@ CFG=7 changes the general direction effect. On the predefined 64-world control s
 
 Removing the question and assigning both role labels to the same decoded input yields exactly zero protection, as required by construction. Removing the source gives +0.439 points ([-0.049,0.977]). The separately calibrated sentence format gives +0.391 points ([0.000,0.781]), with 87.744% whole-answer failure and 63.037% unparseable fields. These distribution-changing controls do not reveal a substantial role effect. Sentence edits can span multiple tokens and are kept separate from the headline single-token experiment.
 
-With source retained, replacing answer latents by zero recovers 0/256 fields, and eight high-noise replacements recover 0/2,048. This diagnostic provides no source-only decoder-repair evidence. It does not rule out repair at other latent support or during native generation.
+With source retained, replacing answer latents by zero recovers 0/256 fields, and eight high-noise replacements recover 0/2,048. The [corrected source-recovery summary](final_v2/source_recoverability_v2.json) provides no source-only decoder-repair evidence. It does not rule out repair at other latent support or during native generation.
 
 Adding task role to the frozen confidence baseline does not improve macro held-out probability scores: log-loss improvement is -0.000269 (95% interval [-0.000963,0.000384]) and Brier improvement is -0.000143 ([-0.000419,0.000114]). The standardized role contrast is descriptively -0.040 points; no causal or significance claim is attached to that fitted-model contrast. See [confidence analysis](final_v2/h1_confidence_v2.json).
 
