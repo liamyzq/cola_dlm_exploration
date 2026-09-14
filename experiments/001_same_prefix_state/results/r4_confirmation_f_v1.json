@@ -1,0 +1,812 @@
+{
+  "sources": 128,
+  "roots": 128,
+  "measured_roots": 93,
+  "h_token": {
+    "mean": -5.512852822580645e-05,
+    "ci95": [
+      -0.00013950892857142856,
+      2.9518047691637536e-05
+    ]
+  },
+  "stage": "confirmation",
+  "cohort": "F",
+  "attempted_roots": 128,
+  "paired_roots": 93,
+  "root_statuses": {
+    "live": 127,
+    "terminated_at_anchor": 1
+  },
+  "future_trajectories": 3520,
+  "future_worker_seconds": 11151.972624850227,
+  "per_root": [
+    {
+      "root_id": 0,
+      "source_id": "Videoconferencing",
+      "h_token": -0.00146484375,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.126953125
+    },
+    {
+      "root_id": 4,
+      "source_id": "Solar_energy",
+      "h_token": 0.00048828125,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.05078125
+    },
+    {
+      "root_id": 12,
+      "source_id": "Antarctica",
+      "h_token": -0.00048828125,
+      "paired_future_count": 16,
+      "any_token_disagreements": 11,
+      "token_position_disagreement": 0.130859375
+    },
+    {
+      "root_id": 16,
+      "source_id": "Literature",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 13,
+      "token_position_disagreement": 0.173828125
+    },
+    {
+      "root_id": 24,
+      "source_id": "Comcast",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.046875
+    },
+    {
+      "root_id": 32,
+      "source_id": "Alexander_Graham_Bell",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.07421875
+    },
+    {
+      "root_id": 36,
+      "source_id": "Seven_Years%27_War",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 11,
+      "token_position_disagreement": 0.076171875
+    },
+    {
+      "root_id": 52,
+      "source_id": "Szlachta",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.0625
+    },
+    {
+      "root_id": 56,
+      "source_id": "The_Legend_of_Zelda:_Twilight_Princess",
+      "h_token": 0.0009765625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.158203125
+    },
+    {
+      "root_id": 60,
+      "source_id": "United_Nations_Population_Fund",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 7,
+      "token_position_disagreement": 0.08984375
+    },
+    {
+      "root_id": 64,
+      "source_id": "New_Haven,_Connecticut",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.072265625
+    },
+    {
+      "root_id": 68,
+      "source_id": "FA_Cup",
+      "h_token": 0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.080078125
+    },
+    {
+      "root_id": 72,
+      "source_id": "Infrared",
+      "h_token": -0.00048828125,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.12109375
+    },
+    {
+      "root_id": 80,
+      "source_id": "Beyonc\u00e9",
+      "h_token": 0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.111328125
+    },
+    {
+      "root_id": 84,
+      "source_id": "Renewable_energy_commercialization",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.046875
+    },
+    {
+      "root_id": 92,
+      "source_id": "Palermo",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.1015625
+    },
+    {
+      "root_id": 96,
+      "source_id": "Order_of_the_British_Empire",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 11,
+      "token_position_disagreement": 0.125
+    },
+    {
+      "root_id": 100,
+      "source_id": "Atlantic_City,_New_Jersey",
+      "h_token": 0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.087890625
+    },
+    {
+      "root_id": 104,
+      "source_id": "Comics",
+      "h_token": -0.0009765625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.11328125
+    },
+    {
+      "root_id": 108,
+      "source_id": "Korean_War",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.107421875
+    },
+    {
+      "root_id": 112,
+      "source_id": "Comprehensive_school",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.169921875
+    },
+    {
+      "root_id": 116,
+      "source_id": "List_of_numbered_streets_in_Manhattan",
+      "h_token": 0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.10546875
+    },
+    {
+      "root_id": 120,
+      "source_id": "States_of_Germany",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.0234375
+    },
+    {
+      "root_id": 124,
+      "source_id": "Florida",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.05859375
+    },
+    {
+      "root_id": 1,
+      "source_id": "Marvel_Comics",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.033203125
+    },
+    {
+      "root_id": 9,
+      "source_id": "BBC_Television",
+      "h_token": -0.0009765625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.162109375
+    },
+    {
+      "root_id": 13,
+      "source_id": "Unicode",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.111328125
+    },
+    {
+      "root_id": 17,
+      "source_id": "Uranium",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.03125
+    },
+    {
+      "root_id": 21,
+      "source_id": "Detroit",
+      "h_token": 0.00048828125,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.142578125
+    },
+    {
+      "root_id": 41,
+      "source_id": "Chicago_Cubs",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.1015625
+    },
+    {
+      "root_id": 45,
+      "source_id": "Mali",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.08984375
+    },
+    {
+      "root_id": 53,
+      "source_id": "Multiracial_American",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.078125
+    },
+    {
+      "root_id": 57,
+      "source_id": "Infection",
+      "h_token": 0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.146484375
+    },
+    {
+      "root_id": 61,
+      "source_id": "European_Central_Bank",
+      "h_token": 0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 11,
+      "token_position_disagreement": 0.10546875
+    },
+    {
+      "root_id": 65,
+      "source_id": "Premier_League",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.13671875
+    },
+    {
+      "root_id": 69,
+      "source_id": "Jehovah%27s_Witnesses",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 11,
+      "token_position_disagreement": 0.126953125
+    },
+    {
+      "root_id": 73,
+      "source_id": "Czech_language",
+      "h_token": -0.000732421875,
+      "paired_future_count": 16,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.10546875
+    },
+    {
+      "root_id": 89,
+      "source_id": "Ministry_of_Defence_(United_Kingdom)",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.08984375
+    },
+    {
+      "root_id": 93,
+      "source_id": "Hindu_philosophy",
+      "h_token": 0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.068359375
+    },
+    {
+      "root_id": 97,
+      "source_id": "New_Delhi",
+      "h_token": 0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 7,
+      "token_position_disagreement": 0.0390625
+    },
+    {
+      "root_id": 101,
+      "source_id": "Nutrition",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.06640625
+    },
+    {
+      "root_id": 117,
+      "source_id": "Wayback_Machine",
+      "h_token": 0.00146484375,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.109375
+    },
+    {
+      "root_id": 121,
+      "source_id": "Grape",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.05078125
+    },
+    {
+      "root_id": 125,
+      "source_id": "Immunology",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 7,
+      "token_position_disagreement": 0.083984375
+    },
+    {
+      "root_id": 2,
+      "source_id": "Time",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.126953125
+    },
+    {
+      "root_id": 6,
+      "source_id": "Near_East",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.060546875
+    },
+    {
+      "root_id": 10,
+      "source_id": "Bacteria",
+      "h_token": -0.000732421875,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.14453125
+    },
+    {
+      "root_id": 18,
+      "source_id": "Predation",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 7,
+      "token_position_disagreement": 0.044921875
+    },
+    {
+      "root_id": 22,
+      "source_id": "Digestion",
+      "h_token": -0.001708984375,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.18359375
+    },
+    {
+      "root_id": 30,
+      "source_id": "Emotion",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.0625
+    },
+    {
+      "root_id": 38,
+      "source_id": "Dialect",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.173828125
+    },
+    {
+      "root_id": 46,
+      "source_id": "Gene",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 7,
+      "token_position_disagreement": 0.068359375
+    },
+    {
+      "root_id": 54,
+      "source_id": "Richmond,_Virginia",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.03125
+    },
+    {
+      "root_id": 58,
+      "source_id": "Somalis",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 13,
+      "token_position_disagreement": 0.171875
+    },
+    {
+      "root_id": 66,
+      "source_id": "Computer_security",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.072265625
+    },
+    {
+      "root_id": 70,
+      "source_id": "Pope_Paul_VI",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.0546875
+    },
+    {
+      "root_id": 74,
+      "source_id": "Sahara",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 7,
+      "token_position_disagreement": 0.0625
+    },
+    {
+      "root_id": 78,
+      "source_id": "Alloy",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.107421875
+    },
+    {
+      "root_id": 86,
+      "source_id": "Mexico_City",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.0546875
+    },
+    {
+      "root_id": 90,
+      "source_id": "North_Carolina",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 13,
+      "token_position_disagreement": 0.177734375
+    },
+    {
+      "root_id": 94,
+      "source_id": "Political_philosophy",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.091796875
+    },
+    {
+      "root_id": 98,
+      "source_id": "IPod",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.064453125
+    },
+    {
+      "root_id": 102,
+      "source_id": "Pub",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.064453125
+    },
+    {
+      "root_id": 110,
+      "source_id": "Neptune",
+      "h_token": 0.001220703125,
+      "paired_future_count": 16,
+      "any_token_disagreements": 11,
+      "token_position_disagreement": 0.185546875
+    },
+    {
+      "root_id": 118,
+      "source_id": "Computer",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.083984375
+    },
+    {
+      "root_id": 122,
+      "source_id": "Namibia",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 11,
+      "token_position_disagreement": 0.169921875
+    },
+    {
+      "root_id": 126,
+      "source_id": "Alsace",
+      "h_token": -0.00048828125,
+      "paired_future_count": 16,
+      "any_token_disagreements": 13,
+      "token_position_disagreement": 0.08203125
+    },
+    {
+      "root_id": 7,
+      "source_id": "The_Bronx",
+      "h_token": -0.00048828125,
+      "paired_future_count": 16,
+      "any_token_disagreements": 12,
+      "token_position_disagreement": 0.13671875
+    },
+    {
+      "root_id": 11,
+      "source_id": "Mesozoic",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.138671875
+    },
+    {
+      "root_id": 15,
+      "source_id": "Switzerland",
+      "h_token": 0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 11,
+      "token_position_disagreement": 0.177734375
+    },
+    {
+      "root_id": 19,
+      "source_id": "Han_dynasty",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.091796875
+    },
+    {
+      "root_id": 23,
+      "source_id": "Idealism",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 7,
+      "token_position_disagreement": 0.08203125
+    },
+    {
+      "root_id": 27,
+      "source_id": "Qing_dynasty",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 11,
+      "token_position_disagreement": 0.123046875
+    },
+    {
+      "root_id": 31,
+      "source_id": "IBM",
+      "h_token": 0.00048828125,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.130859375
+    },
+    {
+      "root_id": 35,
+      "source_id": "Memory",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.13671875
+    },
+    {
+      "root_id": 39,
+      "source_id": "Greeks",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 9,
+      "token_position_disagreement": 0.10546875
+    },
+    {
+      "root_id": 43,
+      "source_id": "Race_and_ethnicity_in_the_United_States_Census",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.115234375
+    },
+    {
+      "root_id": 47,
+      "source_id": "On_the_Origin_of_Species",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.134765625
+    },
+    {
+      "root_id": 51,
+      "source_id": "Anti-aircraft_warfare",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 11,
+      "token_position_disagreement": 0.10546875
+    },
+    {
+      "root_id": 59,
+      "source_id": "Mammal",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.0859375
+    },
+    {
+      "root_id": 63,
+      "source_id": "War_on_Terror",
+      "h_token": -0.000732421875,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.138671875
+    },
+    {
+      "root_id": 67,
+      "source_id": "Melbourne",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 13,
+      "token_position_disagreement": 0.10546875
+    },
+    {
+      "root_id": 71,
+      "source_id": "Materialism",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 7,
+      "token_position_disagreement": 0.080078125
+    },
+    {
+      "root_id": 75,
+      "source_id": "Pope_John_XXIII",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.04296875
+    },
+    {
+      "root_id": 87,
+      "source_id": "Crucifixion_of_Jesus",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 12,
+      "token_position_disagreement": 0.19921875
+    },
+    {
+      "root_id": 91,
+      "source_id": "Communication",
+      "h_token": -0.000244140625,
+      "paired_future_count": 16,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.08984375
+    },
+    {
+      "root_id": 95,
+      "source_id": "Cubism",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.09765625
+    },
+    {
+      "root_id": 99,
+      "source_id": "University_of_Kansas",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.029296875
+    },
+    {
+      "root_id": 103,
+      "source_id": "Christian",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.146484375
+    },
+    {
+      "root_id": 111,
+      "source_id": "Zinc",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 4,
+      "token_position_disagreement": 0.06640625
+    },
+    {
+      "root_id": 115,
+      "source_id": "Great_power",
+      "h_token": -0.00048828125,
+      "paired_future_count": 16,
+      "any_token_disagreements": 10,
+      "token_position_disagreement": 0.125
+    },
+    {
+      "root_id": 119,
+      "source_id": "Treaty",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.154296875
+    },
+    {
+      "root_id": 127,
+      "source_id": "Plymouth",
+      "h_token": 0.0,
+      "paired_future_count": 16,
+      "any_token_disagreements": 12,
+      "token_position_disagreement": 0.115234375
+    }
+  ],
+  "runs": [
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r4-confirmation-f-v1-gpu5",
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r4-confirmation-f-v1-gpu6",
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r4-confirmation-f-v1-gpu7",
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r4-confirmation-f-v1-gpu8"
+  ],
+  "paired_future_count": 1488,
+  "any_token_disagreements": 807,
+  "mean_token_position_disagreement": 0.10202452956989247,
+  "total_worker_seconds": 13965.732281621138,
+  "live_roots": 127,
+  "reference_only_roots": 34,
+  "construction_worker_seconds": 2813.205307143973,
+  "proposal_attempt_seconds": 2398.3940794792725,
+  "proposal_count": 1520,
+  "same_token_proposals": 349,
+  "same_token_kl_rejected": 256,
+  "raw_duplicates": 0,
+  "effective_duplicates": 0,
+  "accepted_kl_sum_range": [
+    3.3056572672249165e-06,
+    0.0057926078499616574
+  ],
+  "accepted_kl_max": 0.002354798811864192,
+  "accepted_latent_delta_median": 0.3480837941169739,
+  "accepted_bf16_delta_median": 0.35057178139686584,
+  "total_calls": {
+    "dit_cond": 140960,
+    "dit_uncond": 140960,
+    "dit_commit": 9717,
+    "decoder": 9717,
+    "encode": 348
+  },
+  "future_calls": {
+    "dit_cond": 112640,
+    "dit_uncond": 112640,
+    "dit_commit": 7692,
+    "decoder": 7692,
+    "encode": 220
+  },
+  "bootstrap_degenerate": false,
+  "disagreement_note": "Paired suffix disagreement is a coupling diagnostic, not evidence by itself of different marginal future distributions.",
+  "launch_to_last_exit_wall_seconds": 3592.057992696762,
+  "worker_time_note": "Per-root worker seconds include construction, failed proposals, replay, and all fixed-horizon futures. Model loading precedes root timing; aggregate launch-to-last-exit wall time includes startup and worker imbalance."
+}

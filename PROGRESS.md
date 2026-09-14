@@ -2,57 +2,54 @@
 
 ## Current state
 
-The revised no-training protocol governs idea 001. R0 and R1 are complete;
-R2 is complete with only Copy succeeding (3/64). R3 reached 32 strict
-native pairs in each F/M cohort. The F pilot is complete: H_token mean 0,
-95% source interval [-0.000214,0.000244]. Independent confirmation is running on GPUs 5-8.
-The pilot does not establish H1a; H1b/H2/H3 remain unmeasured. No model training has run.
+The revised no-training protocol governs idea 001. R0-R4 are complete. Strict
+same-text native candidates are feasible: independent confirmation yields 93
+pairs from 128 fixed sources. The declared H_token estimate is -0.00005513,
+with 95% source interval [-0.00013951, 0.00002952]. It does not establish H1a.
+The fixed eight-root Branch-M development value probe is now completing.
+No model training has run.
 
 ## Evidence and interpretation
 
-R1 official capability is 63/128 LAMBADA and 43/128 SQuAD with eight exact
-paired inference/replay checks. R0 reproduced all 1,024 historical P0 records;
-original routes had no success or eligible full-block roots. See the R0/R1 reports.
+R1 capability is 63/128 LAMBADA and 43/128 SQuAD with eight exact paired
+inference/replay checks. R0 reproduces all 1,024 historical P0 records.
+The engine also passes 32 original state checks and all 16 M/F prompt remainders.
+See the R0/R1 reports and engineering records under idea 001.
 
-R2 Copy succeeds 3/64 with 59/64 correct first edges. Chain and Branch each
-succeed 0/64 and provide no eligible F roots. No Branch sample reaches the
-first branch after a correct trunk. The weak first-edge and trunk performance are task-capability limitations.
-Branch also has no canonical predecision F layout because its common trunk is
-only 8-14 tokens. Neither observation tests H1a or branch-arm selection. See the R2 report.
+R2 Copy succeeds 3/64; Chain, Branch, and Matched-full each succeed 0/64.
+No Branch sample reaches the first branch after a correct trunk. Branch also
+has no canonical predecision F layout on its short 8-14-token common trunk.
+Weak route competence and missing F geometry are separate findings; neither
+establishes a state-effect result. See the R2 report.
 
-R3 locks eta=0.03 with exact tokens and epsilon=0.01. F uses 45 development
-sources for 32 pairs; M uses 41 for 32. Calibration and collection have different
-proposal caps, so coverage remains descriptive. Collection root/proposal work,
-including failures, costs 848.07 s for F and 392.64 s for M; calibration and future
-rollouts are additional. See the R3 report and the results ledger.
+R3 selects eta=0.03 under exact tokens and epsilon=0.01, reaching 32 pairs in
+each F/M development cohort. Independent F confirmation has 127 live roots,
+93 pairs, 34 reference fallbacks, and one terminated root. All 1,520 proposals
+and 3,520 future trajectories are charged. Candidate feasibility transfers to
+fresh source articles; positive distribution evidence does not appear under
+the declared 32-token observable. See the R3 and R4 confirmation reports.
 
-The M/F engineering suite passed all 16 prompt remainders. Candidate serialization
-and reconstruction preserve caches and paired futures. The actual A/B runner
-passed independent split noise, within-split pairing, and identity-null checks.
-These validate execution without establishing a future-distribution effect.
+The F pilot is centered at zero; independent confirmation remains compatible
+with zero at a narrower interval. Coupled suffixes differ in 807/1,488 paired
+confirmation realizations, but paired disagreement is not a marginal-law test.
+Neither result proves universal text-state sufficiency. Natural continuation
+has no task reward here and supplies no H1b/H2 or equal-cost H3 evidence.
 
-## Active work and next decisions
+## Remaining work and stopping decisions
 
-All R2, R3 and pilot workers are terminal. The four confirmation workers are active
-from frozen commit `3f63ae2`, under experiment `001-r4-confirmation-f-v1`. The pilot completed 512 futures on
-32 source-disjoint development pairs. Although 156/256 paired suffixes differ,
-the independent cross-split endpoint is centered at zero. See the pilot report.
+All four independent confirmation workers exited zero with complete fixed
+source coverage. The positive-effect condition was not met, so the preselected
+eight-root cache diagnostic is not activated. Do not extend confirmation or
+retune candidates using this result.
 
-Complete the active locked 128-source independent F confirmation with eight A/eight B
-samples, preserving all failed roots and reference fallbacks. Do not top up by
-outcomes or change the primary setting. The positive-effect cache-path diagnostic
-is not activated by the pilot. Actual jobs and artifact paths are in jobs/jobs.jsonl;
-GPT-5.6 Luna at max reasoning monitors long waits.
+Complete the eight existing Branch-M roots under the frozen bounded probe:
+K<=2, 32 proposals/root, 4 A/4 B futures, 32 future tokens. Four shards launched
+on GPUs 5-8 after their confirmation workers finished. GPT-5.6 Luna at max
+reasoning monitors terminal events; exact jobs and artifacts are in jobs/jobs.jsonl.
+If no conditional reward headroom appears, stop that floor probe without
+expansion. Any later R5 confirmation or cost study requires supported reward
+evidence and a separately frozen plan.
 
-R5 remains conditional on suitable task-value evidence. Natural continuation has
-no task reward here and cannot support a selection or inference-utility claim.
-Keep route limitations and negative outcomes visible. The final report must give
-an explicit disposition for every conditional stage. LoRA, learned selectors and
-the original human-reviewed transfer study remain deferred outside this revision.
-
-
-Prepared follow-ups use committed fixed inputs: a bounded eight-root Branch-M
-public-reward probe after GPUs become free, and the unchanged eight-development-
-root cache localization only if positive mechanism evidence activates it.
-The independent confirmation continues unchanged while these limited follow-ups
-are prepared.
+Finish with a report separating capability, feasibility, H1a, H1b/H2, and H3,
+including explicit dispositions for unactivated stages. LoRA, learned selectors,
+and the original human-reviewed transfer study remain outside this revision.
