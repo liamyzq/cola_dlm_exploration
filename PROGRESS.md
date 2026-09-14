@@ -1,55 +1,51 @@
 # Research Progress
 
-## Current state
+## Current state and decision
 
-The revised no-training protocol governs idea 001. R0-R4 are complete. Strict
-same-text native candidates are feasible: independent confirmation yields 93
-pairs from 128 fixed sources. The declared H_token estimate is -0.00005513,
-with 95% source interval [-0.00013951, 0.00002952]. It does not establish H1a.
-The fixed eight-root Branch-M development value probe is now completing.
-No model training has run.
+Idea 001's adopted no-training study is complete. R0-R4 and the bounded R5
+Branch-M development probe finished; no active experiment remains. Native
+same-text states are feasible, but the tested setting does not establish a
+positive distribution effect or useful task-value gain. Stop budget expansion
+on this route-value floor and keep the shared engine and experiment machinery.
+See the [final report](experiments/001_same_prefix_state/results/FINAL_REPORT.md).
 
-## Evidence and interpretation
+## Established evidence
 
-R1 capability is 63/128 LAMBADA and 43/128 SQuAD with eight exact paired
-inference/replay checks. R0 reproduces all 1,024 historical P0 records.
-The engine also passes 32 original state checks and all 16 M/F prompt remainders.
-See the R0/R1 reports and engineering records under idea 001.
+R1 records 63/128 LAMBADA and 43/128 SQuAD successes under pinned official
+conditions, with eight exact paired inference/replay checks. The original
+32-example state suite and all 16 M/F prompt remainders pass. These validate
+execution; they do not imply route-task competence.
 
 R2 Copy succeeds 3/64; Chain, Branch, and Matched-full each succeed 0/64.
-No Branch sample reaches the first branch after a correct trunk. Branch also
-has no canonical predecision F layout on its short 8-14-token common trunk.
-Weak route competence and missing F geometry are separate findings; neither
-establishes a state-effect result. See the R2 report.
+Branch has both poor first-edge/trunk performance and no canonical predecision
+F layout on its short common trunk. Geometry and capability are distinct.
 
-R3 selects eta=0.03 under exact tokens and epsilon=0.01, reaching 32 pairs in
-each F/M development cohort. Independent F confirmation has 127 live roots,
-93 pairs, 34 reference fallbacks, and one terminated root. All 1,520 proposals
-and 3,520 future trajectories are charged. Candidate feasibility transfers to
-fresh source articles; positive distribution evidence does not appear under
-the declared 32-token observable. See the R3 and R4 confirmation reports.
+R3 reaches 32 strict pairs in each F/M development cohort. Independent F
+confirmation yields 93 pairs from 128 fixed sources, at eta=0.03 and epsilon=0.01.
+It retains 34 reference fallbacks and one terminated anchor. H_token is
+-0.00005513 with 95% source interval [-0.00013951, 0.00002952]. The interval
+includes zero. Coupled suffix disagreement does not establish a marginal-law
+effect, and this result does not prove universal text-state sufficiency.
 
-The F pilot is centered at zero; independent confirmation remains compatible
-with zero at a narrower interval. Coupled suffixes differ in 807/1,488 paired
-confirmation realizations, but paired disagreement is not a marginal-law test.
-Neither result proves universal text-state sufficiency. Natural continuation
-has no task reward here and supplies no H1b/H2 or equal-cost H3 evidence.
+The bounded R5 probe accepts alternatives at all eight M roots on four graphs,
+but reference and alternative futures both succeed 0/64. H_reward=0 and G=0.
+The all-zero bootstrap is degenerate, not a population zero bound. Task-value
+heterogeneity and gain remain unsupported and poorly constrained by this floor.
 
-## Remaining work and stopping decisions
+## Conditional stages and remaining questions
 
-All four independent confirmation workers exited zero with complete fixed
-source coverage. The positive-effect condition was not met, so the preselected
-eight-root cache diagnostic is not activated. Do not extend confirmation or
-retune candidates using this result.
+Cache localization is not activated because the positive mechanism trigger is
+unmet. Large R5 reward confirmation and equal-cost H3 are not activated because
+the bounded probe shows no reward headroom. LoRA, learned selectors, and the
+original human-reviewed transfer study remain outside the adopted scope. None
+is reported as executed. All actual jobs and outcomes are recorded.
 
-Complete the eight existing Branch-M roots under the frozen bounded probe:
-K<=2, 32 proposals/root, 4 A/4 B futures, 32 future tokens. Four shards launched
-on GPUs 5-8 after their confirmation workers finished. GPT-5.6 Luna at max
-reasoning monitors terminal events; exact jobs and artifacts are in jobs/jobs.jsonl.
-If no conditional reward headroom appears, stop that floor probe without
-expansion. Any later R5 confirmation or cost study requires supported reward
-evidence and a separately frozen plan.
+The strongest reusable result is strict native same-text candidate construction
+with independently measured futures. The open research question is whether a
+different explicitly stated proposal/observable, or a native task with measurable
+conditional reward, reveals useful hidden-state control. Treat that as a new
+idea or separately frozen follow-up, not an extension until significance.
 
-Finish with a report separating capability, feasibility, H1a, H1b/H2, and H3,
-including explicit dispositions for unactivated stages. LoRA, learned selectors,
-and the original human-reviewed transfer study remain outside this revision.
+Primary storage stays on nebula. Formal worktrees and raw artifacts preserve
+all tested commits and commands. Two pre-existing untracked P0 drafts remain
+untouched and are not validated R-series entry points.

@@ -1,0 +1,396 @@
+{
+  "graphs": 4,
+  "roots": 8,
+  "heterogeneity_roots": 8,
+  "h": {
+    "mean": 0.0,
+    "bootstrap_degenerate": true,
+    "empirical_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95": null,
+    "interval_note": "Degenerate empirical bootstrap; not a population zero bound."
+  },
+  "g": {
+    "mean": 0.0,
+    "bootstrap_degenerate": true,
+    "empirical_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95": null,
+    "interval_note": "Degenerate empirical bootstrap; not a population zero bound."
+  },
+  "stage": "bounded Branch-M development probe",
+  "attempted_roots": 8,
+  "paired_roots": 8,
+  "reference_only_roots": 0,
+  "proposals": 8,
+  "future_trajectories": 128,
+  "successful_futures": 0,
+  "reference_successes": 0,
+  "alternative_successes": 0,
+  "construction_worker_seconds": 29.246004720043857,
+  "total_worker_seconds": 433.5913445900078,
+  "future_worker_seconds": 404.3096142440045,
+  "per_root": [
+    {
+      "root_id": 0,
+      "source_id": "branch-topology-7",
+      "candidates": 2,
+      "h": 0.0,
+      "g": 0.0,
+      "reference": 0.0,
+      "selected_value": 0.0,
+      "selected": 0,
+      "rewards": {
+        "A": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "B": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "prefix_text": " Pine"
+    },
+    {
+      "root_id": 1,
+      "source_id": "branch-topology-7",
+      "candidates": 2,
+      "h": 0.0,
+      "g": 0.0,
+      "reference": 0.0,
+      "selected_value": 0.0,
+      "selected": 0,
+      "rewards": {
+        "A": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "B": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "prefix_text": " Pine"
+    },
+    {
+      "root_id": 2,
+      "source_id": "branch-topology-10",
+      "candidates": 2,
+      "h": 0.0,
+      "g": 0.0,
+      "reference": 0.0,
+      "selected_value": 0.0,
+      "selected": 0,
+      "rewards": {
+        "A": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "B": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "prefix_text": " Stone"
+    },
+    {
+      "root_id": 3,
+      "source_id": "branch-topology-10",
+      "candidates": 2,
+      "h": 0.0,
+      "g": 0.0,
+      "reference": 0.0,
+      "selected_value": 0.0,
+      "selected": 0,
+      "rewards": {
+        "A": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "B": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "prefix_text": " Stone"
+    },
+    {
+      "root_id": 4,
+      "source_id": "branch-topology-1",
+      "candidates": 2,
+      "h": 0.0,
+      "g": 0.0,
+      "reference": 0.0,
+      "selected_value": 0.0,
+      "selected": 0,
+      "rewards": {
+        "A": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "B": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "prefix_text": " Fair Haven ->"
+    },
+    {
+      "root_id": 5,
+      "source_id": "branch-topology-1",
+      "candidates": 2,
+      "h": 0.0,
+      "g": 0.0,
+      "reference": 0.0,
+      "selected_value": 0.0,
+      "selected": 0,
+      "rewards": {
+        "A": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "B": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "prefix_text": " Fair Haven ->"
+    },
+    {
+      "root_id": 6,
+      "source_id": "branch-topology-23",
+      "candidates": 2,
+      "h": 0.0,
+      "g": 0.0,
+      "reference": 0.0,
+      "selected_value": 0.0,
+      "selected": 0,
+      "rewards": {
+        "A": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "B": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "prefix_text": " River Bend ->"
+    },
+    {
+      "root_id": 7,
+      "source_id": "branch-topology-23",
+      "candidates": 2,
+      "h": 0.0,
+      "g": 0.0,
+      "reference": 0.0,
+      "selected_value": 0.0,
+      "selected": 0,
+      "rewards": {
+        "A": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "B": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "prefix_text": " River Bend ->"
+    }
+  ],
+  "runs": [
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r5-branch-m-probe-v1-gpu5",
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r5-branch-m-probe-v1-gpu6",
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r5-branch-m-probe-v1-gpu7",
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r5-branch-m-probe-v1-gpu8"
+  ],
+  "descriptive_failure_reasons": {
+    "unique,roads": 2,
+    "end,roads": 12,
+    "format": 86,
+    "end,unique,roads": 13,
+    "end,waypoint,roads": 4,
+    "end,waypoint,unique,roads": 6,
+    "roads": 5
+  },
+  "parseable_futures": 42,
+  "free_generated_positions": [
+    1,
+    3
+  ],
+  "accepted_kl_sum_range": [
+    6.784516749394396e-07,
+    0.00011078058530809769
+  ],
+  "accepted_latent_delta_range": [
+    0.09781666845083237,
+    0.21080546081066132
+  ],
+  "descriptive_note": "Failure categories and anchor lengths describe the terminal outputs; they are not additional confirmatory endpoints."
+}

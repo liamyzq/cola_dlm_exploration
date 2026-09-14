@@ -1,6 +1,6 @@
 # 001_same_prefix_state: Future information beyond emitted tokens
 
-Status: R0-R4 are complete. Independent F confirmation does not establish positive H1a under the declared observable. The bounded Branch-M task-value probe is completing.
+Status: the adopted no-training study is complete. Native same-text states are feasible; the tested distribution and value studies do not establish useful gains. See the [final report](results/FINAL_REPORT.md).
 
 Can naturally generated continuous states preserve exactly the same emitted tokens and closely preserve the decoder readout while changing future text distributions or task value? The released CoLa model remains frozen. The [active English protocol](PROTOCOL.md) separates H1a distribution effects, H1b task-value variation, H2 independent selection gain, and H3 equal-cost utility.
 
@@ -16,11 +16,11 @@ The [supplied P0 audit](reviews/P0_review_no_training_plan_v2.md) and [adoption 
 
 The native-parity and cache-replay suite passed all 32 original examples. The M/F suite passed all 16 prompt remainders, and the A/B runner passed pairing, independence, and identity-null checks. These are execution results; scientific claims use the substantive studies above.
 
-## Remaining decisions
+## Final stage decisions
 
-The [locked independent F confirmation](R4_EXECUTION.md) completed without a positive-effect trigger; cache localization is not activated. Complete the [bounded Branch-M development value probe](R5_DEVELOPMENT_PROBE.md) on its eight existing eligible roots, with all four shards launched after their GPUs became free.
+The [independent F confirmation](results/R4_CONFIRMATION_REPORT.md) has a zero-compatible H_token interval. The [bounded Branch-M probe](results/R5_PROBE_REPORT.md) completes all eight roots with zero successful reference or alternative futures. Cache localization, large reward confirmation, and the equal-cost study are not activated. LoRA, learned selectors, and the original transfer study remain outside the adopted scope.
 
-R5 confirmation and the cost study depend on useful reward evidence. Record unactivated stages explicitly; do not expand floor measurements or introduce training. The study's final report must distinguish candidate feasibility, H1a, H1b/H2, and H3. See [the experiment ledger](../results.tsv), [job history](../../jobs/jobs.jsonl), and [current progress](../../PROGRESS.md).
+Keep the shared state engine and strict candidate machinery. Do not expand this route-value floor. The [final report](results/FINAL_REPORT.md) separates feasibility, H1a, H1b/H2, and unmeasured H3, including intervals and explicit stopping decisions. Full facts and provenance remain in [the experiment ledger](../results.tsv) and [job history](../../jobs/jobs.jsonl).
 
 ## Runtime
 
