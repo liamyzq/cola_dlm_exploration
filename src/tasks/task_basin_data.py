@@ -191,7 +191,7 @@ def parse_sentence(text,world):
             match=re.fullmatch(pattern,clause,re.I)
             if match:
                 value=normalize(match.group(1),world['domain']); matched=True
-                if value is None: invalid.add(key)
+                if value is None or re.search(r'\b(?:not|no|never)\b',match.group(1),re.I): invalid.add(key)
                 else: values[key].append(value)
         if not matched:
             for key in world['keys']:
