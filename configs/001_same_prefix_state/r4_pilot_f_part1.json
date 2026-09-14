@@ -1,0 +1,23 @@
+{
+  "experiment_id": "001-r4-pilot-f-part1-v1",
+  "phase": "R4 pilot scheduled part1 of one fixed F setting",
+  "cohort": "F",
+  "pair_manifest": "experiments/001_same_prefix_state/data/r4_pilot_f_part1_pairs.json",
+  "eta": 0.03,
+  "epsilon": 0.01,
+  "euler_steps": 16,
+  "cfg": 7.0,
+  "repetition_penalty": 1.0,
+  "noise_seed_a": 310000000,
+  "noise_seed_b": 410000000,
+  "samples_a": 4,
+  "samples_b": 4,
+  "future_tokens": 32,
+  "primary_metric": "conditional_cross_split_H_token",
+  "comparator": "native exact-token reference and first accepted alternative",
+  "budget": "16 fixed pairs x2 candidates x8 futures=256; these count within the512-future total pilot cap",
+  "stopping_rule": "All16 fixed pairs; read effect outputs only after F collection terminates; second part covers the remaining final F pairs exactly once",
+  "invalidation_conditions": "Changed prefix, A/B overlap, missing pair, or overlap with part2 invalidates the affected measurement",
+  "source_revision": "7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c",
+  "checkpoint_revision": "c1eafdd9cfd8064aeb917d569ef70a075b353eed"
+}

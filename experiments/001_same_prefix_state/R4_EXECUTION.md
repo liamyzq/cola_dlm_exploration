@@ -31,7 +31,7 @@ its H_token result alone cannot support H1b, H2 or H3.
 
 If the pilot shows an interpretable positive distribution effect, localize it
 on the first eight accepted development roots in the fixed manifest, without
-selecting by observed effects. Use the same4 A and4 B noise arrays. Compare
+selecting by observed effects. Use the same 4 A and4 B noise arrays. Compare
 consistent reference/reference and candidate/candidate states with DiT-only
 and decoder-only counterfactual cache paths, all built by normal chronological
 commits from the common pre-block history. No cache tail is manually patched.
@@ -43,3 +43,14 @@ are needed. Report whether each changed path preserves the emitted IDs.
 Do not replace the primary native comparison with a counterfactual effect.
 If no positive effect is interpretable in the pilot, record localization as
 not activated under this rule; the fixed independent confirmation still runs.
+
+## Scheduling the same pilot in two parts
+
+To use a free GPU while ordered candidate collection continues, the first 16
+accepted F pairs are frozen in a part1 manifest and measured immediately.
+The remaining final accepted pairs form part2. Both use the same settings,
+4 A/4 B samples, root-specific seeds, and one 512-future combined cap. The
+main agent does not inspect formal effect outputs until F collection is
+terminal. Candidate collection continues under its unchanged fixed cap and
+acceptance-only rule. The final manifest must equal the disjoint union of
+both parts; scheduling does not add a cohort or a setting search.

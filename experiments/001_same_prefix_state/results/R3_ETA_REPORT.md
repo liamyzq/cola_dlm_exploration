@@ -39,3 +39,9 @@ block priority. M remains a separate feasibility cohort. No future reward or
 formal H_token estimate was read to select this setting. R4 will measure
 independent A/B suffix distributions; candidate acceptance alone does not
 establish a distribution effect or useful selection.
+
+Calibration and collection have different proposal caps (8 versus32). Report
+their funnels separately. Ordered collection stops at its accepted-pair target,
+so its paired/attempted ratio is descriptive under that stopping rule; do not
+attach a fixed-sample binomial interval or treat it as independent confirmation
+coverage. The fixed128-source confirmation provides that later measurement.

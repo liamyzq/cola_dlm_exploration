@@ -21,3 +21,14 @@ The 16-case M/F engineering suite `001-r3-m-engineering-v1` completed successful
 3. Lock the primary setting for R4 pilot and independent confirmation; run R5 only when conditional task-value evidence warrants it.
 
 The goal remains active. One same-text pair is a milestone, not completion. Finish the supported revised experiments and record a clear disposition for every conditional stage; training and the original human-reviewed transfer study remain deferred. The old untracked P0 proposal-runner/config drafts are not the R-series implementation.
+
+
+## R2 diagnostic update
+
+Copy succeeded 3/64 with 59/64 correct first edges; Chain and Branch both
+succeeded 0/64 and yielded no eligible F roots. No Branch sample reached its
+first branch after a correct trunk. Matched-full is running; native task-value
+claims remain unsupported. See the R2 report for scope and termination costs.
+The first 16 F pairs are frozen for pilot part1 on an available GPU; effect
+outputs remain unread until ordered F collection is terminal. Both pilot parts
+share one setting and a combined 512-future cap.
