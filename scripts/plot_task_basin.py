@@ -50,7 +50,7 @@ def main():
             rows=[r for r in data['curves'] if r['mode']==mode and r['population']=='paired_clean'];x=[r['radius'] for r in rows]
             for key,label in [('critical_success','Critical target'),('noncritical_success','Noncritical target')]:
                 ax.plot(x,[r[key]*100 for r in rows],'o-',label=label)
-            ax.set(xlabel='RMS radius',ylabel='Exact-target search success (%)');ax.legend(title='Ray only' if mode=='ray' else 'Combined search')
+            ax.set(xlabel='RMS radius',ylabel='Exact-target search success (%)',ylim=(0,105));ax.set_yticks([0,20,40,60,80,100]);ax.legend(title='Ray only' if mode=='ray' else 'Combined search',loc='lower right')
         save(fig,out,'h1_fixed_search')
 
     if args.geometry:

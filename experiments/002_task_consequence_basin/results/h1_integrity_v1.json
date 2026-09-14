@@ -1,0 +1,8 @@
+{
+  "stage": "h1_noise",
+  "records": 32768,
+  "worlds": 256,
+  "unique_keys": true,
+  "paired_seed_and_rms": true,
+  "all_worlds_complete": true
+}
