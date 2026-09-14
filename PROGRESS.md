@@ -4,7 +4,7 @@
 
 Idea `001_same_prefix_state` is in P0 implementation. The [English protocol](experiments/001_same_prefix_state/PROTOCOL.md) preserves the user's staged study of same-prefix latent states. The first model is the released CoLa checkpoint, fully frozen; native noise resampling proposes alternatives to the last complete generated block.
 
-Source revision: `7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c`. Checkpoint revision: `c1eafdd9cfd8064aeb917d569ef70a075b353eed`. Nebula GPUs 5-8 are authorized. Environment and weights are being prepared; no model experiment result exists yet.
+Source revision: `7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c`. Checkpoint revision: `c1eafdd9cfd8064aeb917d569ef70a075b353eed`. Nebula GPUs 5-8 are authorized. Environment and weights are ready. The 32-example engineering suite passed on GPUs 5-8; no scientific result for H1-H3 exists yet.
 
 ## Research question
 
@@ -12,6 +12,6 @@ H1 asks whether exact same-token states under tight decoder KL have reproducible
 
 ## Next actions
 
-1. Implement pre-block snapshots, native candidate replay, and explicit paired future noise; establish identity and cache invariants on remote engineering examples.
+1. Completed: native-parity state engine, paired noise, and 32/32 remote engineering checks (001-p0-engineering-v1).
 2. Calibrate the two predefined route difficulties on 128 graphs with four samples each; lock the task, horizon, and proposal settings before formal testing.
 3. Run the 128-graph untrained pilot, then independent confirmation and downstream stages when their gates are supported.

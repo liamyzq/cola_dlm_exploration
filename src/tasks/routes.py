@@ -117,12 +117,21 @@ def intervention_boundary(task, tokenizer, prompt_token_count):
 
 
 def eligible(task, tokenizer, prompt_token_count, emitted_ids):
-    boundary, trunk_ids = intervention_boundary(task,tokenizer,prompt_token_count)
+    boundary, _ = intervention_boundary(task,tokenizer,prompt_token_count)
     if boundary is None:
         return False, 'no_full_block', boundary
     ids = list(emitted_ids)
     if len(ids)<boundary:
         return False, 'early_end', boundary
-    if ids[:boundary] != trunk_ids[:boundary]:
+    fragment = tokenizer.decode(ids[:boundary], skip_special_tokens=False)
+    # Check the actual observed prefix against graph structure. This is root
+    # eligibility only; candidate acceptance still uses exact token IDs.
+    pattern = r'\s*[A-Z](?:\s*(?:->|→|,)\s*[A-Z])*(?:\s*(?:-|->|→|,)\s*)?'
+    if not re.fullmatch(pattern, fragment):
+        return False, 'prefix_format', boundary
+    towns = re.findall(r'[A-Z]', fragment)
+    if len(towns) > len(task['trunk']):
+        return False, 'branch_already_crossed', boundary
+    if towns != task['trunk'][:len(towns)]:
         return False, 'wrong_trunk', boundary
     return True, 'eligible', boundary

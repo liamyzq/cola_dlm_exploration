@@ -1,1 +1,2 @@
 experiment_id	completed_at	commit	config	seed	machine	job_id	metric	value	run_status	decision	artifact_dir	description
+001-p0-engineering-v1	2026-09-14T02:55:52.823829+00:00	f9ecd7f2becfe104aeb455895461680d89ab848b	tests/check_cola_state.py	84001	nebula	1519438,1519443,1519448,1519453	passed_examples	32	success	keep	/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/	32/32 engineering examples passed native parity and replay/cache invariants; implementation evidence only.
