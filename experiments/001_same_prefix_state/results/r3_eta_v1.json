@@ -1,0 +1,208 @@
+{
+  "F": {
+    "roots": 8,
+    "root_statuses": {
+      "live": 8
+    },
+    "arms": {
+      "0.01": {
+        "attempted_roots": 8,
+        "live_roots": 8,
+        "paired_roots": 4,
+        "proposals": 37,
+        "same_token_proposals": 18,
+        "strict_kl_pass": 4,
+        "accepted": 4,
+        "same_token_but_kl_rejected": 14,
+        "seconds": 61.46979766295408,
+        "accepted_median_delta": 0.3629562258720398,
+        "accepted_median_bf16_delta": 0.36956801265478134
+      },
+      "0.03": {
+        "attempted_roots": 8,
+        "live_roots": 8,
+        "paired_roots": 5,
+        "proposals": 35,
+        "same_token_proposals": 9,
+        "strict_kl_pass": 5,
+        "accepted": 5,
+        "same_token_but_kl_rejected": 4,
+        "seconds": 58.22197622101521,
+        "accepted_median_delta": 0.3692268431186676,
+        "accepted_median_bf16_delta": 0.377666175365448
+      },
+      "0.1": {
+        "attempted_roots": 8,
+        "live_roots": 8,
+        "paired_roots": 2,
+        "proposals": 59,
+        "same_token_proposals": 3,
+        "strict_kl_pass": 2,
+        "accepted": 2,
+        "same_token_but_kl_rejected": 1,
+        "seconds": 97.71245741200983,
+        "accepted_median_delta": 0.45322732627391815,
+        "accepted_median_bf16_delta": 0.4557264745235443
+      },
+      "0.3": {
+        "attempted_roots": 8,
+        "live_roots": 8,
+        "paired_roots": 0,
+        "proposals": 64,
+        "same_token_proposals": 0,
+        "strict_kl_pass": 0,
+        "accepted": 0,
+        "same_token_but_kl_rejected": 0,
+        "seconds": 105.62218621303327,
+        "accepted_median_delta": null,
+        "accepted_median_bf16_delta": null
+      }
+    },
+    "selected_eta": 0.03,
+    "selected_pairs": [
+      {
+        "root_id": 0,
+        "source_id": "Norfolk_Island",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-f-v1-gpu5/candidates/pair-root-0-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-f-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      },
+      {
+        "root_id": 3,
+        "source_id": "John,_King_of_England",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-f-v1-gpu6/candidates/pair-root-3-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-f-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      },
+      {
+        "root_id": 5,
+        "source_id": "Thuringia",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-f-v1-gpu6/candidates/pair-root-5-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-f-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      },
+      {
+        "root_id": 6,
+        "source_id": "Green",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-f-v1-gpu5/candidates/pair-root-6-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-f-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      },
+      {
+        "root_id": 7,
+        "source_id": "New_York_City",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-f-v1-gpu6/candidates/pair-root-7-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-f-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      }
+    ],
+    "root_seconds": 26.789528359018732
+  },
+  "M": {
+    "roots": 8,
+    "root_statuses": {
+      "aligned_prompt_no_mixed": 1,
+      "live": 7
+    },
+    "arms": {
+      "0.01": {
+        "attempted_roots": 8,
+        "live_roots": 7,
+        "paired_roots": 6,
+        "proposals": 14,
+        "same_token_proposals": 14,
+        "strict_kl_pass": 6,
+        "accepted": 6,
+        "same_token_but_kl_rejected": 8,
+        "seconds": 23.869528354000067,
+        "accepted_median_delta": 0.21671882271766663,
+        "accepted_median_bf16_delta": 0.22026842087507248
+      },
+      "0.03": {
+        "attempted_roots": 8,
+        "live_roots": 7,
+        "paired_roots": 6,
+        "proposals": 15,
+        "same_token_proposals": 12,
+        "strict_kl_pass": 6,
+        "accepted": 6,
+        "same_token_but_kl_rejected": 6,
+        "seconds": 25.34909536401392,
+        "accepted_median_delta": 0.24745683372020721,
+        "accepted_median_bf16_delta": 0.24710724502801895
+      },
+      "0.1": {
+        "attempted_roots": 8,
+        "live_roots": 7,
+        "paired_roots": 5,
+        "proposals": 25,
+        "same_token_proposals": 13,
+        "strict_kl_pass": 5,
+        "accepted": 5,
+        "same_token_but_kl_rejected": 8,
+        "seconds": 41.75149484098074,
+        "accepted_median_delta": 0.3294219374656677,
+        "accepted_median_bf16_delta": 0.32997530698776245
+      },
+      "0.3": {
+        "attempted_roots": 8,
+        "live_roots": 7,
+        "paired_roots": 5,
+        "proposals": 27,
+        "same_token_proposals": 6,
+        "strict_kl_pass": 5,
+        "accepted": 5,
+        "same_token_but_kl_rejected": 1,
+        "seconds": 45.4070853459707,
+        "accepted_median_delta": 0.5367419123649597,
+        "accepted_median_bf16_delta": 0.5429127216339111
+      }
+    },
+    "selected_eta": 0.03,
+    "selected_pairs": [
+      {
+        "root_id": 1,
+        "source_id": "Party_leaders_of_the_United_States_House_of_Representatives",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-m-v1-gpu8/candidates/pair-root-1-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-m-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      },
+      {
+        "root_id": 2,
+        "source_id": "University_of_Notre_Dame",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-m-v1-gpu7/candidates/pair-root-2-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-m-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      },
+      {
+        "root_id": 3,
+        "source_id": "John,_King_of_England",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-m-v1-gpu8/candidates/pair-root-3-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-m-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      },
+      {
+        "root_id": 5,
+        "source_id": "Thuringia",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-m-v1-gpu8/candidates/pair-root-5-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-m-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      },
+      {
+        "root_id": 6,
+        "source_id": "Green",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-m-v1-gpu7/candidates/pair-root-6-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-m-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      },
+      {
+        "root_id": 7,
+        "source_id": "New_York_City",
+        "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-m-v1-gpu8/candidates/pair-root-7-eta-0.03.pt",
+        "origin_experiment": "001-r3-eta-m-v1",
+        "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+      }
+    ],
+    "root_seconds": 13.60504164401209
+  }
+}

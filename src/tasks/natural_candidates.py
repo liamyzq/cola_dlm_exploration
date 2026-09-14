@@ -55,12 +55,15 @@ def restore_pair(engine,payload,index):
 
 def run(a):
     cfg=json.loads(Path(a.config).read_text())
+    if 'pair_target' in cfg:assert a.shards==1, 'Use one ordered worker for the global pair cap'
     out=Path(a.output);out.mkdir(parents=True,exist_ok=False)
     (out/'config.json').write_text(json.dumps(cfg,indent=2)+'\n')
     items=[json.loads(x) for x in Path(cfg['data']).read_text().splitlines()]
     engine=ColaStateEngine(os.environ['COLA_CHECKPOINT'],steps=cfg['euler_steps'],cfg=cfg['cfg'],repetition_penalty=cfg['repetition_penalty'])
+    paired_roots=0
     with (out/'roots.jsonl').open('w') as f:
         for index in cfg['root_indices']:
+            if 'pair_target' in cfg and paired_roots>=cfg['pair_target']:break
             if index%a.shards!=a.shard:continue
             item=items[index]
             assert item['root_id']==index and item['split']=='development'
@@ -90,6 +93,7 @@ def run(a):
                         name=f'pair-root-{index}-eta-{eta:g}.pt'
                         save_pair(out/name,item,root,candidates);arm['pair_file']=name
                     record['arms'].append(arm)
+            paired_roots+=int(any(x['candidates']==2 for x in record['arms']))
             f.write(json.dumps(record)+'\n');f.flush()
             print(json.dumps(dict(root_id=index,status=reason,
                 candidates=[(x['eta'],x['candidates']) for x in record['arms']])),flush=True)
