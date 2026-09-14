@@ -23,7 +23,7 @@ def run(config_path,output):
     start=time.perf_counter()
     with (out/'sample_diagnostics.jsonl').open('w') as records:
         for difficulty in ('easy','hard'):
-            tasks=generate_tasks(128,cfg['task_seeds'][difficulty],difficulty)
+            tasks=json.loads(json.dumps(generate_tasks(128,cfg['task_seeds'][difficulty],difficulty)))
             saved=[]
             for gpu in cfg['source_gpus']:
                 path=Path(cfg['runs_base'])/f'001-p0-capability-v2-gpu{gpu}'/difficulty
