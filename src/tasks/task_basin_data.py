@@ -145,6 +145,9 @@ def normalize(value,domain):
         except InvalidOperation:
             return None
     value=' '.join(value.strip('.,!?"\'()[]').split()).casefold()
+    # Observed incomplete entity phrases do not identify a single value.
+    if value=='of' or re.search(r'\b(?:and|or)\b',value) or value.endswith("'s"):
+        return None
     return value if re.fullmatch(r"[a-z]+(?:[ '\-][a-z]+)*",value) else None
 
 
