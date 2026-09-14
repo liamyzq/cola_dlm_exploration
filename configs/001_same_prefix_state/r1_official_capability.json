@@ -38,6 +38,8 @@
   "primary_metric": "official_score_accuracy",
   "comparator": "pinned official native inference versus state-engine wrapper on paired subset",
   "stopping_rule": "Stop after fixed inputs; parity mismatch invalidates the paired path and stops the worker.",
-  "budget": "256 native samples plus 8 paired wrapper/replay checks; separate 8-item engineering smoke and one penalty-1.0 control",
-  "claim": "Released-fixture capability subset, not full benchmark reproduction; no state-value hypothesis measured."
+  "budget": "256 distinct native samples total: reuse 8 exact-condition smoke records and generate 248 remaining items. Paired/replay and penalty-1.0 engineering checks are accounted separately.",
+  "claim": "Released-fixture capability subset, not full benchmark reproduction; no state-value hypothesis measured.",
+  "reuse_native_records": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r1-parity-smoke-v1/checks/samples.jsonl",
+  "reuse_implementation_commit": "a97cf2c45b02adf27a7771d7365125ab4e2bbbe9"
 }

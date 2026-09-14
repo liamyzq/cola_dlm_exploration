@@ -102,6 +102,12 @@ def run(a):
     out=Path(a.output);out.mkdir(parents=True,exist_ok=False)
     (out/'config.json').write_text(json.dumps(cfg,indent=2)+'\n')
     scorer=load_scorer()
+    reused={}
+    if not a.smoke:
+        for line in Path(cfg['reuse_native_records']).read_text().splitlines():
+            record=json.loads(line)
+            reused[(record['task'],record['index'])]=record
+        assert len(reused)==8
     engine=ColaStateEngine(os.environ['COLA_CHECKPOINT'],steps=cfg['euler_steps'],
                           cfg=cfg['cfg'],repetition_penalty=cfg['repetition_penalty'])
     with (out/'samples.jsonl').open('w') as f:
@@ -111,7 +117,13 @@ def run(a):
             for index,item in enumerate(items):
                 if a.smoke and index not in cfg['paired_indices'][task]:continue
                 if not a.smoke and index%a.shards!=a.shard:continue
-                paired=a.smoke or index in cfg['paired_indices'][task]
+                if not a.smoke and (task,index) in reused:
+                    result=dict(reused[(task,index)],reused_from=cfg['reuse_native_records'],
+                                native_implementation_commit=cfg['reuse_implementation_commit'])
+                    assert result['id']==item['id']
+                    f.write(json.dumps(result)+'\n');f.flush()
+                    continue
+                paired=a.smoke
                 native_result,ids,noises,seconds,blocks=native_sample(engine,item,cfg,paired)
                 result=dict(task=task,index=index,id=item['id'],generated_ids=ids,
                     text=native_result['generate'],native_seconds=seconds,blocks=blocks,
