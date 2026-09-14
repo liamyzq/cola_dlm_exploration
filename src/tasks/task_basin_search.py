@@ -47,7 +47,8 @@ def search(model,clean,layout,field,world,sigma,stream,base):
     random=model.gaussian(z.shape,named_seed(world,40,field)); random=random/rms(random)
     for multiplier in (1,2,4):
         radius=sigma*multiplier
-        projected=endpoint*min(1.,radius/max(float(rms(endpoint)),1e-12))
+        limit=radius*(1-1e-6)  # Keep float32 projection rounding inside the declared ball.
+        projected=endpoint*min(1.,limit/max(float(rms(endpoint)),1e-12))
         starts=[projected,random*rms(projected)]
         for init,delta in enumerate(starts):
             delta=delta.detach().clone(); best=None; bestnorm=float('inf')
@@ -64,7 +65,7 @@ def search(model,clean,layout,field,world,sigma,stream,base):
                 gradient=torch.autograd.grad(loss,delta)[0]; backward+=1
                 with torch.no_grad():
                     delta=delta-(radius/8)*gradient/rms(gradient).clamp_min(1e-12)
-                    delta=delta*min(1.,radius/max(float(rms(delta)),1e-12))
+                    delta=delta*min(1.,limit/max(float(rms(delta)),1e-12))
                 if step%4==0:
                     ok,norm=verify(delta,'pgd',radius=radius,init=init,step=step,loss_before_update=float(loss))
                     if ok and norm<bestnorm: best=delta.clone(); bestnorm=norm

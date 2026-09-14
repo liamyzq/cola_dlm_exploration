@@ -89,3 +89,7 @@ Source-present destruction uses a zero answer replacement once and eight indepen
 ## Development amendment: one noise-grid refinement
 
 The initial 64-world calibration (10,240 readouts at `d4a4b0a`) has 2.009% token disagreement at sigma=0.32 and 43.794% at 0.64, with no original point in the required 3%-25% range. Invoke the single allowed global development refinement: add [0.36,0.40,0.44,0.48,0.52,0.56,0.60] using the same eight paired seeds and all 64 worlds. Reuse the original grid's records. Select the nearest lexical 10% point from the union without reading role contrasts. No test model outputs have been accessed.
+
+## H1 test freeze
+
+The union of original and once-refined development scales selects sigma_star=0.4 (8.181% paired-clean answer-token disagreement, nearest 10%). The development cohort has 64/64 paired-clean worlds. Freeze the original 256 test worlds, scales [0.2,0.4,0.8,1.6], 16 seeds, primary point 0.4 and the preselected 128-world search subset. Keep all 128 worlds for PGD as well as ray unless the pre-test development profile demonstrates an impractical resource cost. The optimizer settings remain the supplied defaults. Development search validation uses one prespecified world per domain without selecting on task-role differences.
