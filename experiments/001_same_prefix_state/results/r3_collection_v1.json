@@ -1,0 +1,122 @@
+[
+  {
+    "experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b",
+    "cohort": "F",
+    "eta": 0.03,
+    "epsilon": 0.01,
+    "attempted_roots": 37,
+    "live_roots": 37,
+    "paired_roots": 27,
+    "last_root": 44,
+    "calibration_pairs": 5,
+    "root_statuses": {
+      "live": 37
+    },
+    "proposal_count": 448,
+    "same_token_proposals": 190,
+    "same_token_kl_rejected": 163,
+    "raw_duplicates": 0,
+    "effective_duplicates": 0,
+    "accepted_kl_sum_range": [
+      1.0121187970678892e-05,
+      0.004264776672338951
+    ],
+    "accepted_kl_max": 0.002439890202040196,
+    "accepted_latent_delta_median": 0.3017558753490448,
+    "accepted_bf16_delta_median": 0.3086428940296173,
+    "accepted_free_positions_histogram": {
+      "16": 27
+    },
+    "root_seconds": 120.25152021300164,
+    "proposal_arm_seconds": 727.8192782179394,
+    "wall_seconds": 861.0517349243164,
+    "root_calls": {
+      "dit_cond": 1152,
+      "dit_uncond": 1152,
+      "dit_commit": 109,
+      "decoder": 109,
+      "encode": 37
+    },
+    "proposal_calls": {
+      "dit_cond": 7168,
+      "dit_uncond": 7168,
+      "dit_commit": 485,
+      "decoder": 485,
+      "encode": 0
+    },
+    "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1",
+    "coverage_interpretation": "Descriptive under stop-at-target collection; calibration used a different proposal cap",
+    "accepted_kl_per_generated_position_range": [
+      6.325742481674307e-07,
+      0.0002665485420211844
+    ]
+  },
+  {
+    "experiment": "001-r3-collection-m-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b",
+    "cohort": "M",
+    "eta": 0.03,
+    "epsilon": 0.01,
+    "attempted_roots": 33,
+    "live_roots": 31,
+    "paired_roots": 26,
+    "last_root": 40,
+    "calibration_pairs": 6,
+    "root_statuses": {
+      "aligned_prompt_no_mixed": 2,
+      "live": 31
+    },
+    "proposal_count": 214,
+    "same_token_proposals": 89,
+    "same_token_kl_rejected": 63,
+    "raw_duplicates": 0,
+    "effective_duplicates": 0,
+    "accepted_kl_sum_range": [
+      3.602923207757064e-08,
+      0.0027970693564381027
+    ],
+    "accepted_kl_max": 0.0020538418519113724,
+    "accepted_latent_delta_median": 0.20439887046813965,
+    "accepted_bf16_delta_median": 0.20907453447580338,
+    "accepted_free_positions_histogram": {
+      "1": 3,
+      "2": 1,
+      "3": 1,
+      "4": 2,
+      "5": 1,
+      "6": 2,
+      "7": 2,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 1,
+      "12": 2,
+      "13": 2,
+      "15": 1
+    },
+    "root_seconds": 51.56521191203501,
+    "proposal_arm_seconds": 341.07101370891905,
+    "wall_seconds": 405.482629776001,
+    "root_calls": {
+      "dit_cond": 496,
+      "dit_uncond": 496,
+      "dit_commit": 62,
+      "decoder": 62,
+      "encode": 31
+    },
+    "proposal_calls": {
+      "dit_cond": 3424,
+      "dit_uncond": 3424,
+      "dit_commit": 245,
+      "decoder": 245,
+      "encode": 0
+    },
+    "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-m-v1",
+    "coverage_interpretation": "Descriptive under stop-at-target collection; calibration used a different proposal cap",
+    "accepted_kl_per_generated_position_range": [
+      3.018639587334236e-08,
+      0.0003763081099904877
+    ]
+  }
+]

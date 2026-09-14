@@ -2,41 +2,48 @@
 
 ## Current state
 
-R1 capability completed: LAMBADA 63/128 (49.22%), SQuAD 43/128 (33.59%) on fixed released fixtures using pinned official inference/scoring. All eight paired token/replay checks and the default-penalty control passed. See [R1 report](experiments/001_same_prefix_state/results/R1_REPORT.md).
+The revised no-training protocol governs idea 001. R0 and R1 are complete;
+three R2 cells are complete and Matched-full is running. R3 reached 32 strict
+native pairs in each F/M cohort. The one-setting F distribution pilot is active.
+No formal H1a/H1b/H2/H3 conclusion is available yet. No model training has run.
 
-R0 reproduced the static audit and all 1,024 P0 scores. Earlier F route roots remain unavailable; M has 76 Easy and 61 Hard compatible prefixes. Original route success remains zero. See [R0 report](experiments/001_same_prefix_state/results/R0_REPORT.md). H1a/H1b/H2/H3 are still unmeasured in formal experiments. Strict native pairs now exist: eta calibration accepted five F and six M roots at eta0.03.
+## Evidence and interpretation
 
-## Observation and decision
+R1 official capability is 63/128 LAMBADA and 43/128 SQuAD with eight exact
+paired inference/replay checks. R0 reproduced all 1,024 historical P0 records;
+original routes had no success or eligible full-block roots. See the R0/R1 reports.
 
-The released checkpoint works on the official task formats; long-route failure is not evidence that the checkpoint is generally unusable. Continue route-independent F and separately validated M. Keep model weights frozen, exact emitted IDs, strict initial KL, independent A/B, and consistent caches. No LoRA or learned selector is in scope.
+R2 Copy succeeds 3/64 with 59/64 correct first edges. Chain and Branch each
+succeed 0/64 and provide no eligible F roots. No Branch sample reaches the
+first branch after a correct trunk. These are task-capability limitations,
+not evidence about H1a or the choice between branch arms. See the R2 report.
 
-The H1a kernel passed explicit-feature, signed-split, identity, EOS, and source-cluster checks. Natural continuation inputs now contain 128 development and 128 confirmation articles, disjoint by source document. These are engineering/data preparation outcomes, not measured state effects.
+R3 locks eta=0.03 with exact tokens and epsilon=0.01. F uses 45 development
+sources for 32 pairs; M uses 41 for 32. Calibration and collection have different
+proposal caps, so coverage remains descriptive. Collection root/proposal work,
+including failures, costs 848.07 s for F and 392.64 s for M; calibration and future
+rollouts are additional. See the R3 report and the results ledger.
 
-## Active work and next actions
+The M/F engineering suite passed all 16 prompt remainders. Candidate serialization
+and reconstruction preserve caches and paired futures. The actual A/B runner
+passed independent split noise, within-split pairing, and identity-null checks.
+These validate execution without establishing a future-distribution effect.
 
-The 16-case M/F engineering suite `001-r3-m-engineering-v1` completed successfully on GPUs 6-8 from commit `7e757d8`. All prompt remainders 0..15 passed. Eight cases yielded accepted alternatives; this engineering sample does not estimate natural-passage coverage. R1 and M workers are terminal. Candidate-artifact replay passed for F and M. Reward-blind eta calibration completed; both cohorts lock eta0.03. Primary distribution measurement is F, following the full-generated-block priority; M remains a separate feasibility cohort. R2 Copy/Chain/Branch are active on GPUs5/6/8; ordered F collection is active on GPU7. The A/B runner smoke passed, including explicit noise pairing/isolation and identity null. M collection and R2 Matched-full await a free permitted GPU. The independent A/B runner and bounded R2 task diagnosis are implemented for targeted validation.
+## Active work and next decisions
 
-1. Complete M validation, then freeze and run R3 native candidate feasibility on natural passages. Implement the complete R4 continuation runner with explicit independent A/B noise and full cost records.
-2. Run the bounded R2 Copy/Chain/Branch/Matched-full diagnosis, keeping route and natural-continuation results separate.
-3. Lock the primary setting for R4 pilot and independent confirmation; run R5 only when conditional task-value evidence warrants it.
+GPU 5 runs R2 Matched-full. GPUs 6-8 run the fixed F pilot in two disjoint parts:
+32 pairs total, two candidates, four A and four B futures per pair, 32 tokens per
+future. All pair inclusion was fixed before effect inspection. Both F/M candidate
+collections are terminal. Actual PIDs, commits and artifact paths are in jobs/jobs.jsonl.
+GPT-5.6 Luna at max reasoning monitors waits and reports terminal events.
 
-The goal remains active. One same-text pair is a milestone, not completion. Finish the supported revised experiments and record a clear disposition for every conditional stage; training and the original human-reviewed transfer study remain deferred. The old untracked P0 proposal-runner/config drafts are not the R-series implementation.
+Complete and summarize R2 and the full pilot. If the pilot supports an interpretable
+positive mechanism, run the predeclared eight-root cache-path diagnostic. Then
+complete the fixed 128-source independent F confirmation with eight A/eight B
+samples, preserving failed roots and reference fallbacks. Do not top up by outcomes.
 
-
-## R2 diagnostic update
-
-Copy succeeded 3/64 with 59/64 correct first edges; Chain and Branch both
-succeeded 0/64 and yielded no eligible F roots. No Branch sample reached its
-first branch after a correct trunk. Matched-full is running; native task-value
-claims remain unsupported. See the R2 report for scope and termination costs.
-The first 16 F pairs are frozen for pilot part1 on an available GPU; effect
-outputs remain unread until ordered F collection is terminal. Both pilot parts
-share one setting and a combined 512-future cap.
-
-
-F collection is terminal:27 additional strict pairs from37 new roots, yielding
-32 pairs across45 attempted development sources including calibration. The
-complete pilot manifest is frozen; part1 and part2 contain16 disjoint pairs
-each with unchanged4 A/4 B settings. No formal effect was read before this
-collection completed. Independent confirmation remains the fixed128-source
-F configuration.
+R5 remains conditional on suitable task-value evidence. Natural continuation has
+no task reward here and cannot support a selection or inference-utility claim.
+Keep route limitations and negative outcomes visible. The final report must give
+an explicit disposition for every conditional stage. LoRA, learned selectors and
+the original human-reviewed transfer study remain deferred outside this revision.
