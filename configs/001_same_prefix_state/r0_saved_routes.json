@@ -1,0 +1,12 @@
+{
+  "experiment_id": "001-r0-saved-routes-v1",
+  "source_run_commit": "3b1fb15cf78f234660169f5fcb1686d61286217b",
+  "tokenizer": "/home/mlw0719/cola_dlm_exploration_storage/checkpoints/Cola-DLM-c1eafdd/tokenizer.json",
+  "runs_base": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state",
+  "task_seeds": {"easy": 510001, "hard": 510002},
+  "source_gpus": [5, 6, 7, 8],
+  "primary_metric": "eligible_mixed_roots",
+  "comparator": "original full-generated-block eligibility",
+  "budget": "1024 existing generations; no new GPU sampling",
+  "stopping_rule": "Exhaust the fixed saved sample; fail if reconstruction or rescoring disagrees."
+}
