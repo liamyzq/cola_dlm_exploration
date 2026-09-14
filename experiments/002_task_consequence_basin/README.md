@@ -21,6 +21,7 @@ source scripts/compute/nebula/env.sh
 "$COLA_PYTHON" -m scripts.run_task_basin_final_analysis \
   --run-base /home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin \
   --worlds /home/mlw0719/cola_dlm_exploration_storage/datasets/002_task_consequence_basin/v1/worlds.jsonl \
+  --ledger /home/mlw0719/cola_dlm_exploration/jobs/jobs.jsonl \
   --output /home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/analysis-v1
 ```
 

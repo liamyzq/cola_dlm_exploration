@@ -7,7 +7,7 @@ import sys
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--run-base',required=True);p.add_argument('--worlds',required=True);p.add_argument('--output',required=True)
+    p=argparse.ArgumentParser();p.add_argument('--run-base',required=True);p.add_argument('--worlds',required=True);p.add_argument('--output',required=True);p.add_argument('--ledger',required=True)
     a=p.parse_args();base=Path(a.run_base);out=Path(a.output);out.mkdir(parents=True,exist_ok=True)
     def shards(group):return [str(base/f'{group}-gpu{g}'/'measurements') for g in (5,6,7,8)]
     noise=shards('002-p1-test-noise-v1');recovery=shards('002-p2-test-recovery-v1');cfg7=shards('002-p2-cfg7-control-v1');search=shards('002-p1-test-search-v1')
@@ -26,6 +26,9 @@ def main():
         run('scripts.analyze_task_basin','--mode','effects','--stage','recovery','--inputs',*paths,'--output',out/f'{label}_effects_v1.json')
     run('scripts.analyze_task_basin','--mode','effects','--stage','noise','--inputs',*noise,'--output',out/'h1_noise_v1.json')
     run('scripts.summarize_task_basin_search','--inputs',*search,'--sigma','.4','--output',out/'h1_search_v1.json')
+    run('scripts.compare_task_basin_cfg','--main-inputs',*recovery,'--control-inputs',*cfg7,'--output',out/'cfg_matched_v1.json')
+    run('scripts.task_basin_confidence','--inputs',*noise,'--sigma','.4','--worlds',a.worlds,'--output',out/'h1_confidence_v2.json')
+    run('scripts.summarize_task_basin_costs','--ledger',a.ledger,'--output',out/'study_costs_v1.json')
     run('scripts.task_basin_geometry_prediction','--recovery',*recovery,'--search',*search,'--features',base/'002-geometry-features-v1/measurements/features.jsonl','--sigma','.4','--output',out/'geometry_prediction_v1.json')
     run('scripts.plot_task_basin','--noise',out/'h1_noise_v1.json','--recovery',out/'h2_effects_v1.json','--search',out/'h1_search_v1.json','--geometry',out/'geometry_prediction_v1.json','--output',out/'figures')
     tests={}

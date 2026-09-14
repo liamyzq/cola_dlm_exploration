@@ -12,7 +12,7 @@ def run():
                 statuses=['valid_wrong','valid_wrong'];statuses[q]='correct'
                 rows.append(dict(world_id=f'{domain}-{world}',query=q,domain=domain,template=world,
                     paired_clean=True,sigma=.2,kind='noise',seed_id=0,status=statuses,
-                    any_fact_changed=True,token_disagreement=.1))
+                    any_fact_changed=True,token_disagreement=.1,word_edit_distance=.1))
     result=effects(rows,'noise')[0]['estimates']['protection']
     assert result['mean']==1.,result
     # Identical input scored under two role labels must cancel within world.

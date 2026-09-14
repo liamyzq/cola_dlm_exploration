@@ -105,3 +105,11 @@ Before accessing H2 test outcomes, fix the post-recovery geometry model to the s
 All 64 development worlds are paired-clean. The four real-residual lexical disagreement rates are 0.0%, 0.0%, 15.205% and 74.851% at noise fractions 0.125, 0.25, 0.5 and 0.75 respectively. The fixed nearest-10% rule selects lambda_star=0.5 (restart index 8) without inspecting role contrasts. At this point 60.840% of answers have at least one damaged field and 43.408% of fields are unparseable; a nondegenerate recovery interval exists. Freeze all four stages, eight paired seeds and four rotations on all 256 test worlds at CFG=1, and repeat on the 64 predefined controls at CFG=7. Do not change the working point in response to test results.
 
 Development workers took 1,594-1,940 seconds each for 16 worlds while overlapping other work. Linear scaling suggests roughly 2-3 hours for the full 320-world main-plus-CFG7 workload across four GPUs under comparable throughput, with actual completion determined by job artifacts. No training is launched.
+
+## Final reporting detail
+
+Retain per-template estimates and domain-specific counts of worlds with any field damage or valid-wrong values. These make the declared minimum-event condition for practical equivalence inspectable; a degenerate endpoint remains uninformative even if a zero interval is returned. Compare CFG=7 with CFG=1 only on the same preselected 64 worlds, preserving noise and rotation pairing. This supplementary comparison does not add a confirmatory endpoint.
+
+Report the frozen confidence model's held-out standardized role contrast as a descriptive probability difference by toggling only the role feature. Do not attach a significance claim from resampling a fixed fitted coefficient; probability-score increments retain the existing conditional world-resampled intervals. This reporting addition changes neither the frozen model recipe nor the raw primary estimand.
+
+Collect every formal job's observed exit status, output units, instrumented model calls, timer and peak memory. Distinguish summed overlapping worker hours from dedicated GPU-hours. P0 has one direct native-parity clean-history call outside its counter; account for that source-visible call separately. The scientific recovery workers count every history, conditional and unconditional call through the instrumented path.

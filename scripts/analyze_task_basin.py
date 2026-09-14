@@ -89,12 +89,17 @@ def effects(rows,stage):
             wr=[dict(world_id=w,domain=meta[w]['domain'],template=meta[w]['template'],value=float(np.mean(v))) for (w,k),v in metrics.items() if k==label]
             est=clustered(wr)
             est['leave_one_template_out']={str(t):clustered([r for r in wr if r['template']!=t],draws=1000)['mean'] for t in sorted({r['template'] for r in wr})}
+            est['per_template']={str(t):clustered([r for r in wr if r['template']==t]) for t in sorted({r['template'] for r in wr})}
+            est['nonzero_world_effects']=sum(r['value']!=0 for r in wr)
             est['world_values']=wr;estimates[label]=est
         descriptives={}
         for population,pop in [('all_fixed',all_rows),('paired_clean',rs)]:
             for kind in sorted({r['kind'] for r in pop}):
                 subset=[r for r in pop if r['kind']==kind]
                 descriptives[population+'/'+kind]=dict(records=len(subset),
+                    damaged_worlds_by_domain={d:len({r['world_id'] for r in subset if r['domain']==d and any(s!='correct' for s in r['status'])}) for d in ('number','entity')},
+                    valid_wrong_worlds_by_domain={d:len({r['world_id'] for r in subset if r['domain']==d and 'valid_wrong' in r['status']}) for d in ('number','entity')},
+                    word_edit_distance=float(np.mean([r['word_edit_distance'] for r in subset])),
                     queried_damage=float(np.mean([r['status'][r['query']]!='correct' for r in subset])),
                     nonqueried_damage=float(np.mean([r['status'][1-r['query']]!='correct' for r in subset])),
                     valid_wrong=float(np.mean([s=='valid_wrong' for r in subset for s in r['status']])),

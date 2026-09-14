@@ -27,7 +27,7 @@ def main():
         examples.append(dict(world_id=w,domain=m['domain'],template=m['template'],rate=float(np.mean(ys)),n=len(ys),
             x=[str(c['original_id']),str(c['alternative_id']),str(f),m['domain'],str(m['template']),str(worlds[w]['source_order']),str(worlds[w]['answer_order']),c['position'],c['gap'],c['entropy'],int(q==f)]))
     x=np.array([r['x'] for r in examples],dtype=object);y=np.array([r['rate'] for r in examples]);ns=np.array([r['n'] for r in examples])
-    world_ids=np.array([r['world_id'] for r in examples]);splits=list(GroupKFold(4).split(x,y,world_ids));predictions={};coefs=[]
+    world_ids=np.array([r['world_id'] for r in examples]);splits=list(GroupKFold(4).split(x,y,world_ids));predictions={};coefs=[];adjusted=np.zeros(len(y))
     for name,cols in [('confidence',list(range(10))),('confidence_plus_role',list(range(11)))]:
         pred=np.zeros(len(y))
         for train,test in splits:
@@ -41,7 +41,11 @@ def main():
             fit=make_pipeline(transform,LogisticRegression(C=1.,max_iter=2000))
             fit.fit(xx[keep],yy[keep],logisticregression__sample_weight=weights[keep])
             pred[test]=fit.predict_proba(x[test][:,cols])[:,1]
-            if name=='confidence_plus_role':coefs.append(float(fit[-1].coef_[0,-1]))
+            if name=='confidence_plus_role':
+                coefs.append(float(fit[-1].coef_[0,-1]))
+                noncritical=x[test][:,cols].copy();noncritical[:,-1]=0
+                critical=x[test][:,cols].copy();critical[:,-1]=1
+                adjusted[test]=fit.predict_proba(noncritical)[:,1]-fit.predict_proba(critical)[:,1]
         predictions[name]=pred
     scores={}
     for name,pred in predictions.items():
@@ -54,7 +58,13 @@ def main():
         for r,g in zip(examples,gains):grouped[r['world_id']].append(float(g))
         wr=[dict(world_id=w,domain=meta[w]['domain'],template=meta[w]['template'],value=float(np.mean(v))) for w,v in grouped.items()]
         improvements[metric]=clustered(wr)
-    result=dict(protocol='fixed C=1 regularized logistic; four world-grouped folds; probability score increments, not causal mediation',
+    adjusted_by_world=defaultdict(list)
+    for row,value in zip(examples,adjusted):adjusted_by_world[row['world_id']].append(float(value))
+    adjusted_rows=[dict(world_id=w,domain=meta[w]['domain'],template=meta[w]['template'],value=float(np.mean(v))) for w,v in adjusted_by_world.items()]
+    result=dict(adjusted_protection=dict(mean=float(np.mean([np.mean([r['value'] for r in adjusted_rows if r['domain']==d]) for d in ('number','entity')])),
+        domain_means={d:float(np.mean([r['value'] for r in adjusted_rows if r['domain']==d])) for d in ('number','entity')},worlds=len(adjusted_rows)),
+        adjusted_protection_interpretation='Descriptive held-out model probability difference after toggling only the role feature at fixed confidence covariates; predictive standardization, not a causal effect. No significance test is attached to this fitted-model contrast. Probability-score increments retain their separate world-resampled intervals.',
+        protocol='fixed C=1 regularized logistic; four world-grouped folds; probability score increments, not causal mediation',
         clean_gap_quantiles_by_role={str(role):np.quantile([float(r['x'][-3]) for r in examples if r['x'][-1]==role],[0,.25,.5,.75,1]).tolist() for role in (0,1)},
         field_query_rows=len(examples),worlds=len(set(world_ids)),role_coefficients=coefs,
         mean_scores={name:{metric:float(np.mean(v)) for metric,v in d.items()} for name,d in scores.items()},
