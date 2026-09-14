@@ -1,0 +1,43 @@
+{
+  "experiment_id": "001-r1-official-capability-v1",
+  "data_dir": "/home/mlw0719/cola_dlm_exploration_storage/datasets/001_released_capability_v1",
+  "phase": "R1",
+  "graphs_or_items_per_task": 128,
+  "task_names": [
+    "lambada",
+    "squad"
+  ],
+  "samples_per_item": 1,
+  "noise_seed": 66,
+  "euler_steps": 16,
+  "cfg": 7.0,
+  "max_new_tokens": 32,
+  "repetition_penalty": 1.1,
+  "temperature": 0.0,
+  "top_k": 50,
+  "top_p": 0.9,
+  "pad_token_id": 100277,
+  "eos_token_id": 100257,
+  "im_end_token_id": 100265,
+  "source_revision": "7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c",
+  "checkpoint_revision": "c1eafdd9cfd8064aeb917d569ef70a075b353eed",
+  "paired_indices": {
+    "lambada": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "squad": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "primary_metric": "official_score_accuracy",
+  "comparator": "pinned official native inference versus state-engine wrapper on paired subset",
+  "stopping_rule": "Stop after fixed inputs; parity mismatch invalidates the paired path and stops the worker.",
+  "budget": "256 native samples plus 8 paired wrapper/replay checks; separate 8-item engineering smoke and one penalty-1.0 control",
+  "claim": "Released-fixture capability subset, not full benchmark reproduction; no state-value hypothesis measured."
+}

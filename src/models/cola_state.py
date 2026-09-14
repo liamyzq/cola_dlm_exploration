@@ -24,6 +24,7 @@ class State:
     first_latent: torch.Tensor
     first_mask: torch.Tensor
     trim: int
+    decoder_ids: tuple
 
 
 def clone_cache(blocks):
@@ -38,9 +39,10 @@ def restore_cache(blocks, cache):
 
 
 class ColaStateEngine:
-    def __init__(self, checkpoint, device='cuda:0', steps=16, cfg=7.0):
+    def __init__(self, checkpoint, device='cuda:0', steps=16, cfg=7.0, repetition_penalty=1.0):
         self.device = torch.device(device)
         self.steps, self.cfg = steps, cfg
+        self.repetition_penalty = repetition_penalty
         checkpoint = Path(checkpoint)
         self.dit = ColaDiTModel.from_pretrained(checkpoint / 'cola_dlm/cola_dit').to(self.device).eval()
         self.vae = ColaTextVAEModel.from_pretrained(checkpoint / 'cola_dlm/cola_vae').to(self.device).eval()
@@ -77,6 +79,7 @@ class ColaStateEngine:
         self.first_latent = lat[prefix_len:prefix_len+16] if self.trim else lat[-16:].clone()
         self.first_mask = torch.arange(16, device=self.device) < self.trim
         self.generated_ids = ()
+        self.decoder_ids = ()
         self.step = 0
         self.position = 0
         self.history = ()
@@ -103,7 +106,7 @@ class ColaStateEngine:
     def snapshot(self):
         return State(clone_cache(self.dit_blocks), clone_cache(self.decoder_blocks),
                      self.history, self.prompt_ids, self.generated_ids, self.position,
-                     self.step, self.first_latent.clone(), self.first_mask.clone(), self.trim)
+                     self.step, self.first_latent.clone(), self.first_mask.clone(), self.trim, self.decoder_ids)
 
     @torch.inference_mode()
     def restore(self, state):
@@ -111,6 +114,7 @@ class ColaStateEngine:
         restore_cache(self.decoder_blocks, state.decoder_cache)
         self.history = state.history
         self.prompt_ids, self.generated_ids = state.prompt_ids, state.generated_ids
+        self.decoder_ids = state.decoder_ids
         self.position, self.step = state.position, state.step
         self.first_latent, self.first_mask, self.trim = state.first_latent, state.first_mask, state.trim
 
@@ -121,6 +125,7 @@ class ColaStateEngine:
         self.clear()
         self.position = 0
         self.generated_ids = ()
+        self.decoder_ids = ()
         self.step = 0
         self.history = ()
         prefix_len = len(state.prompt_ids) - state.trim
@@ -132,6 +137,7 @@ class ColaStateEngine:
         for latent in history:
             self.commit(latent)
         assert self.generated_ids == state.generated_ids
+        assert self.decoder_ids == state.decoder_ids
         assert self.position == state.position and self.step == state.step
 
     def noise(self, seed, blocks=1):
@@ -178,7 +184,19 @@ class ColaStateEngine:
                      update_kv=True, use_kv_cache=True)
         self.calls['decoder'] += 1
         self.calls['dit_commit'] += 1
-        ids = tuple(logits.argmax(-1).tolist())
+        if self.repetition_penalty == 1.0:
+            ids = tuple(logits.argmax(-1).tolist())
+        else:
+            from cola_dlm.inference import sample_with_strategies
+            context = (torch.tensor([self.decoder_ids],device=self.device)
+                       if self.decoder_ids else None)
+            # The official processor mutates logits. Keep the raw decoder
+            # readout for KL; history includes the first block's prompt slice.
+            processed = sample_with_strategies(logits.clone().unsqueeze(0),
+                generated_ids=context,temperature=0.0,
+                repetition_penalty=self.repetition_penalty)
+            ids = tuple(processed[0].tolist())
+        self.decoder_ids += ids
         self.generated_ids += ids[self.trim:] if self.step == 0 else ids
         self.position += 16
         self.step += 1
