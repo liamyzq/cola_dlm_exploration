@@ -78,10 +78,11 @@ def effects(rows,stage):
             for (world,q,seed),group in groups.items():
                 real=next(r for r in group if r['kind']=='real');rot=[r for r in group if r['kind']=='rotated']
                 assert len(rot)==4
-                crit=np.mean([r['status'][q]!='correct' for r in rot])-float(real['status'][q]!='correct')
-                non=np.mean([r['status'][1-q]!='correct' for r in rot])-float(real['status'][1-q]!='correct')
-                metrics[(world,'G_critical')].append(crit);metrics[(world,'G_noncritical')].append(non)
-                metrics[(world,'G_selective')].append(crit-non)
+                for suffix,fn in [('',lambda s:s!='correct'),('_valid_wrong',lambda s:s=='valid_wrong'),('_unparseable',lambda s:s=='unparseable')]:
+                    crit=np.mean([fn(r['status'][q]) for r in rot])-float(fn(real['status'][q]))
+                    non=np.mean([fn(r['status'][1-q]) for r in rot])-float(fn(real['status'][1-q]))
+                    metrics[(world,'G_critical'+suffix)].append(crit);metrics[(world,'G_noncritical'+suffix)].append(non)
+                    metrics[(world,'G_selective'+suffix)].append(crit-non)
         meta={r['world_id']:r for r in rs}
         estimates={}
         for label in sorted({label for world,label in metrics}):

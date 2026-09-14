@@ -24,7 +24,10 @@ def run():
         real=dict(r,noise_fraction=.25,kind='real');real['status']=['valid_wrong','valid_wrong'];real['status'][r['query']]='correct'
         recovery.append(real)
         recovery.extend(dict(r,noise_fraction=.25,kind='rotated',rotation_id=i,status=['valid_wrong','valid_wrong']) for i in range(4))
-    assert effects(recovery,'recovery')[0]['estimates']['G_selective']['mean']==1.
+    est=effects(recovery,'recovery')[0]['estimates']
+    assert est['G_selective']['mean']==1.
+    assert est['G_selective_valid_wrong']['mean']==1.
+    assert est['G_selective_unparseable']['mean']==0.
     # Domain macro remains equally weighted under unequal retained coverage.
     duplicated=[dict(r,world_id='extra-'+r['world_id']) for r in rows if r['domain']=='number']
     for r in rows:r['status']=['valid_wrong','valid_wrong'] if r['domain']=='entity' else (['correct','valid_wrong'] if r['query']==0 else ['valid_wrong','correct'])
