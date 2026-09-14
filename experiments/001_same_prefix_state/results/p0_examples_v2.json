@@ -1,0 +1,741 @@
+[
+  {
+    "difficulty": "easy",
+    "task": {
+      "id": 0,
+      "difficulty": "easy",
+      "prompt": "Roads: A -> B; B -> C; C -> D; B -> E; E -> D.\nFind a route from A to D that visits C.\nUse only the listed roads and do not visit a town twice.\nRoute: A -> B -> C -> D.\n\nRoads: P -> Q; Q -> R; R -> S; Q -> T; T -> S.\nFind a route from P to S that visits R.\nUse only the listed roads and do not visit a town twice.\nRoute: P -> Q -> R -> S.\n\nRoads: J -> K; K -> L; K -> M; L -> N; M -> N; N -> O.\nFind a route from J to O that visits N.\nUse only the listed roads and do not visit a town twice.\nRoute: J -> K -> M -> N -> O.\n\nRoads: U -> V; V -> W; W -> X; V -> Y; Y -> X.\nFind a route from U to X that visits W.\nUse only the listed roads and do not visit a town twice.\nRoute: U -> V -> W -> X.\n\nRoads: Fox Hollow -> Aspen Ridge; Aspen Ridge -> Silver Lake; Cherry Grove -> Morning Star; Willow Creek -> Green Wood; Rose Garden -> Aspen Ridge; Cedar Bay -> Green Wood; Fox Hollow -> Copper Cove; Aspen Ridge -> Cedar Bay; Red Cliff -> Green Wood; Fox Hollow -> Cedar Bay; Crystal Spring -> Blue Mountain; Red Cliff -> Cedar Bay; Oak Harbor -> Crystal Spring; Snow Peak -> Sunset Beach; Fox Hollow -> Silver Lake; Birch Point -> Maple Hill; Sunset Beach -> Silver Lake; Meadow Brook -> Golden Field; Copper Cove -> Red Cliff; Rose Garden -> Green Wood; Snow Peak -> Rose Garden; Blue Mountain -> Cherry Grove; Silver Lake -> Green Wood; Morning Star -> Snow Peak; Maple Hill -> Oak Harbor; Golden Field -> Birch Point; Aspen Ridge -> Willow Creek; Aspen Ridge -> Copper Cove; Snow Peak -> Fox Hollow.\nFind a route from Meadow Brook to Green Wood that visits Silver Lake.\nUse only the listed roads and do not visit a town twice.\nRoute:",
+      "roads": [
+        [
+          "Fox Hollow",
+          "Aspen Ridge"
+        ],
+        [
+          "Aspen Ridge",
+          "Silver Lake"
+        ],
+        [
+          "Cherry Grove",
+          "Morning Star"
+        ],
+        [
+          "Willow Creek",
+          "Green Wood"
+        ],
+        [
+          "Rose Garden",
+          "Aspen Ridge"
+        ],
+        [
+          "Cedar Bay",
+          "Green Wood"
+        ],
+        [
+          "Fox Hollow",
+          "Copper Cove"
+        ],
+        [
+          "Aspen Ridge",
+          "Cedar Bay"
+        ],
+        [
+          "Red Cliff",
+          "Green Wood"
+        ],
+        [
+          "Fox Hollow",
+          "Cedar Bay"
+        ],
+        [
+          "Crystal Spring",
+          "Blue Mountain"
+        ],
+        [
+          "Red Cliff",
+          "Cedar Bay"
+        ],
+        [
+          "Oak Harbor",
+          "Crystal Spring"
+        ],
+        [
+          "Snow Peak",
+          "Sunset Beach"
+        ],
+        [
+          "Fox Hollow",
+          "Silver Lake"
+        ],
+        [
+          "Birch Point",
+          "Maple Hill"
+        ],
+        [
+          "Sunset Beach",
+          "Silver Lake"
+        ],
+        [
+          "Meadow Brook",
+          "Golden Field"
+        ],
+        [
+          "Copper Cove",
+          "Red Cliff"
+        ],
+        [
+          "Rose Garden",
+          "Green Wood"
+        ],
+        [
+          "Snow Peak",
+          "Rose Garden"
+        ],
+        [
+          "Blue Mountain",
+          "Cherry Grove"
+        ],
+        [
+          "Silver Lake",
+          "Green Wood"
+        ],
+        [
+          "Morning Star",
+          "Snow Peak"
+        ],
+        [
+          "Maple Hill",
+          "Oak Harbor"
+        ],
+        [
+          "Golden Field",
+          "Birch Point"
+        ],
+        [
+          "Aspen Ridge",
+          "Willow Creek"
+        ],
+        [
+          "Aspen Ridge",
+          "Copper Cove"
+        ],
+        [
+          "Snow Peak",
+          "Fox Hollow"
+        ]
+      ],
+      "start": "Meadow Brook",
+      "target": "Green Wood",
+      "waypoint": "Silver Lake",
+      "trunk": [
+        "Meadow Brook",
+        "Golden Field",
+        "Birch Point",
+        "Maple Hill",
+        "Oak Harbor",
+        "Crystal Spring",
+        "Blue Mountain",
+        "Cherry Grove",
+        "Morning Star",
+        "Snow Peak"
+      ],
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          10,
+          17
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          12,
+          19
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          18,
+          19
+        ]
+      ],
+      "topology_nodes": 20
+    },
+    "sample": {
+      "parseable": true,
+      "reward": 0,
+      "reason": "end,waypoint,roads",
+      "route": [
+        "Meadow Brook",
+        "Willow Creek",
+        "Green Wood",
+        "Birch Point",
+        "Green Lake"
+      ],
+      "graph_id": 0,
+      "repeat": 0,
+      "noise_seed": 710000,
+      "difficulty": "easy",
+      "eligible": false,
+      "eligibility_reason": "wrong_trunk",
+      "boundary_tokens": 24,
+      "prompt_tokens": 440,
+      "generated_ids": [
+        89842,
+        15978,
+        1492,
+        65449,
+        24076,
+        1492,
+        7997,
+        12404,
+        1492,
+        88088,
+        5236,
+        1492,
+        7997,
+        11940,
+        382,
+        58059,
+        82,
+        25,
+        432,
+        1492,
+        549,
+        1492,
+        386,
+        26,
+        386,
+        1492,
+        549,
+        1492,
+        386,
+        26,
+        549,
+        1492,
+        386,
+        26,
+        386,
+        1492,
+        549,
+        1492,
+        386,
+        627,
+        10086,
+        264,
+        6149,
+        505,
+        432,
+        311,
+        386,
+        430,
+        21728,
+        549,
+        627,
+        10464,
+        1193,
+        279,
+        10212,
+        19795,
+        323,
+        656,
+        539,
+        4034,
+        264,
+        6424,
+        11157,
+        627,
+        5004,
+        25,
+        432,
+        1492,
+        549,
+        1492,
+        386,
+        1492,
+        549,
+        1492,
+        386,
+        1492,
+        549,
+        1492,
+        549,
+        1492,
+        386,
+        1492,
+        549,
+        1492,
+        386,
+        382,
+        58059,
+        82
+      ],
+      "text": " Meadow Brook -> Willow Creek -> Green Wood -> Birch Point -> Green Lake.\n\nRoads: R -> U -> M; M -> U -> M; U -> M; M -> U -> M.\nFind a route from R to M that visits U.\nUse only the listed roads and do not visit a town twice.\nRoute: R -> U -> M -> U -> M -> U -> U -> M -> U -> M.\n\nRoads",
+      "elapsed_seconds": 10.757287937012734,
+      "calls": {
+        "dit_cond": 96,
+        "dit_uncond": 96,
+        "dit_commit": 7,
+        "decoder": 7,
+        "encode": 1
+      }
+    }
+  },
+  {
+    "difficulty": "hard",
+    "task": {
+      "id": 0,
+      "difficulty": "hard",
+      "prompt": "Roads: A -> B; B -> C; C -> D; B -> E; E -> D.\nFind a route from A to D that visits C.\nUse only the listed roads and do not visit a town twice.\nRoute: A -> B -> C -> D.\n\nRoads: P -> Q; Q -> R; R -> S; Q -> T; T -> S.\nFind a route from P to S that visits R.\nUse only the listed roads and do not visit a town twice.\nRoute: P -> Q -> R -> S.\n\nRoads: Sunset Beach -> Copper Cove; Eagle Rock -> Elm Falls; Rose Garden -> Golden Field; Sandy Shore -> Elm Falls; Birch Point -> Stone Bridge; Cherry Grove -> Snow Peak; Elm Falls -> Red Cliff; Cedar Bay -> Walnut Park; Deer Run -> Oak Harbor; Fair Haven -> Birch Point; Silver Lake -> Sunset Beach; Eagle Rock -> Walnut Park; Sandy Shore -> Red Cliff; Sunset Beach -> Sandy Shore; Silver Lake -> Eagle Rock; Walnut Park -> Sandy Shore; Golden Field -> Deer Run; Oak Harbor -> Silver Lake; Walnut Park -> Copper Cove; Copper Cove -> Elm Falls; Cedar Bay -> Red Cliff; Snow Peak -> Rose Garden; Sunset Beach -> Elm Falls; Silver Lake -> Cedar Bay; Stone Bridge -> Cherry Grove; Sunset Beach -> Cedar Bay; Copper Cove -> Red Cliff.\nFind a route from Fair Haven to Red Cliff that visits Elm Falls.\nUse only the listed roads and do not visit a town twice.\nRoute:",
+      "roads": [
+        [
+          "Sunset Beach",
+          "Copper Cove"
+        ],
+        [
+          "Eagle Rock",
+          "Elm Falls"
+        ],
+        [
+          "Rose Garden",
+          "Golden Field"
+        ],
+        [
+          "Sandy Shore",
+          "Elm Falls"
+        ],
+        [
+          "Birch Point",
+          "Stone Bridge"
+        ],
+        [
+          "Cherry Grove",
+          "Snow Peak"
+        ],
+        [
+          "Elm Falls",
+          "Red Cliff"
+        ],
+        [
+          "Cedar Bay",
+          "Walnut Park"
+        ],
+        [
+          "Deer Run",
+          "Oak Harbor"
+        ],
+        [
+          "Fair Haven",
+          "Birch Point"
+        ],
+        [
+          "Silver Lake",
+          "Sunset Beach"
+        ],
+        [
+          "Eagle Rock",
+          "Walnut Park"
+        ],
+        [
+          "Sandy Shore",
+          "Red Cliff"
+        ],
+        [
+          "Sunset Beach",
+          "Sandy Shore"
+        ],
+        [
+          "Silver Lake",
+          "Eagle Rock"
+        ],
+        [
+          "Walnut Park",
+          "Sandy Shore"
+        ],
+        [
+          "Golden Field",
+          "Deer Run"
+        ],
+        [
+          "Oak Harbor",
+          "Silver Lake"
+        ],
+        [
+          "Walnut Park",
+          "Copper Cove"
+        ],
+        [
+          "Copper Cove",
+          "Elm Falls"
+        ],
+        [
+          "Cedar Bay",
+          "Red Cliff"
+        ],
+        [
+          "Snow Peak",
+          "Rose Garden"
+        ],
+        [
+          "Sunset Beach",
+          "Elm Falls"
+        ],
+        [
+          "Silver Lake",
+          "Cedar Bay"
+        ],
+        [
+          "Stone Bridge",
+          "Cherry Grove"
+        ],
+        [
+          "Sunset Beach",
+          "Cedar Bay"
+        ],
+        [
+          "Copper Cove",
+          "Red Cliff"
+        ]
+      ],
+      "start": "Fair Haven",
+      "target": "Red Cliff",
+      "waypoint": "Elm Falls",
+      "trunk": [
+        "Fair Haven",
+        "Birch Point",
+        "Stone Bridge",
+        "Cherry Grove",
+        "Snow Peak",
+        "Rose Garden",
+        "Golden Field",
+        "Deer Run",
+        "Oak Harbor",
+        "Silver Lake"
+      ],
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          17
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "topology_nodes": 18
+    },
+    "sample": {
+      "parseable": false,
+      "reward": 0,
+      "reason": "format",
+      "graph_id": 0,
+      "repeat": 0,
+      "noise_seed": 710000,
+      "difficulty": "hard",
+      "eligible": false,
+      "eligibility_reason": "wrong_trunk",
+      "boundary_tokens": 28,
+      "prompt_tokens": 308,
+      "generated_ids": [
+        14930,
+        42714,
+        1492,
+        63790,
+        13011,
+        1492,
+        3816,
+        48952,
+        26,
+        65329,
+        30743,
+        1492,
+        63790,
+        13011,
+        26,
+        43640,
+        65479,
+        1492,
+        43640,
+        65479,
+        26,
+        57748,
+        9332,
+        1492,
+        14637,
+        20467,
+        26,
+        15347,
+        11940,
+        1492,
+        279,
+        9332,
+        26,
+        15347,
+        11940,
+        1492,
+        65329,
+        30743,
+        26,
+        43640,
+        65479,
+        1492,
+        65329,
+        30743,
+        26,
+        18288,
+        8771,
+        1492,
+        36895,
+        9305,
+        26,
+        57748,
+        9332,
+        1492,
+        57748,
+        9332,
+        26,
+        63790,
+        13011,
+        1492,
+        65329,
+        30743,
+        26,
+        43640,
+        65479,
+        1492,
+        3816,
+        48952,
+        26,
+        65329,
+        30743,
+        1492,
+        3816,
+        48952,
+        26,
+        36895,
+        9305,
+        1492,
+        43640,
+        65479,
+        26,
+        63790,
+        13011,
+        1492,
+        86748,
+        9332,
+        26,
+        14637,
+        20467,
+        1492,
+        65329,
+        30743
+      ],
+      "text": " Fair Haven -> Sunset Beach -> Red Cliff; Elm Falls -> Sunset Beach; Copper Cove -> Copper Cove; Cedar Bay -> Stone Bridge; Silver Lake -> the Bay; Silver Lake -> Elm Falls; Copper Cove -> Elm Falls; Golden Field -> Eagle Rock; Cedar Bay -> Cedar Bay; Sunset Beach -> Elm Falls; Copper Cove -> Red Cliff; Elm Falls -> Red Cliff; Eagle Rock -> Copper Cove; Sunset Beach -> NOAA Bay; Stone Bridge -> Elm Falls",
+      "elapsed_seconds": 11.807127040985506,
+      "calls": {
+        "dit_cond": 96,
+        "dit_uncond": 96,
+        "dit_commit": 7,
+        "decoder": 7,
+        "encode": 1
+      }
+    }
+  }
+]

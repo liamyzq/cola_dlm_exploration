@@ -1,0 +1,22 @@
+{
+  "graphs": 128,
+  "samples": 512,
+  "parseable": 0.646484375,
+  "eligible": 0.0,
+  "success": 0.0,
+  "best_of_4": 0.0,
+  "total_worker_seconds": 5228.870411294105,
+  "median_sample_seconds": 9.794102794505307,
+  "gates": {
+    "parseable": false,
+    "eligible": false,
+    "success": false,
+    "best_of_4": false
+  },
+  "capability_gate_passed": false,
+  "eligibility_reasons": {
+    "branch_already_crossed": 2,
+    "no_full_block": 28,
+    "wrong_trunk": 482
+  }
+}

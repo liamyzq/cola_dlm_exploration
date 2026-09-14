@@ -2,20 +2,19 @@
 
 ## Current state
 
-Idea `001_same_prefix_state` is running P0 capability calibration. The [English protocol](experiments/001_same_prefix_state/PROTOCOL.md) preserves the user's staged study of same-prefix latent states. The first model is the released CoLa checkpoint, fully frozen; native noise resampling proposes alternatives to the last complete generated block.
+P0 capability calibration completed for idea `001_same_prefix_state`. All 32 engineering examples passed, but both route difficulties produced zero success and zero eligible roots across 512 samples each. See [the P0 report](experiments/001_same_prefix_state/results/P0_REPORT.md) for full counts, matched raw examples, and protocol qualifications.
 
-Source revision: `7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c`. Checkpoint revision: `c1eafdd9cfd8064aeb917d569ef70a075b353eed`. Nebula GPUs 5-8 are authorized. Environment and weights are ready. The 32-example engineering suite passed on GPUs 5-8; no scientific result for H1-H3 exists yet.
+## Observation and interpretation
 
-## Research question
+The released checkpoint often generates short routes and then invents new task examples. The binding blocker is obtaining a task distribution with meaningful success variation and eligible prefixes. Current evidence does not isolate demonstration-length mismatch from road-following difficulty. It provides no H1/H2/H3 result; those quantities are unmeasured.
 
-H1 asks whether exact same-token states under tight decoder KL have reproducible continuation-value variation. H2 asks whether independently evaluated selection improves over the reference. H3 asks whether a low-cost selector beats ordinary sampling under full compute accounting. Advance through the protocol's evidence gates; a failed gate must retain the distinction between task limitations and evidence about the hypotheses.
+The initial single-letter layout was revised before reward calibration because it lacked sufficient token length. The current task uses two-word town names and 10-12-town trunks. Some planned layouts still lack a complete intervention block; most exclusions are incorrect trunks rather than that layout issue.
 
 ## Next actions
 
-1. Completed: native-parity state engine, paired noise, and 32/32 remote engineering checks (001-p0-engineering-v1).
-2. Running: the two predefined route difficulties, each with 128 graphs and four samples, on GPUs 5-8 from frozen commit 3b1fb15 (001-p0-capability-v2). The full 32-example state-engine suite already passed.
-3. Run the 128-graph untrained pilot, then independent confirmation and downstream stages when their gates are supported.
+1. Preserve and explain the completed released-checkpoint calibration; no equivalent jobs remain active.
+2. Use a bounded, separately versioned capability diagnostic to distinguish prompt-format mismatch from graph-solving difficulty before committing to model adaptation.
+3. If needed, follow the plan's frozen-VAE/DiT-LoRA capability branch, clearly labeling all adapted-checkpoint results. No LoRA training has started.
+4. After capability and proposal gates pass, run P1 and independent P2, followed by the conditional selector, cost, and text-transfer stages.
 
-## Active work
-
-The four P0 workers run easy then hard calibration at `/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-p0-capability-v2-gpu{5,6,7,8}`. GPT-5.6 Luna (max) monitors their terminal status. The main agent will analyze complete graph-level outcomes and capability gates. No H1/H2 rollout measurement has been launched.
+The overall goal remains active; P1-P5 are incomplete. The end-to-end mechanism runner and proposal-calibration configuration are development drafts, not validated results.
