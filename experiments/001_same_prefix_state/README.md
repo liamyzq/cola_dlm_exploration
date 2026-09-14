@@ -1,28 +1,24 @@
-# 001_same_prefix_state: Future value beyond the emitted prefix
+# 001_same_prefix_state: Future information beyond emitted tokens
 
-Status: P0 implementation and capability calibration.
+Status: P0 completed; revised no-training R-series plan adopted. No R-series GPU experiment has run yet.
 
-Does the emitted token prefix adequately describe CoLa's continuation state? With all model weights frozen, use native block resampling to find latent alternatives that preserve the exact emitted tokens and closely preserve the decoder distribution. Test reproducible future-value differences, independent selection gains, and compute value in that order.
+Can naturally generated continuous states preserve exactly the same emitted tokens and closely preserve the decoder readout while changing future text distributions or task value? The released CoLa model remains frozen. The [active English protocol](PROTOCOL.md) separates H1a distribution effects, H1b task-value variation, H2 independent selection gain, and H3 equal-cost utility.
 
-The [English protocol](PROTOCOL.md) preserves the supplied experimental plan, including its conditional progression from P0 through P5. The base model is the official ByteDance-Seed/Cola-DLM release. No experimental evidence has been collected yet.
+The [supplied P0 audit](reviews/P0_review_no_training_plan_v2.md) and [adoption record](reviews/ADOPTION.md) explain the redesign. The [original protocol](archive/PROTOCOL_P0_v1.md) is historical; its default training progression no longer governs new work. LoRA and selector training are outside the current plan.
+
+## Established evidence
+
+The 32-example native-parity, state-replay, and cache suite passed. Original route calibration produced zero successful answers and zero eligible roots on both difficulties, 512 generations each. These are task-capability/eligibility results; H1a/H1b/H2/H3 remain unmeasured. See [the P0 report](results/P0_REPORT.md), [experiment ledger](../results.tsv), and [job history](../../jobs/jobs.jsonl).
+
+## Next work
+
+R0 reuses full existing records for layout/termination diagnosis. R1 checks official LAMBADA/SQuAD capability; R2 decomposes route difficulty with a 256-generation ceiling. R3 tests same-text candidates independently of route competence. Full generated blocks (F) and first mixed blocks with fixed prompt latents (M) are separate cohorts. R4 measures and independently confirms future-distribution effects; R5 conditionally tests reward gain and training-free compute value.
+
+The first milestone is a validated same-text pair and its acceptance/cost funnel. The study continues to supported independent confirmation and an evidence-based disposition of the remaining stages.
+
+## Runtime
 
 Source revision: `7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c`.
 Checkpoint revision: `c1eafdd9cfd8064aeb917d569ef70a075b353eed`.
 
-Use nebula physical GPU indices 5, 6, 7, and 8 only. Long-running monitoring belongs to a GPT-5.6 Luna subagent at max reasoning, with bounded status checks and terminal or actionable reports. The main agent owns implementation acceptance, scientific analysis, and conclusions.
-
-Run records will link the [experiment ledger](../results.tsv), [job history](../../jobs/jobs.jsonl), committed configurations, and artifacts under `/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/`.
-
-## Initial engineering evidence
-
-One GPU 5 smoke example passed exact token parity with official inference, pause/resume, identity replay (zero numerical KL), chronological cache reconstruction, read-only proposal history, AB/BA order independence, unchanged past tokens, and paired future noise. The route generator/scorer passed a 128-graph check of common trunks, multiple successful routes, and legal unsuccessful routes. Split-statistic checks cover future-split leakage, reference-first ties, signed heterogeneity, and single-candidate fallback. These establish implementation behavior, not H1-H3.
-
-The 32-example engineering suite passed in full at commit f9ecd7f. The two 128-graph/four-sample calibration configurations are the next P0 runs. Calibration uses a one-line answer termination policy: the emitted answer ends at the first newline after nonempty output. Fixed-horizon generation is retained for uniform cost accounting; raw generated text is saved, and text after the answer terminator is not part of the returned answer. The full answer line must parse as a single route. This policy is fixed before observing calibration rewards.
-
-The planned intervention boundary is computed before sampling from the official tokenization of the demonstrated common-trunk format. Eligibility validates the actually emitted prefix against the graph's trunk, allowing the route separators accepted by the public scorer. A root that has already crossed the first branch at that boundary is ineligible. This avoids conditioning boundary selection on future output or reward. Exact candidate token equality is unchanged. For alternate spacing, this is a fixed conservative boundary rather than a retrospectively selected last boundary; report any resulting branch-crossing exclusions.
-
-Before reward calibration, tokenizer checks showed that single-letter names with a 7-10-town trunk often leave no complete generated block after the partial prompt block (2/16 engineering-format examples). The route generator therefore uses meaningful two-word town names and a 10-12-town trunk, keeping 17-22 total towns. This adds actual route content rather than filler. The revised task/scorer passed 128 structural examples and 14/16 tokenizer boundary examples. Calibration configuration IDs advance to v2; no v1 reward calibration was run.
-
-## Prespecified interpretation of the mechanism stages
-
-The primary constraint remains epsilon=0.01. Sensitivity conditions are descriptive and cannot replace the primary result. Provided capability and candidate-coverage gates pass, P2 independently confirms the mechanism even if the small pilot is noisy. Train a value head only when the independently evaluated P2 gain has a 95% graph-bootstrap interval wholly above zero. Use a three-percentage-point practical improvement target when assessing precision; an interval spanning both zero and meaningful gains remains inconclusive. Do not call a failed route capability gate evidence that same-prefix latent states are equivalent.
+Use nebula GPUs 5-8 only. Primary files are in `/home/mlw0719/cola_dlm_exploration`; large artifacts are under `/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/`. Formal runs use committed detached worktrees. GPT-5.6 Luna at max reasoning monitors long waits; the main agent owns implementation and scientific decisions.

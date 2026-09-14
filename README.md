@@ -1,6 +1,6 @@
 # CoLA and Continuous DLM Exploration
 
-This repository supports idea exploration around CoLA DLM and related continuous diffusion language models. The released CoLa model is integrated through a resumable state engine using pinned official modules. Its 32-example native-parity and cache-replay suite passed; route-task capability calibration for the first idea is running.
+This repository supports idea exploration around CoLA DLM and related continuous diffusion language models. The released CoLa model is integrated through a resumable state engine using pinned official modules. Its 32-example native-parity and cache-replay suite passed; the first route calibration completed without successful answers or eligible roots. A revised no-training plan now separates capability from same-text state feasibility.
 
 ## Workspace
 
@@ -30,7 +30,7 @@ Use short-lived development branches for code changes. After baseline integratio
 - [PROGRESS.md](PROGRESS.md): current understanding, unresolved questions, and next actions.
 - [experiments/results.tsv](experiments/results.tsv): formal experimental facts and decisions.
 - [COMPUTE.md](COMPUTE.md): storage and compute procedures.
-- [jobs/jobs.jsonl](jobs/jobs.jsonl): actual job events, including the current nebula calibration workers.
+- [jobs/jobs.jsonl](jobs/jobs.jsonl): actual job events and completed nebula calibration workers.
 - [AGENTS.md](AGENTS.md): persistent project instructions, informed by `research-repo` and `ccf-humanization`.
 
-The first idea is [future value beyond the emitted prefix](experiments/001_same_prefix_state/README.md). Its [English protocol](experiments/001_same_prefix_state/PROTOCOL.md) specifies capability calibration, native same-token proposals, independent continuation-value measurement, and conditional selector and cost studies. No H1-H3 scientific result has been established yet.
+The first idea is [future value beyond the emitted prefix](experiments/001_same_prefix_state/README.md). Its [English protocol](experiments/001_same_prefix_state/PROTOCOL.md) specifies R0-R5: bounded capability diagnosis, native same-token F/M cohorts, independent distribution and value measurement, and a conditional training-free cost study. LoRA and learned selectors are outside the current plan. No H1a/H1b/H2/H3 scientific result has been established yet.

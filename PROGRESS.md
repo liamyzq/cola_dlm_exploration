@@ -2,19 +2,20 @@
 
 ## Current state
 
-P0 capability calibration completed for idea `001_same_prefix_state`. All 32 engineering examples passed, but both route difficulties produced zero success and zero eligible roots across 512 samples each. See [the P0 report](experiments/001_same_prefix_state/results/P0_REPORT.md) for full counts, matched raw examples, and protocol qualifications.
+The P0 audit has been incorporated and the [revised no-training protocol](experiments/001_same_prefix_state/PROTOCOL.md) governs idea 001. LoRA, model adaptation, and learned selectors are outside the current plan. R0-R5 have not yet produced new model results.
 
-## Observation and interpretation
+The best established implementation evidence remains 32 passing engineering examples. P0-v2 route calibration has zero success and zero eligible roots on both 512-sample difficulties; see [the report](experiments/001_same_prefix_state/results/P0_REPORT.md). H1a, H1b, H2, and H3 are unmeasured. All recorded P0 workers completed; no R-series job has been submitted.
 
-The released checkpoint often generates short routes and then invents new task examples. The binding blocker is obtaining a task distribution with meaningful success variation and eligible prefixes. Current evidence does not isolate demonstration-length mismatch from road-following difficulty. It provides no H1/H2/H3 result; those quantities are unmeasured.
+## Observation, inference, and decision
 
-The initial single-letter layout was revised before reward calibration because it lacked sufficient token length. The current task uses two-word town names and 10-12-town trunks. Some planned layouts still lack a complete intervention block; most exclusions are incorrect trunks rather than that layout issue.
+P0 establishes failure of the particular route task and eligibility rule. Requiring a full generated block led to longer trunks and multiword names, entangling mechanism access with uncalibrated route competence. The audit also identifies demo mismatch, confounded Easy/Hard settings, conservative anchors, and possible late context extrapolation. Its new static counts are attributed review evidence pending R0 reproduction, not new GPU findings.
+
+Decision: separate capability, candidate feasibility, distribution effects, and task value. Use natural continuation for F and separately validate M with known prompt latents fixed. Retain exact past token equality, strict initial KL, reward-blind proposals, independent A/B, and consistent caches. Report coverage and conditional reward rather than imposing the old universal route gates.
 
 ## Next actions
 
-1. Preserve and explain the completed released-checkpoint calibration; no equivalent jobs remain active.
-2. Use a bounded, separately versioned capability diagnostic to distinguish prompt-format mismatch from graph-solving difficulty before committing to model adaptation.
-3. If needed, follow the plan's frozen-VAE/DiT-LoRA capability branch, clearly labeling all adapted-checkpoint results. No LoRA training has started.
-4. After capability and proposal gates pass, run P1 and independent P2, followed by the conditional selector, cost, and text-transfer stages.
+1. R0: reproduce static layouts and inspect the full saved outputs for causal anchors and termination. Freeze the data and position rules for the revised cells.
+2. Implement and validate official capability plumbing, M invariants, H_token, and the complete candidate runner. Reuse settled unchanged-path engineering evidence.
+3. Run bounded R1/R2 diagnosis and R3 feasibility, then the development-selected R4 pilot and independent confirmation. Execute R5 only when conditional task value warrants it; report all skipped or inconclusive stages explicitly.
 
-The overall goal remains active; P1-P5 are incomplete. The end-to-end mechanism runner and proposal-calibration configuration are development drafts, not validated results.
+The immediate milestone is a validated same-text state pair with independent futures and measured acceptance/cost. The overall completion condition is the revised protocol's supported experiments and an evidence-based final report, not one positive pair. Original P3 learned-selector and P5 human-reviewed transfer work are deferred, not completed. Existing untracked proposal-runner/config drafts are unvalidated and do not implement the new R-series plan.

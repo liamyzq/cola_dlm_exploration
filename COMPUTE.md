@@ -26,9 +26,9 @@ Before downloading large assets, check the required space against current availa
 
 ## Execution state
 
-`git` and `python3` are available in the noninteractive SSH shell. `sbatch` was not found on that shell's PATH. GPU availability, allocation policy, model dependencies, and the training environment have not been established. This setup session launches no training or evaluation jobs.
+`git` and `python3` are available in the noninteractive SSH shell. `sbatch` was not found on that shell's PATH. The project environment and user-authorized GPU indices are documented below. The P0 workers completed; the revised study keeps the released checkpoint frozen and launches no training.
 
-Before the first compute run, establish the project's environment, appropriate GPU or scheduler access, and budget, then document the exact working launch procedure here and in `scripts/`. Do not train on a scheduler login node. Prefer nebula for representative smoke tests when its environment is ready.
+Use the documented environment and launcher below. Recheck permitted GPU availability before launching new work; the user authorization is for physical indices 5-8. Prefer nebula for representative smoke tests.
 
 Before an expensive run, read the job ledger and resolve any possibly equivalent active job, verify the chosen implementation commit, and allocate a unique output directory. Use the established launcher once one exists. Record actual job IDs or PIDs and observed state changes; never create placeholder job events.
 
@@ -46,7 +46,7 @@ Local HTTPS GitHub access failed because no HTTPS credentials were available in 
 
 The user authorizes physical `nvidia-smi` indices 5, 6, 7, and 8 for this study. Each is an RTX A6000 with 49,140 MiB. Use `CUDA_VISIBLE_DEVICES` to select only these indices; a single-GPU worker then uses logical `cuda:0`. At allocation inspection all four were idle. Do not terminate unrelated processes or use indices 0-4.
 
-The pinned upstream checkout is `/home/mlw0719/cola_dlm_exploration_storage/upstream/Cola-DLM` at `7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c`. Released weights are being prepared at `/home/mlw0719/cola_dlm_exploration_storage/checkpoints/Cola-DLM-c1eafdd`, revision `c1eafdd9cfd8064aeb917d569ef70a075b353eed` (approximately 9.3 GB). The project venv is `/home/mlw0719/cola_dlm_exploration_storage/venv`; it inherits the existing Python 3.12 / PyTorch 2.12 environment without modifying that environment. Resolved project dependencies will be recorded after the setup completes.
+The pinned upstream checkout is `/home/mlw0719/cola_dlm_exploration_storage/upstream/Cola-DLM` at `7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c`. Released weights are available at `/home/mlw0719/cola_dlm_exploration_storage/checkpoints/Cola-DLM-c1eafdd`, revision `c1eafdd9cfd8064aeb917d569ef70a075b353eed` (approximately 9.3 GB). The project venv is `/home/mlw0719/cola_dlm_exploration_storage/venv`; it inherits the existing Python 3.12 / PyTorch 2.12 environment without modifying that environment. Resolved core dependencies are recorded below.
 
 Long-running setup or experiment waits are delegated to GPT-5.6 Luna with max reasoning. Give the monitor job IDs, artifact paths, terminal conditions, and a check interval of at least 60 seconds. It reports completion, failure, or a decision-relevant anomaly; the main agent does not repeatedly poll unchanged jobs.
 
