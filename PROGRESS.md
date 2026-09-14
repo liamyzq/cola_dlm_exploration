@@ -2,9 +2,13 @@
 
 ## Active idea 002: task consequence and decoder geometry
 
-The supplied second protocol is active under `experiments/002_task_consequence_basin/`. P0 passes at `4393c75`: 16/16 paired-clean worlds, 64/64 exact target endpoints, input-gradient and native-recovery checks. The output pipeline smoke at `d4a4b0a` also passes. These establish measurement feasibility only; H1/H2 remain unmeasured. Fresh full decoder readout is retained because cached raw logits differ despite identical greedy tokens.
+The supplied second protocol is active under `experiments/002_task_consequence_basin/`. P0 passes at `4393c75`: 16/16 paired-clean worlds, 64/64 exact target endpoints, input-gradient and native-recovery checks. The output pipeline smoke at `d4a4b0a` also passes. These establish measurement feasibility only. Fresh full decoder readout is retained because cached raw logits differ despite identical greedy tokens.
 
-Fixed cohorts contain 16 smoke, 64 development and 256 test worlds, using the supplied templates/name pool. Next: lexical-only development calibration, then frozen P1/H1 and P2/H2 core measurements and interpretation controls. Natural-data and training stages remain extensions. Long waits use a monitor subagent; primary storage stays on nebula.
+The initial development grid missed the required lexical range. The single allowed refinement selects sigma_star=0.4 at 8.181% token disagreement, with 64/64 paired-clean worlds. H1 is frozen at 256 worlds and 16 paired seeds over [0.2,0.4,0.8,1.6]. Main random perturbation and the full 128-world fixed-budget search are launched from `ab3956f`; no task-role effect has yet been interpreted. The balanced search development probe completes 8 targets and 1,152 backward steps in 51.21 seconds, so the original search budget is retained.
+
+The separately calibrated sentence control selects sigma=0.44 at 12.144% lexical disagreement. All four interpretation controls are launched from `a2f9eba`. H2 development recovery at `d4a4b0a` is still awaiting completion; select lambda_star from its real-residual lexical disagreement before launching the main H2 and fixed CFG7 subset. Long waits belong to the monitor subagent. Exact live/terminal job evidence is in `jobs/jobs.jsonl`.
+
+Next: finish H2 calibration and freeze its test, then aggregate H1/search/H2 and controls with world-clustered intervals, perform the blinded parser-output audit, and render the core figures. Natural SQuAD and LoRA remain unactivated extensions. Raw artifacts and frozen worktrees stay on nebula; [P1 calibration](experiments/002_task_consequence_basin/results/P1_CALIBRATION.md) records the scale decision.
 
 ## Completed idea 001
 

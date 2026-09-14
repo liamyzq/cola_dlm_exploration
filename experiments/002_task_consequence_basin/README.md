@@ -1,6 +1,6 @@
 # 002_task_consequence_basin: Task consequence and latent decoder geometry
 
-Status: P0 measurement interface and output-pipeline smoke passed. Development calibration is next; H1/H2 are unmeasured. See [P0](results/P0_REPORT.md).
+Status: P0 passed, H1 calibration selected sigma=0.4, and main H1/search plus interpretation controls are launched. H2 development recovery is pending. No H1/H2 scientific conclusion yet. See [P0](results/P0_REPORT.md) and [the H1 freeze](results/P1_CALIBRATION.md).
 
 For the same source, complete answer, and fixed one-token replacement, does changing which field the question asks about change decoder protection? Does real denoising residual direction protect the currently critical field more than matched random channel rotations?
 
