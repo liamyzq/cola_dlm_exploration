@@ -20,7 +20,7 @@ def save(fig,out,name):
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--noise',required=True);p.add_argument('--recovery');p.add_argument('--search');p.add_argument('--output',required=True)
+    p=argparse.ArgumentParser();p.add_argument('--noise',required=True);p.add_argument('--recovery');p.add_argument('--search');p.add_argument('--geometry');p.add_argument('--output',required=True)
     args=p.parse_args();out=Path(args.output);out.mkdir(parents=True,exist_ok=True)
     plt.rcParams.update({'font.size':16,'axes.labelsize':18,'xtick.labelsize':16,'ytick.labelsize':16,'legend.fontsize':16,'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42})
     rows=json.loads(Path(args.noise).read_text());points=[r['point'] for r in rows]
@@ -52,5 +52,17 @@ def main():
                 ax.plot(x,[r[key]*100 for r in rows],'o-',label=label)
             ax.set(xlabel='RMS radius',ylabel='Exact-target search success (%)');ax.legend(title='Ray only' if mode=='ray' else 'Combined search')
         save(fig,out,'h1_fixed_search')
+
+    if args.geometry:
+        data=json.loads(Path(args.geometry).read_text())
+        fig,axes=plt.subplots(1,2,figsize=(15,5.5),layout='constrained')
+        for ax,outcome in zip(axes,['valid_wrong','damage']):
+            for name,label in [('baseline','Confidence + residual size'),('geometry','With geometry features')]:
+                bins=data['outcomes'][outcome]['scores'][name]['calibration']
+                ax.plot([r['predicted'] for r in bins],[r['observed'] for r in bins],'o-',label=label)
+            ax.plot([0,1],[0,1],linestyle='--',color='0.5',linewidth=1)
+            ax.set(xlabel='Predicted probability',ylabel='Observed field-error fraction',xlim=(0,1),ylim=(0,1))
+            ax.legend(title='Valid wrong value' if outcome=='valid_wrong' else 'Total field damage',loc='upper left')
+        save(fig,out,'geometry_prediction_calibration')
 
 if __name__=='__main__':main()
