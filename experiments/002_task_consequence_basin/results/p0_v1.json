@@ -1,0 +1,44 @@
+{
+  "checks_passed": true,
+  "worlds": 16,
+  "parser_cases": 80,
+  "clean_anchors": 32,
+  "paired_clean_worlds": 16,
+  "target_endpoints": 64,
+  "recovery": {
+    "native_euler_first_block_exact": true,
+    "prefix_exact": true,
+    "zero_time_exact": true,
+    "gram_relative_error": 5.960464477539063e-08,
+    "orthogonal_error": 2.384185791015625e-07,
+    "timestamps": [
+      1000.0,
+      937.5,
+      875.0,
+      812.5,
+      750.0,
+      687.5,
+      625.0,
+      562.5,
+      500.0,
+      437.5,
+      375.0,
+      312.5,
+      250.0,
+      187.5,
+      125.0,
+      62.5,
+      0.0
+    ],
+    "residual_rms": 0.10003595799207687,
+    "counts": {
+      "encode": 97,
+      "decode": 288,
+      "dit_cond": 56,
+      "dit_uncond": 56,
+      "dit_history": 6
+    }
+  },
+  "elapsed_seconds": 16.93956057302421,
+  "peak_memory_gb": 9.590124032
+}
