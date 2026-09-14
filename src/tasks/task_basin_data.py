@@ -62,11 +62,13 @@ def token_layout(tokenizer, world, query, variant='record'):
         _, target = text_parts(world,query,variant,field)
         alt = tokenizer.encode(prefix+target)
         diff = [i for i,(a,b) in enumerate(zip(enc.ids,alt.ids)) if a!=b]
-        if len(alt.ids)!=len(enc.ids) or len(diff)!=1 or diff[0]<p:
+        if not diff or diff[0]<p or (variant!='sentence' and (len(alt.ids)!=len(enc.ids) or len(diff)!=1)):
             raise ValueError('not_single_token_edit')
         # Locate the value in the answer using its keyed field or source clause.
         if variant=='sentence':
-            start = answer.index(world['values'][field])
+            family=(NUMBER if world['domain']=='number' else ENTITY)[world['template']]
+            clause=family[0].format(k=world['keys'][field],v=world['values'][field])
+            start=answer.index(clause)+clause.index(world['values'][field])
         else:
             marker=world['keys'][field].capitalize()+': '
             start=answer.index(marker)+len(marker)
@@ -179,8 +181,29 @@ def edit_distance(a,b):
     return row[-1]
 
 
+def parse_sentence(text,world):
+    template=(NUMBER if world['domain']=='number' else ENTITY)[world['template']][0]
+    values={k:[] for k in world['keys']}; invalid=set()
+    for clause in re.split(r'(?<=\.)\s+',text.strip()):
+        matched=False
+        for key in world['keys']:
+            pattern=re.escape(template.format(k=key,v='VALUE')).replace('VALUE',r'(.+?)')
+            match=re.fullmatch(pattern,clause,re.I)
+            if match:
+                value=normalize(match.group(1),world['domain']); matched=True
+                if value is None: invalid.add(key)
+                else: values[key].append(value)
+        if not matched:
+            for key in world['keys']:
+                if re.search(rf'\b{key}\b',clause,re.I): invalid.add(key)
+    return {k:None if k in invalid or len(set(values[k]))!=1 else values[k][0] for k in values},any(len(v)>1 for v in values.values())
+
+
 def score_output(world,layout,ids,text):
-    parsed,repeat=parse_record(text,world['keys'],world['domain'])
+    if world.get('variant')=='sentence':
+        parsed,repeat=parse_sentence(text,world)
+    else:
+        parsed,repeat=parse_record(text,world['keys'],world['domain'])
     status=['unparseable' if parsed[k] is None else 'correct' if parsed[k]==normalize(v,world['domain']) else 'valid_wrong'
             for k,v in zip(world['keys'],world['values'])]
     return dict(status=status,repetition=repeat,parsed=parsed,

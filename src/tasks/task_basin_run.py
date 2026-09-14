@@ -6,7 +6,7 @@ from pathlib import Path
 import time
 import torch
 from src.models.cola_basin import ColaBasin
-from src.tasks.task_basin_data import named_seed, score_output
+from src.tasks.task_basin_data import named_seed, score_output, token_layout
 
 
 def now():
@@ -35,6 +35,9 @@ def run(config,out,shard,shards):
     count=0; eligible=0; anchors=[]
     with (out/'records.jsonl').open('w') as stream, torch.no_grad():
         for world in worlds:
+            if config.get('variant'):
+                world=dict(world,variant=config['variant'])
+                world['layouts']=[token_layout(model.tokenizer,world,q,config['variant']) for q in (0,1)]
             clean=[]; metadata=[]
             for query,layout in enumerate(world['layouts']):
                 z=model.encode(layout['full_ids']); clean.append(z)
@@ -47,6 +50,8 @@ def run(config,out,shard,shards):
                 m['paired_clean']=paired; anchors.append(m)
             torch.save({'clean':[z.cpu() for z in clean]},out/'latents'/f"{world['world_id']}-clean.pt")
             for query,layout in enumerate(world['layouts']):
+                if config.get('variant')=='no_query' and query==1:
+                    continue
                 z=clean[query]; start=layout['prefix_length']; length=layout['answer_length']
                 base=dict(world_id=world['world_id'],world_index=world['index'],query=query,domain=world['domain'],
                     template=world['template'],paired_clean=paired,stage=config['stage'])
@@ -84,6 +89,10 @@ def run(config,out,shard,shards):
                             if config['stage']=='recovery':
                                 lp=logits.log_softmax(-1); row['mean_decoder_entropy']=float(-(lp.exp()*lp).sum(-1).mean())
                             stream.write(json.dumps(row)+'\n'); count+=1
+                        if config.get('variant')=='no_query':
+                            # One actual decode, two analysis-only role labels.
+                            twin=dict(row,query=1)
+                            stream.write(json.dumps(twin)+'\n');count+=1
                         stream.flush()
                 if residuals:
                     torch.save(residuals,out/'latents'/f"{world['world_id']}-q{query}-residuals.pt")
