@@ -1,0 +1,23 @@
+{
+  "experiment_id": "001-p0-calibration-easy-v1",
+  "phase": "P0",
+  "difficulty": "easy",
+  "graphs": 128,
+  "samples_per_graph": 4,
+  "graph_seed": 510001,
+  "noise_seed": 710000,
+  "euler_steps": 16,
+  "cfg": 7.0,
+  "greedy": true,
+  "repetition_penalty": 1.0,
+  "suffix_tokens": 64,
+  "source_revision": "7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c",
+  "checkpoint_revision": "c1eafdd9cfd8064aeb917d569ef70a075b353eed",
+  "gates": {
+    "parseable_min": 0.9,
+    "eligible_min": 0.8,
+    "success_min": 0.15,
+    "success_max": 0.75,
+    "best_of_4_min": 0.5
+  }
+}
