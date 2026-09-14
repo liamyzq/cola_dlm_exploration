@@ -1,0 +1,27 @@
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.DS_Store
+._*
+
+# Local credentials and environment state
+.env
+.env.*
+!.env.example
+
+# Large data and generated run artifacts belong in the nebula storage base
+/data/
+/datasets/
+/checkpoints/
+/outputs/
+/runs/
+/worktrees/
+/wandb/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.safetensors
