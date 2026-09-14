@@ -1,0 +1,7 @@
+# Blinded output review
+
+The main assistant reviewed all100 fixed items from `analysis-v1/blind_audit_v1/blind_items.jsonl` before opening the condition/parser key. This is a blinded assistant audit, not a human study. The reviewer saw domain, field keys, gold values, gold answer and output text; query role, method, noise scale, distance and parser labels were hidden. Labels are fixed in `blind_labels_v1.jsonl` before unblinding.
+
+Field judgments follow the declared output-only scalar grammar: correct, parsed changed value, or unparseable. Alphabetic entity labels can be parsed without proving that they denote a plausible person; full factual reading is recorded separately. Dangling conjunctions, possessives and orphan function words do not identify a complete entity. The whole-output judgment is correct when both gold facts are plainly conveyed, incorrect when an explicit alternative value contradicts a gold fact, and uncertain when omission or malformed meaning prevents judgment. Understandable facts can survive a delimiter error that the strict parser rejects.
+
+The fixed sample is stratified by cohort, domain, noise scale and predicted error type. Its agreement rate is a diagnostic for the scoring implementation, not an unbiased population accuracy estimate. Exact audit allocation and sampling provenance stay with the raw artifact. Any scoring correction must be applied uniformly to all retained outputs, while preserving original scores; model generations and the frozen primary points remain unchanged.

@@ -1,0 +1,100 @@
+{"audit_id": "A001", "expected_field_status": ["correct", "valid_wrong"], "whole_fact_status": "uncertain", "note": "Appended surname-like or extraneous text changes the exact entity label; identity preservation is uncertain."}
+{"audit_id": "A002", "expected_field_status": ["correct", "valid_wrong"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A003", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A004", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A005", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A006", "expected_field_status": ["correct", "valid_wrong"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A007", "expected_field_status": ["correct", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A008", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A009", "expected_field_status": ["valid_wrong", "correct"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A010", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A011", "expected_field_status": ["correct", "valid_wrong"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A012", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A013", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A014", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A015", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A016", "expected_field_status": ["unparseable", "correct"], "whole_fact_status": "correct", "note": "Period replaces the field delimiter; the fact association remains understandable."}
+{"audit_id": "A017", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A018", "expected_field_status": ["valid_wrong", "valid_wrong"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A019", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A020", "expected_field_status": ["valid_wrong", "valid_wrong"], "whole_fact_status": "uncertain", "note": "Changed alphabetic labels parse lexically but do not clearly identify plausible people."}
+{"audit_id": "A021", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A022", "expected_field_status": ["valid_wrong", "correct"], "whole_fact_status": "uncertain", "note": "Alphabetic replacement is a parsed changed label; semantic person identity is unclear."}
+{"audit_id": "A023", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A024", "expected_field_status": ["valid_wrong", "valid_wrong"], "whole_fact_status": "uncertain", "note": "Changed alphabetic labels are not clear person names."}
+{"audit_id": "A025", "expected_field_status": ["correct", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A026", "expected_field_status": ["unparseable", "correct"], "whole_fact_status": "uncertain", "note": "Dangling conjunction after Emma does not identify a complete single entity."}
+{"audit_id": "A027", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A028", "expected_field_status": ["valid_wrong", "correct"], "whole_fact_status": "uncertain", "note": "ENT is a changed lexical label, not a clearly identified person."}
+{"audit_id": "A029", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A030", "expected_field_status": ["valid_wrong", "correct"], "whole_fact_status": "uncertain", "note": "The alphabetic replacement is not a clear person name."}
+{"audit_id": "A031", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A032", "expected_field_status": ["correct", "unparseable"], "whole_fact_status": "correct", "note": "Missing colon; keyed numbers remain understandable."}
+{"audit_id": "A033", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A034", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A035", "expected_field_status": ["valid_wrong", "correct"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A036", "expected_field_status": ["correct", "valid_wrong"], "whole_fact_status": "uncertain", "note": "The alphabetic replacement is not a clear person name."}
+{"audit_id": "A037", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A038", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A039", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A040", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A041", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A042", "expected_field_status": ["valid_wrong", "correct"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A043", "expected_field_status": ["valid_wrong", "valid_wrong"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A044", "expected_field_status": ["unparseable", "correct"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A045", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": "Missing field separator and a number attached to the first entity."}
+{"audit_id": "A046", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A047", "expected_field_status": ["unparseable", "correct"], "whole_fact_status": "correct", "note": "Malformed delimiter; the keyed numbers remain understandable."}
+{"audit_id": "A048", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A049", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A050", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A051", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A052", "expected_field_status": ["correct", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A053", "expected_field_status": ["unparseable", "correct"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A054", "expected_field_status": ["unparseable", "correct"], "whole_fact_status": "uncertain", "note": "Dangling conjunction after Bob does not identify a complete single entity."}
+{"audit_id": "A055", "expected_field_status": ["correct", "unparseable"], "whole_fact_status": "correct", "note": "Extraneous closing parenthesis violates the declared numeric scalar grammar but preserves the visible value."}
+{"audit_id": "A056", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A057", "expected_field_status": ["correct", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A058", "expected_field_status": ["unparseable", "correct"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A059", "expected_field_status": ["valid_wrong", "correct"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A060", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A061", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A062", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A063", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A064", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A065", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A066", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A067", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A068", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A069", "expected_field_status": ["correct", "valid_wrong"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A070", "expected_field_status": ["correct", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A071", "expected_field_status": ["unparseable", "correct"], "whole_fact_status": "correct", "note": "Malformed delimiter; the keyed numbers remain understandable."}
+{"audit_id": "A072", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A073", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A074", "expected_field_status": ["valid_wrong", "correct"], "whole_fact_status": "uncertain", "note": "Changed alphabetic fragment is not a clear person name."}
+{"audit_id": "A075", "expected_field_status": ["correct", "valid_wrong"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A076", "expected_field_status": ["valid_wrong", "unparseable"], "whole_fact_status": "uncertain", "note": "Changed alphabetic fragment plus a missing second field."}
+{"audit_id": "A077", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A078", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A079", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A080", "expected_field_status": ["correct", "valid_wrong"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A081", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A082", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A083", "expected_field_status": ["valid_wrong", "correct"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A084", "expected_field_status": ["correct", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A085", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A086", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A087", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A088", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A089", "expected_field_status": ["correct", "valid_wrong"], "whole_fact_status": "incorrect", "note": ""}
+{"audit_id": "A090", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": "Orphan of and a dangling possessive do not identify complete entities."}
+{"audit_id": "A091", "expected_field_status": ["unparseable", "correct"], "whole_fact_status": "uncertain", "note": "Dangling conjunction after Oscar does not identify a complete single entity."}
+{"audit_id": "A092", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A093", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A094", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A095", "expected_field_status": ["correct", "unparseable"], "whole_fact_status": "correct", "note": "Period replaces the field delimiter; the fact association remains understandable."}
+{"audit_id": "A096", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A097", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A098", "expected_field_status": ["unparseable", "unparseable"], "whole_fact_status": "uncertain", "note": ""}
+{"audit_id": "A099", "expected_field_status": ["correct", "correct"], "whole_fact_status": "correct", "note": ""}
+{"audit_id": "A100", "expected_field_status": ["correct", "valid_wrong"], "whole_fact_status": "uncertain", "note": "The added word could be a surname or extraneous text; full identity preservation is uncertain."}
