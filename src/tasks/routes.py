@@ -4,6 +4,14 @@ import re
 import networkx as nx
 
 
+TOWN_NAMES = ['Cedar Bay', 'Maple Hill', 'Oak Harbor', 'Pine Valley', 'Willow Creek',
+              'Silver Lake', 'Golden Field', 'River Bend', 'Stone Bridge', 'Cherry Grove',
+              'Birch Point', 'Aspen Ridge', 'Elm Falls', 'Walnut Park', 'Meadow Brook',
+              'Copper Cove', 'Eagle Rock', 'Fox Hollow', 'Deer Run', 'Sunset Beach',
+              'Morning Star', 'Snow Peak', 'Green Wood', 'Blue Mountain', 'Red Cliff',
+              'Crystal Spring', 'Rose Garden', 'Sandy Shore', 'Clear Water', 'Fair Haven']
+
+
 DEMONSTRATIONS = [
     ('Roads: A -> B; B -> C; C -> D; B -> E; E -> D.\n'
      'Find a route from A to D that visits C.\n'
@@ -22,8 +30,8 @@ DEMONSTRATIONS = [
 
 def topology(rng, difficulty):
     # A common trunk, two routes through the waypoint, and one bypass route.
-    trunk_n = rng.randint(7, 10)
-    tail_n = rng.randint(7, 12)
+    trunk_n = rng.randint(10, 12)
+    tail_n = rng.randint(7, 10)
     n = min(22, trunk_n + tail_n)
     g = nx.DiGraph()
     g.add_nodes_from(range(n))
@@ -49,7 +57,7 @@ def topology(rng, difficulty):
 
 
 def make_task(graph, trunk, waypoint, target, rng, task_id, difficulty):
-    names = rng.sample(list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'), len(graph))
+    names = rng.sample(TOWN_NAMES, len(graph))
     roads = [(names[a], names[b]) for a,b in graph.edges]
     rng.shuffle(roads)
     demos = DEMONSTRATIONS[:4 if difficulty == 'easy' else 2]
@@ -87,9 +95,10 @@ def parse_route(text):
     # demonstration is outside this completion answer, as in few-shot benchmarks.
     line = text.strip().split('\n')[0].strip()
     line = re.split(r'<\|(?:endoftext|im_end)\|>', line, maxsplit=1)[0].strip()
-    if not re.fullmatch(r'[A-Z](?:\s*(?:->|→|,)\s*[A-Z])+\.?', line):
+    route = re.split(r'\s*(?:->|→|,)\s*', line.removesuffix('.'))
+    if len(route) < 2 or not all(re.fullmatch(r'[A-Za-z]+(?: [A-Za-z]+)*', town) for town in route):
         return None
-    return re.findall(r'[A-Z]', line)
+    return route
 
 
 def score(task, text):
@@ -126,12 +135,15 @@ def eligible(task, tokenizer, prompt_token_count, emitted_ids):
     fragment = tokenizer.decode(ids[:boundary], skip_special_tokens=False)
     # Check the actual observed prefix against graph structure. This is root
     # eligibility only; candidate acceptance still uses exact token IDs.
-    pattern = r'\s*[A-Z](?:\s*(?:->|→|,)\s*[A-Z])*(?:\s*(?:-|->|→|,)\s*)?'
-    if not re.fullmatch(pattern, fragment):
-        return False, 'prefix_format', boundary
-    towns = re.findall(r'[A-Z]', fragment)
+    fragment = fragment.strip()
+    # The final token can end inside a town name or an arrow. Completed towns
+    # must equal the trunk; the final segment must be a prefix of its next town.
+    fragment = re.sub(r'\s*-$', '', fragment)
+    towns = re.split(r'\s*(?:->|→|,)\s*', fragment)
     if len(towns) > len(task['trunk']):
         return False, 'branch_already_crossed', boundary
-    if towns != task['trunk'][:len(towns)]:
+    if any(town != task['trunk'][i] for i, town in enumerate(towns[:-1])):
+        return False, 'wrong_trunk', boundary
+    if not task['trunk'][len(towns)-1].startswith(towns[-1]):
         return False, 'wrong_trunk', boundary
     return True, 'eligible', boundary
