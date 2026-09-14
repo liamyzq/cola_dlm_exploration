@@ -41,3 +41,11 @@ Frozen worktree creation and synchronization procedures are in [docs/workflow.md
 ## Known access behavior
 
 Local HTTPS GitHub access failed because no HTTPS credentials were available in the shell. The existing SSH authentication successfully accessed this repository from both the local machine and nebula. Use `git@github.com:liamyzq/cola_dlm_exploration.git`; no credential changes are needed.
+
+## Idea 001 allocation and environment
+
+The user authorizes physical `nvidia-smi` indices 5, 6, 7, and 8 for this study. Each is an RTX A6000 with 49,140 MiB. Use `CUDA_VISIBLE_DEVICES` to select only these indices; a single-GPU worker then uses logical `cuda:0`. At allocation inspection all four were idle. Do not terminate unrelated processes or use indices 0-4.
+
+The pinned upstream checkout is `/home/mlw0719/cola_dlm_exploration_storage/upstream/Cola-DLM` at `7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c`. Released weights are being prepared at `/home/mlw0719/cola_dlm_exploration_storage/checkpoints/Cola-DLM-c1eafdd`, revision `c1eafdd9cfd8064aeb917d569ef70a075b353eed` (approximately 9.3 GB). The project venv is `/home/mlw0719/cola_dlm_exploration_storage/venv`; it inherits the existing Python 3.12 / PyTorch 2.12 environment without modifying that environment. Resolved project dependencies will be recorded after the setup completes.
+
+Long-running setup or experiment waits are delegated to GPT-5.6 Luna with max reasoning. Give the monitor job IDs, artifact paths, terminal conditions, and a check interval of at least 60 seconds. It reports completion, failure, or a decision-relevant anomaly; the main agent does not repeatedly poll unchanged jobs.
