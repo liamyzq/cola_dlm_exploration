@@ -1,0 +1,41 @@
+{
+  "stage": "recovery",
+  "selection": "paired-clean lexical disagreement closest to 0.10; smaller point breaks ties",
+  "chosen_point": 0.5,
+  "measurement_range_valid": true,
+  "grid": [
+    {
+      "point": 0.125,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.25,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.5,
+      "lexical_disagreement": 0.15205078125000002,
+      "any_field_damage": 0.6083984375,
+      "unparseable_fraction": 0.43408203125,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.75,
+      "lexical_disagreement": 0.7485107421875,
+      "any_field_damage": 0.9990234375,
+      "unparseable_fraction": 0.9677734375,
+      "worlds": 64,
+      "records": 1024
+    }
+  ],
+  "role_effects_used_for_selection": false
+}
