@@ -1,0 +1,45 @@
+{
+  "experiment_id": "001-r1-official-capability-v1",
+  "commit": "699dacde51720e02c34012b3ca0b57500ce94a48",
+  "reused_commit": "a97cf2c45b02adf27a7771d7365125ab4e2bbbe9",
+  "native_source_revision": "7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c",
+  "samples": 256,
+  "reused_samples": 8,
+  "paired_token_and_replay_checks": 8,
+  "default_penalty_control": true,
+  "tasks": {
+    "lambada": {
+      "samples": 128,
+      "correct": 63,
+      "accuracy": 0.4921875,
+      "wilson_item_ci95": [
+        0.4070774941965585,
+        0.5777527707452151
+      ],
+      "native_worker_seconds": 433.9486760357104,
+      "block_counts": {
+        "1": 0,
+        "2": 128
+      }
+    },
+    "squad": {
+      "samples": 128,
+      "correct": 43,
+      "accuracy": 0.3359375,
+      "wilson_item_ci95": [
+        0.2599537727882833,
+        0.4214817909889617
+      ],
+      "native_worker_seconds": 468.5132356250251,
+      "block_counts": {
+        "1": 0,
+        "2": 128
+      }
+    }
+  },
+  "artifacts": [
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r1-official-capability-v1-gpu6",
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r1-official-capability-v1-gpu7",
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r1-official-capability-v1-gpu8"
+  ]
+}

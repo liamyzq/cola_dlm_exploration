@@ -25,7 +25,7 @@ H1a alone does not establish hidden planning, useful task control, information b
 
 Restore the same complete pre-block snapshot for every proposal: earlier generated latents, DiT cache, decoder cache, emitted tokens, and positions. Commit candidate blocks through the normal consistent state path. Do not patch cache tails. Native proposals resample block-initial Gaussian noise and run the released sampler to completion.
 
-Use native 16-step Euler, CFG 7, greedy decoding, and repetition penalty 1 for the initial mechanism setting. The current engine implements argmax and no repetition processing; these settings agree, but changing a configuration field alone does not implement an ablation. R1 must inspect effective official settings and extraction. H1a observes 32 future tokens; official capability checks retain the official 32-token generation limit and block-rounding behavior. Any task-specific horizon is fixed before its run and its actual generated cost is recorded.
+Use native 16-step Euler, CFG 7, greedy decoding, and repetition penalty 1 for the initial mechanism setting. The mechanism engine uses argmax at penalty 1. R1 also implements the pinned official repetition processor at penalty 1.1, with paired token/replay validation. R1 must inspect effective official settings and extraction. H1a observes 32 future tokens; official capability checks retain the official 32-token generation limit and block-rounding behavior. Any task-specific horizon is fixed before its run and its actual generated cost is recorded.
 
 ## Separate intervention cohorts
 

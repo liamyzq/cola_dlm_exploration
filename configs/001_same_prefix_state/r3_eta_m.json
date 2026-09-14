@@ -1,0 +1,37 @@
+{
+  "experiment_id": "001-r3-eta-m-v1",
+  "phase": "R3 eta development",
+  "cohort": "M",
+  "data": "/home/mlw0719/cola_dlm_exploration_storage/datasets/001_natural_continuation_v1/development.jsonl",
+  "root_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "etas": [
+    0.01,
+    0.03,
+    0.1,
+    0.3
+  ],
+  "epsilon": 0.01,
+  "max_proposals": 8,
+  "candidate_count": 2,
+  "euler_steps": 16,
+  "cfg": 7.0,
+  "repetition_penalty": 1.0,
+  "reference_noise_seed": 91000000,
+  "proposal_noise_seed": 191000000,
+  "primary_metric": "live_roots_with_effectively_distinct_exact_token_KL_accepted_pair",
+  "comparator": "reference native state; eta arms share the same reference",
+  "budget": "Eight fixed roots, four eta arms, at most eight proposals per arm; no future rollouts",
+  "selection_rule": "Among eta values with maximal accepted-pair root coverage, choose the largest; inspect effective state displacement without reading future rewards.",
+  "stopping_rule": "Exhaust the fixed development subset; no resampling to fill coverage. R3 collection uses roots8..127 after eta is locked.",
+  "source_revision": "7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c",
+  "checkpoint_revision": "c1eafdd9cfd8064aeb917d569ef70a075b353eed"
+}

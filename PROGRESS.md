@@ -2,22 +2,22 @@
 
 ## Current state
 
-The [revised no-training protocol](experiments/001_same_prefix_state/PROTOCOL.md) governs idea 001. R0 has completed the full saved-output audit and prepared fixed official capability inputs; see [R0 report](experiments/001_same_prefix_state/results/R0_REPORT.md). No R-series GPU generation or training has run. H1a/H1b/H2/H3 are unmeasured.
+R1 capability completed: LAMBADA 63/128 (49.22%), SQuAD 43/128 (33.59%) on fixed released fixtures using pinned official inference/scoring. All eight paired token/replay checks and the default-penalty control passed. See [R1 report](experiments/001_same_prefix_state/results/R1_REPORT.md).
 
-The unchanged engine has 32 passing engineering examples at penalty 1.0. P0-v2 still has zero successful routes and zero eligible original full-block roots in both 512-sample difficulties. All submitted P0 and R0 workers are terminal; no equivalent job remains active.
+R0 reproduced the static audit and all 1,024 P0 scores. Earlier F route roots remain unavailable; M has 76 Easy and 61 Hard compatible prefixes. Original route success remains zero. See [R0 report](experiments/001_same_prefix_state/results/R0_REPORT.md). H1a/H1b/H2/H3 are still unmeasured.
 
-## Observation, inference, and decision
+## Observation and decision
 
-R0 reproduces the supplied audit's static counts and the original scores on all 1,024 saved generations. Earlier causal full-block selection gives no eligible roots. The first mixed block yields 76/512 Easy and 61/512 Hard compatible live prefixes. These may end inside a town name and are not yet candidate pairs. Correct first edges occur in only 22 and 11 returned answers.
+The released checkpoint works on the official task formats; long-route failure is not evidence that the checkpoint is generally unusable. Continue route-independent F and separately validated M. Keep model weights frozen, exact emitted IDs, strict initial KL, independent A/B, and consistent caches. No LoRA or learned selector is in scope.
 
-Decision: validate M with fixed known prompt latents and test route-independent F natural continuation. Do not make long-route competence a prerequisite for state feasibility. Keep strict token/KL constraints, independent A/B, and consistent caches. Do not train LoRA or a learned selector.
+The H1a kernel passed explicit-feature, signed-split, identity, EOS, and source-cluster checks. Natural continuation inputs now contain 128 development and 128 confirmation articles, disjoint by source document. These are engineering/data preparation outcomes, not measured state effects.
 
-Official data preparation recovers 128 fixed items per task from pinned released evaluation fixtures, excluding published predictions from selection. All prompts match official templates. Only 1 LAMBADA and 15 SQuAD gold answers cross M, so these subsets are capability controls rather than a large ready-made H2 set. Official repetition penalty is 1.1; current engine default is 1.0, requiring an explicit paired R1 path.
+## Active work and next actions
 
-## Next actions
+The 16-case M/F engineering suite `001-r3-m-engineering-v1` completed successfully on GPUs 6-8 from commit `7e757d8`. All prompt remainders 0..15 passed. Eight cases yielded accepted alternatives; this engineering sample does not estimate natural-passage coverage. R1 and M workers are terminal. Next is candidate-artifact replay validation and reward-blind eta calibration.
 
-1. Complete official R1 inference and targeted wrapper parity, preserving effective penalty, special-token stopping, prompts, and official extraction.
-2. Implement and validate M and H_token, prepare source-document F continuation inputs, and run bounded R2/R3 diagnostics and feasibility.
-3. Lock one setting from development evidence for R4 pilot and independent distribution confirmation. Run R5 only when conditional task value warrants it; report skipped or inconclusive stages explicitly.
+1. Complete M validation, then freeze and run R3 native candidate feasibility on natural passages. Implement the complete R4 continuation runner with explicit independent A/B noise and full cost records.
+2. Run the bounded R2 Copy/Chain/Branch/Matched-full diagnosis, keeping route and natural-continuation results separate.
+3. Lock the primary setting for R4 pilot and independent confirmation; run R5 only when conditional task-value evidence warrants it.
 
-The first milestone is a validated native same-text pair with independent futures and measured acceptance/cost. Completion still requires the supported revised experiments and an evidence-based final report. Original selector training and human-reviewed transfer are deferred, not completed. Existing untracked P0 proposal-runner/config drafts are unvalidated and must not be launched as the R-series implementation.
+The goal remains active. One same-text pair is a milestone, not completion. Finish the supported revised experiments and record a clear disposition for every conditional stage; training and the original human-reviewed transfer study remain deferred. The old untracked P0 proposal-runner/config drafts are not the R-series implementation.

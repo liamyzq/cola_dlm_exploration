@@ -1,0 +1,942 @@
+{
+  "experiment": "001-r3-m-engineering-v1",
+  "cases": [
+    {
+      "remainder": 0,
+      "cohort": "F",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and",
+      "prompt_tokens": 32,
+      "free_positions": 16,
+      "clean_conditioning_forward_checks": 96,
+      "candidates": 1,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88000200,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "F",
+          "free_positions": 16,
+          "known_latents_equal": true,
+          "kl_sum": 0.013979560612446066,
+          "kl_max": 0.006603801641219716,
+          "delta_norm": 0.26481249928474426,
+          "dit_input_bf16_delta_norm": 0.2769959568977356,
+          "elapsed_seconds": 1.6239745070051868,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        },
+        {
+          "attempt": 1,
+          "seed": 88000201,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "F",
+          "free_positions": 16,
+          "known_latents_equal": true,
+          "kl_sum": 0.024027552612562425,
+          "kl_max": 0.011319207574847712,
+          "delta_norm": 0.24453550577163696,
+          "dit_input_bf16_delta_norm": 0.2480626106262207,
+          "elapsed_seconds": 1.6237128479988314,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 3,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local",
+      "prompt_tokens": 35,
+      "free_positions": 13,
+      "clean_conditioning_forward_checks": 96,
+      "candidates": 1,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88003200,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 13,
+          "known_latents_equal": true,
+          "kl_sum": 0.04230338835494246,
+          "kl_max": 0.023139258299083115,
+          "delta_norm": 0.25155165791511536,
+          "dit_input_bf16_delta_norm": 0.2582259178161621,
+          "elapsed_seconds": 1.644500241993228,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        },
+        {
+          "attempt": 1,
+          "seed": 88003201,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 13,
+          "known_latents_equal": true,
+          "kl_sum": 0.058897275633167365,
+          "kl_max": 0.029092345777772997,
+          "delta_norm": 0.24953830242156982,
+          "dit_input_bf16_delta_norm": 0.2558833956718445,
+          "elapsed_seconds": 1.6403971849940717,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 6,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had donated",
+      "prompt_tokens": 38,
+      "free_positions": 10,
+      "clean_conditioning_forward_checks": 64,
+      "candidates": 2,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88006200,
+          "accepted": true,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": false,
+          "cohort": "M",
+          "free_positions": 10,
+          "known_latents_equal": true,
+          "kl_sum": 5.297526604770311e-05,
+          "kl_max": 4.005220972689445e-05,
+          "delta_norm": 0.21494202315807343,
+          "dit_input_bf16_delta_norm": 0.21847817301750183,
+          "elapsed_seconds": 1.6348786200105678,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 9,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had donated over many years. Near the window, a wooden table held a notebook with careful drawings of birds",
+      "prompt_tokens": 57,
+      "free_positions": 7,
+      "clean_conditioning_forward_checks": 64,
+      "candidates": 2,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88009200,
+          "accepted": true,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": false,
+          "cohort": "M",
+          "free_positions": 7,
+          "known_latents_equal": true,
+          "kl_sum": 9.028694375257108e-06,
+          "kl_max": 6.940371321822467e-06,
+          "delta_norm": 0.1445431113243103,
+          "dit_input_bf16_delta_norm": 0.14971081912517548,
+          "elapsed_seconds": 1.706067257997347,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 12,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had donated over many years. Near the",
+      "prompt_tokens": 44,
+      "free_positions": 4,
+      "clean_conditioning_forward_checks": 64,
+      "candidates": 2,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88012200,
+          "accepted": true,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": false,
+          "cohort": "M",
+          "free_positions": 4,
+          "known_latents_equal": true,
+          "kl_sum": 3.948267388807617e-05,
+          "kl_max": 3.8085418861336585e-05,
+          "delta_norm": 0.12269491702318192,
+          "dit_input_bf16_delta_norm": 0.12847548723220825,
+          "elapsed_seconds": 1.7148530060076155,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 15,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had donated over many years. Near the window, a",
+      "prompt_tokens": 47,
+      "free_positions": 1,
+      "clean_conditioning_forward_checks": 64,
+      "candidates": 2,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88015200,
+          "accepted": true,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": false,
+          "cohort": "M",
+          "free_positions": 1,
+          "known_latents_equal": true,
+          "kl_sum": 1.0987145346151422e-06,
+          "kl_max": 1.0987145346151422e-06,
+          "delta_norm": 0.0441824235022068,
+          "dit_input_bf16_delta_norm": 0.04494840279221535,
+          "elapsed_seconds": 1.6637472510046791,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 1,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools",
+      "prompt_tokens": 33,
+      "free_positions": 15,
+      "clean_conditioning_forward_checks": 96,
+      "candidates": 1,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88001200,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 15,
+          "known_latents_equal": true,
+          "kl_sum": 0.03202718996845272,
+          "kl_max": 0.026211499923204575,
+          "delta_norm": 0.3315424919128418,
+          "dit_input_bf16_delta_norm": 0.33084267377853394,
+          "elapsed_seconds": 1.711291212006472,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        },
+        {
+          "attempt": 1,
+          "seed": 88001201,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 15,
+          "known_latents_equal": true,
+          "kl_sum": 0.03661000663564194,
+          "kl_max": 0.03108715938556187,
+          "delta_norm": 0.3423389494419098,
+          "dit_input_bf16_delta_norm": 0.3482527434825897,
+          "elapsed_seconds": 1.7106601639825385,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 4,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families",
+      "prompt_tokens": 36,
+      "free_positions": 12,
+      "clean_conditioning_forward_checks": 96,
+      "candidates": 1,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88004200,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 12,
+          "known_latents_equal": true,
+          "kl_sum": 0.0033935161163017712,
+          "kl_max": 0.002920877277313545,
+          "delta_norm": 0.20890472829341888,
+          "dit_input_bf16_delta_norm": 0.21359878778457642,
+          "elapsed_seconds": 1.692785609018756,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        },
+        {
+          "attempt": 1,
+          "seed": 88004201,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 12,
+          "known_latents_equal": true,
+          "kl_sum": 0.016885902520278225,
+          "kl_max": 0.016136006487251907,
+          "delta_norm": 0.2362939417362213,
+          "dit_input_bf16_delta_norm": 0.24549400806427002,
+          "elapsed_seconds": 1.6972447320003994,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 7,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had donated over",
+      "prompt_tokens": 39,
+      "free_positions": 9,
+      "clean_conditioning_forward_checks": 96,
+      "candidates": 1,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88007200,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 9,
+          "known_latents_equal": true,
+          "kl_sum": 0.003300455020425778,
+          "kl_max": 0.003080776936437108,
+          "delta_norm": 0.3214632272720337,
+          "dit_input_bf16_delta_norm": 0.3258960247039795,
+          "elapsed_seconds": 1.6869645680126268,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        },
+        {
+          "attempt": 1,
+          "seed": 88007201,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 9,
+          "known_latents_equal": true,
+          "kl_sum": 0.0032318938638666,
+          "kl_max": 0.0029595769499271393,
+          "delta_norm": 0.3406691253185272,
+          "dit_input_bf16_delta_norm": 0.350657194852829,
+          "elapsed_seconds": 1.716717928997241,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 10,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had donated over many years.",
+      "prompt_tokens": 42,
+      "free_positions": 6,
+      "clean_conditioning_forward_checks": 64,
+      "candidates": 2,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88010200,
+          "accepted": true,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": false,
+          "cohort": "M",
+          "free_positions": 6,
+          "known_latents_equal": true,
+          "kl_sum": 0.00013896963429937725,
+          "kl_max": 0.0001362539979998997,
+          "delta_norm": 0.18191927671432495,
+          "dit_input_bf16_delta_norm": 0.18236176669597626,
+          "elapsed_seconds": 1.7270917590067256,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 13,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had donated over many years. Near the window, a wooden table held a notebook with careful drawings of birds and plants. Children",
+      "prompt_tokens": 61,
+      "free_positions": 3,
+      "clean_conditioning_forward_checks": 64,
+      "candidates": 2,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88013200,
+          "accepted": true,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": false,
+          "cohort": "M",
+          "free_positions": 3,
+          "known_latents_equal": true,
+          "kl_sum": 1.4894088931038454e-06,
+          "kl_max": 1.1688645307561847e-06,
+          "delta_norm": 0.08377570658922195,
+          "dit_input_bf16_delta_norm": 0.08425221592187881,
+          "elapsed_seconds": 1.6938030910096131,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 2,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that",
+      "prompt_tokens": 34,
+      "free_positions": 14,
+      "clean_conditioning_forward_checks": 96,
+      "candidates": 1,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88002200,
+          "accepted": false,
+          "same_tokens": false,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 14,
+          "known_latents_equal": true,
+          "kl_sum": 12.130751307774721,
+          "kl_max": 12.122741923051898,
+          "delta_norm": 2.403463125228882,
+          "dit_input_bf16_delta_norm": 2.4063711166381836,
+          "elapsed_seconds": 1.702076836983906,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        },
+        {
+          "attempt": 1,
+          "seed": 88002201,
+          "accepted": false,
+          "same_tokens": false,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 14,
+          "known_latents_equal": true,
+          "kl_sum": 12.318597040895419,
+          "kl_max": 12.310735290042055,
+          "delta_norm": 2.4139983654022217,
+          "dit_input_bf16_delta_norm": 2.417933940887451,
+          "elapsed_seconds": 1.7550985389971174,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 5,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had",
+      "prompt_tokens": 37,
+      "free_positions": 11,
+      "clean_conditioning_forward_checks": 96,
+      "candidates": 1,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88005200,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 11,
+          "known_latents_equal": true,
+          "kl_sum": 0.10583227846308566,
+          "kl_max": 0.08598923653678481,
+          "delta_norm": 0.37885984778404236,
+          "dit_input_bf16_delta_norm": 0.3753739595413208,
+          "elapsed_seconds": 1.6930454230168834,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        },
+        {
+          "attempt": 1,
+          "seed": 88005201,
+          "accepted": false,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 11,
+          "known_latents_equal": true,
+          "kl_sum": 0.018596596258363917,
+          "kl_max": 0.008884021752722683,
+          "delta_norm": 0.2834663391113281,
+          "dit_input_bf16_delta_norm": 0.29242509603500366,
+          "elapsed_seconds": 1.7254194199922495,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 8,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had donated over many",
+      "prompt_tokens": 40,
+      "free_positions": 8,
+      "clean_conditioning_forward_checks": 96,
+      "candidates": 1,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88008200,
+          "accepted": false,
+          "same_tokens": false,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 8,
+          "known_latents_equal": true,
+          "kl_sum": 0.02754654124047735,
+          "kl_max": 0.022490331899126074,
+          "delta_norm": 0.20552587509155273,
+          "dit_input_bf16_delta_norm": 0.20571811497211456,
+          "elapsed_seconds": 1.7336331729893573,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        },
+        {
+          "attempt": 1,
+          "seed": 88008201,
+          "accepted": false,
+          "same_tokens": false,
+          "duplicate": false,
+          "effective_cache_duplicate": null,
+          "cohort": "M",
+          "free_positions": 8,
+          "known_latents_equal": true,
+          "kl_sum": 0.03569342383017255,
+          "kl_max": 0.026433086146410288,
+          "delta_norm": 0.2492339164018631,
+          "dit_input_bf16_delta_norm": 0.25373879075050354,
+          "elapsed_seconds": 1.726094481011387,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 11,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had donated over many years. Near",
+      "prompt_tokens": 43,
+      "free_positions": 5,
+      "clean_conditioning_forward_checks": 64,
+      "candidates": 2,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88011200,
+          "accepted": true,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": false,
+          "cohort": "M",
+          "free_positions": 5,
+          "known_latents_equal": true,
+          "kl_sum": 7.218029081560374e-05,
+          "kl_max": 6.508561262070231e-05,
+          "delta_norm": 0.11137666553258896,
+          "dit_input_bf16_delta_norm": 0.1134684681892395,
+          "elapsed_seconds": 1.685567908018129,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    },
+    {
+      "remainder": 14,
+      "cohort": "M",
+      "status": "pass",
+      "prompt": "The museum opened its doors on a quiet morning. Visitors walked through the courtyard before entering the main gallery. A guide described the photographs, letters, maps, and tools that local families had donated over many years. Near the window,",
+      "prompt_tokens": 46,
+      "free_positions": 2,
+      "clean_conditioning_forward_checks": 64,
+      "candidates": 2,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seed": 88014200,
+          "accepted": true,
+          "same_tokens": true,
+          "duplicate": false,
+          "effective_cache_duplicate": false,
+          "cohort": "M",
+          "free_positions": 2,
+          "known_latents_equal": true,
+          "kl_sum": 0.00012839271521628289,
+          "kl_max": 0.00012834514844619187,
+          "delta_norm": 0.09634894877672195,
+          "dit_input_bf16_delta_norm": 0.09758786857128143,
+          "elapsed_seconds": 1.6615857309952844,
+          "calls": {
+            "dit_cond": 16,
+            "dit_uncond": 16,
+            "dit_commit": 1,
+            "decoder": 1,
+            "encode": 0
+          }
+        }
+      ],
+      "checks": [
+        "identity",
+        "known_latents",
+        "known_noise",
+        "every_step_clean_conditioning",
+        "prompt_positions",
+        "accepted_tokens",
+        "cache_rebuild",
+        "penalty_context",
+        "AB_BA_order",
+        "paired_future_noise"
+      ]
+    }
+  ],
+  "interpretation": "Engineering validation only; no population acceptance or future-distribution inference."
+}
