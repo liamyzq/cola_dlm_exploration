@@ -1,0 +1,10 @@
+{
+  "analysis_commit": "52244c9c04a2e4628bd2a4b7678e5a55b0d6d812",
+  "manual_labels_commit": "2853772",
+  "audit_completed": true,
+  "audit_type": "blinded assistant review; repaired-set agreement is not independent validation",
+  "original_analysis_preserved": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/analysis-v1",
+  "primary_tests_exactly_unchanged": true,
+  "formal_jobs_completed": 36,
+  "model_regenerations_for_scorer_repair": 0
+}

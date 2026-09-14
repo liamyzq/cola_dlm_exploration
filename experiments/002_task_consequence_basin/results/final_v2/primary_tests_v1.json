@@ -1,0 +1,26 @@
+{
+  "H1": {
+    "point": 0.4,
+    "metric": "protection",
+    "estimate": -0.00048828125,
+    "ci95": [
+      -0.0020751953125,
+      0.001220703125
+    ],
+    "raw_p": 0.6160767846430714,
+    "nondegenerate": true,
+    "holm_p": 1.0
+  },
+  "H2": {
+    "point": 0.5,
+    "metric": "G_selective",
+    "estimate": -0.00091552734375,
+    "ci95": [
+      -0.0036026000976562495,
+      0.001953125
+    ],
+    "raw_p": 0.5358928214357128,
+    "nondegenerate": true,
+    "holm_p": 1.0
+  }
+}

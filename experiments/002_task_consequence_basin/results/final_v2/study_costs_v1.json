@@ -1,0 +1,1306 @@
+{
+  "scope": "All idea-002 formal submissions retained in the job ledger, including calibration and controls.",
+  "accounting": "Worker wall time is launch timestamp to observed exit-file timestamp. Concurrent workers share GPUs; summed worker hours are not dedicated GPU-hours. Reported measurement timers can omit model loading. Call totals cover the instrumented model interfaces.",
+  "p0_count_note": "The P0 native-parity path makes one additional direct clean-history DiT call outside its counter; other native sample-block calls use the shared counter. Scientific run workers use the instrumented recovery path.",
+  "jobs": 36,
+  "groups": [
+    {
+      "experiment": "002-p0-v1",
+      "jobs": 1,
+      "successful_jobs": 1,
+      "instrumented_calls": {
+        "encode": 97,
+        "decode": 288,
+        "dit_cond": 56,
+        "dit_uncond": 56,
+        "dit_history": 6
+      },
+      "source_count_adjustments": {
+        "dit_history": 1
+      },
+      "accounted_calls": {
+        "encode": 97,
+        "dit_history": 7,
+        "decode": 288,
+        "dit_uncond": 56,
+        "dit_cond": 56
+      },
+      "units": {
+        "worlds": 16
+      },
+      "summed_worker_wall_hours": 0.007322314116689894,
+      "reported_elapsed_seconds_sum": 16.93956057302421
+    },
+    {
+      "experiment": "002-runner-smoke-v1",
+      "jobs": 1,
+      "successful_jobs": 1,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 96,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 32,
+        "dit_history": 0,
+        "decode": 96,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 16,
+        "records": 64
+      },
+      "summed_worker_wall_hours": 0.003575828406545851,
+      "reported_elapsed_seconds_sum": 3.4802530389861204
+    },
+    {
+      "experiment": "002-p1-dev-noise-v1",
+      "jobs": 4,
+      "successful_jobs": 4,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 10368,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 128,
+        "dit_history": 0,
+        "decode": 10368,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 64,
+        "records": 10240
+      },
+      "summed_worker_wall_hours": 0.052762412163946365,
+      "reported_elapsed_seconds_sum": 149.1784258969128
+    },
+    {
+      "experiment": "002-p2-dev-recovery-v1",
+      "jobs": 4,
+      "successful_jobs": 4,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 20608,
+        "dit_cond": 45344,
+        "dit_uncond": 45344,
+        "dit_history": 6976
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 128,
+        "dit_history": 6976,
+        "decode": 20608,
+        "dit_uncond": 45344,
+        "dit_cond": 45344
+      },
+      "units": {
+        "worlds": 64,
+        "records": 20480
+      },
+      "summed_worker_wall_hours": 1.9914495570129818,
+      "reported_elapsed_seconds_sum": 7128.053618165024
+    },
+    {
+      "experiment": "002-p1-dev-noise-refinement-v1",
+      "jobs": 2,
+      "successful_jobs": 2,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 7296,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 128,
+        "dit_history": 0,
+        "decode": 7296,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 64,
+        "records": 7168
+      },
+      "summed_worker_wall_hours": 0.044534414807955426,
+      "reported_elapsed_seconds_sum": 141.13471932307584
+    },
+    {
+      "experiment": "002-sentence-dev-v1",
+      "jobs": 2,
+      "successful_jobs": 2,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 13440,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 128,
+        "dit_history": 0,
+        "decode": 13440,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 64,
+        "records": 13312
+      },
+      "summed_worker_wall_hours": 0.07691335797309876,
+      "reported_elapsed_seconds_sum": 256.8113109600381
+    },
+    {
+      "experiment": "002-search-dev-v1",
+      "jobs": 1,
+      "successful_jobs": 1,
+      "instrumented_calls": {
+        "encode": 12,
+        "decode": 1964,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 12,
+        "dit_history": 0,
+        "decode": 1964,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 2,
+        "targets": 8,
+        "backward_steps": 1152,
+        "native_verifications": 808
+      },
+      "summed_worker_wall_hours": 0.017109507653448316,
+      "reported_elapsed_seconds_sum": 51.207599093031604
+    },
+    {
+      "experiment": "002-p1-test-noise-v1",
+      "jobs": 4,
+      "successful_jobs": 4,
+      "instrumented_calls": {
+        "encode": 512,
+        "decode": 33280,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 512,
+        "dit_history": 0,
+        "decode": 33280,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 256,
+        "records": 32768
+      },
+      "summed_worker_wall_hours": 0.26847899271382225,
+      "reported_elapsed_seconds_sum": 929.1823492730036
+    },
+    {
+      "experiment": "002-p1-test-search-v1",
+      "jobs": 4,
+      "successful_jobs": 4,
+      "instrumented_calls": {
+        "encode": 768,
+        "decode": 125088,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 768,
+        "dit_history": 0,
+        "decode": 125088,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 128,
+        "targets": 512,
+        "backward_steps": 73728,
+        "native_verifications": 51104
+      },
+      "summed_worker_wall_hours": 0.9214773938390943,
+      "reported_elapsed_seconds_sum": 3263.561475274095
+    },
+    {
+      "experiment": "002-control-source_recoverability-v1",
+      "jobs": 1,
+      "successful_jobs": 1,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 1280,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 128,
+        "dit_history": 0,
+        "decode": 1280,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 64,
+        "records": 1152
+      },
+      "summed_worker_wall_hours": 0.017125926481352912,
+      "reported_elapsed_seconds_sum": 49.76659034198383
+    },
+    {
+      "experiment": "002-control-no_query-v1",
+      "jobs": 1,
+      "successful_jobs": 1,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 1152,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 128,
+        "dit_history": 0,
+        "decode": 1152,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 64,
+        "records": 2048
+      },
+      "summed_worker_wall_hours": 0.016330506205558776,
+      "reported_elapsed_seconds_sum": 49.66170429199701
+    },
+    {
+      "experiment": "002-control-query_only-v1",
+      "jobs": 1,
+      "successful_jobs": 1,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 2176,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 128,
+        "dit_history": 0,
+        "decode": 2176,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 64,
+        "records": 2048
+      },
+      "summed_worker_wall_hours": 0.021741771366861132,
+      "reported_elapsed_seconds_sum": 68.97987739398377
+    },
+    {
+      "experiment": "002-control-sentence-v1",
+      "jobs": 1,
+      "successful_jobs": 1,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 2176,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 128,
+        "dit_history": 0,
+        "decode": 2176,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 64,
+        "records": 2048
+      },
+      "summed_worker_wall_hours": 0.021672154002719456,
+      "reported_elapsed_seconds_sum": 68.72999023500597
+    },
+    {
+      "experiment": "002-geometry-features-v1",
+      "jobs": 1,
+      "successful_jobs": 1,
+      "instrumented_calls": {
+        "encode": 256,
+        "decode": 768,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 256,
+        "dit_history": 0,
+        "decode": 768,
+        "dit_uncond": 0,
+        "dit_cond": 0
+      },
+      "units": {
+        "worlds": 128,
+        "features": 512
+      },
+      "summed_worker_wall_hours": 0.007605911162164476,
+      "reported_elapsed_seconds_sum": 16.833984034950845
+    },
+    {
+      "experiment": "002-p2-test-recovery-v1",
+      "jobs": 4,
+      "successful_jobs": 4,
+      "instrumented_calls": {
+        "encode": 512,
+        "decode": 82432,
+        "dit_cond": 106496,
+        "dit_uncond": 106496,
+        "dit_history": 16384
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 512,
+        "dit_history": 16384,
+        "decode": 82432,
+        "dit_uncond": 106496,
+        "dit_cond": 106496
+      },
+      "units": {
+        "worlds": 256,
+        "records": 81920
+      },
+      "summed_worker_wall_hours": 4.414217660294638,
+      "reported_elapsed_seconds_sum": 15854.485218674992
+    },
+    {
+      "experiment": "002-p2-cfg7-control-v1",
+      "jobs": 4,
+      "successful_jobs": 4,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 20608,
+        "dit_cond": 26624,
+        "dit_uncond": 26624,
+        "dit_history": 4096
+      },
+      "source_count_adjustments": {},
+      "accounted_calls": {
+        "encode": 128,
+        "dit_history": 4096,
+        "decode": 20608,
+        "dit_uncond": 26624,
+        "dit_cond": 26624
+      },
+      "units": {
+        "worlds": 64,
+        "records": 20480
+      },
+      "summed_worker_wall_hours": 1.5515462050173017,
+      "reported_elapsed_seconds_sum": 5548.407703872013
+    }
+  ],
+  "runs": [
+    {
+      "experiment": "002-p0-v1",
+      "job_id": "2223799",
+      "commit": "4393c75c32abe426bd1259312be7c7a59156d051",
+      "config": "configs/002_task_consequence_basin/p0.json",
+      "gpu": 6,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p0-v1",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 97,
+        "decode": 288,
+        "dit_cond": 56,
+        "dit_uncond": 56,
+        "dit_history": 6
+      },
+      "source_count_adjustments": {
+        "dit_history": 1
+      },
+      "reported_elapsed_seconds": 16.93956057302421,
+      "peak_memory_gb": 9.590124032,
+      "launch_to_exit_seconds": 26.360330820083618,
+      "units": {
+        "worlds": 16
+      }
+    },
+    {
+      "experiment": "002-runner-smoke-v1",
+      "job_id": "2228678",
+      "commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "config": "configs/002_task_consequence_basin/p0_runner.json",
+      "gpu": 6,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-runner-smoke-v1",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 96,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 3.4802530389861204,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 12.872982263565063,
+      "units": {
+        "worlds": 16,
+        "records": 64
+      }
+    },
+    {
+      "experiment": "002-p1-dev-noise-v1",
+      "job_id": "2236155",
+      "commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "config": "configs/002_task_consequence_basin/p1_dev_noise.json",
+      "gpu": 5,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-v1-gpu5",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 2592,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 38.12347381195286,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 47.93751621246338,
+      "units": {
+        "worlds": 16,
+        "records": 2560
+      }
+    },
+    {
+      "experiment": "002-p1-dev-noise-v1",
+      "job_id": "2236161",
+      "commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "config": "configs/002_task_consequence_basin/p1_dev_noise.json",
+      "gpu": 6,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-v1-gpu6",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 2592,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 45.21305149997352,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 55.77101397514343,
+      "units": {
+        "worlds": 16,
+        "records": 2560
+      }
+    },
+    {
+      "experiment": "002-p1-dev-noise-v1",
+      "job_id": "2236166",
+      "commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "config": "configs/002_task_consequence_basin/p1_dev_noise.json",
+      "gpu": 7,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-v1-gpu7",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 2592,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 33.330198996991385,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 43.51735186576843,
+      "units": {
+        "worlds": 16,
+        "records": 2560
+      }
+    },
+    {
+      "experiment": "002-p1-dev-noise-v1",
+      "job_id": "2236189",
+      "commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "config": "configs/002_task_consequence_basin/p1_dev_noise.json",
+      "gpu": 8,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-v1-gpu8",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 2592,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 32.51170158799505,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 42.718801736831665,
+      "units": {
+        "worlds": 16,
+        "records": 2560
+      }
+    },
+    {
+      "experiment": "002-p2-dev-recovery-v1",
+      "job_id": "2242824",
+      "commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "config": "configs/002_task_consequence_basin/p1_dev_recovery.json",
+      "gpu": 5,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-dev-recovery-v1-gpu5",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 5152,
+        "dit_cond": 11648,
+        "dit_uncond": 11648,
+        "dit_history": 1792
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 1940.2836060770205,
+      "peak_memory_gb": 9.783524864,
+      "launch_to_exit_seconds": 1950.186954498291,
+      "units": {
+        "worlds": 16,
+        "records": 5120
+      }
+    },
+    {
+      "experiment": "002-p2-dev-recovery-v1",
+      "job_id": "2242830",
+      "commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "config": "configs/002_task_consequence_basin/p1_dev_recovery.json",
+      "gpu": 6,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-dev-recovery-v1-gpu6",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 5152,
+        "dit_cond": 11648,
+        "dit_uncond": 11648,
+        "dit_history": 1792
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 1924.1271848870092,
+      "peak_memory_gb": 9.783524864,
+      "launch_to_exit_seconds": 1935.4901492595673,
+      "units": {
+        "worlds": 16,
+        "records": 5120
+      }
+    },
+    {
+      "experiment": "002-p2-dev-recovery-v1",
+      "job_id": "2242836",
+      "commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "config": "configs/002_task_consequence_basin/p1_dev_recovery.json",
+      "gpu": 7,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-dev-recovery-v1-gpu7",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 5152,
+        "dit_cond": 11648,
+        "dit_uncond": 11648,
+        "dit_history": 1792
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 1669.446905720979,
+      "peak_memory_gb": 9.783524864,
+      "launch_to_exit_seconds": 1679.3766903877258,
+      "units": {
+        "worlds": 16,
+        "records": 5120
+      }
+    },
+    {
+      "experiment": "002-p2-dev-recovery-v1",
+      "job_id": "2242843",
+      "commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "config": "configs/002_task_consequence_basin/p1_dev_recovery.json",
+      "gpu": 8,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-dev-recovery-v1-gpu8",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 5152,
+        "dit_cond": 10400,
+        "dit_uncond": 10400,
+        "dit_history": 1600
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 1594.1959214800154,
+      "peak_memory_gb": 9.783524864,
+      "launch_to_exit_seconds": 1604.1646111011505,
+      "units": {
+        "worlds": 16,
+        "records": 5120
+      }
+    },
+    {
+      "experiment": "002-p1-dev-noise-refinement-v1",
+      "job_id": "2246790",
+      "commit": "7f5315d5c3418896b454acc27ad1f56a68a5a2f5",
+      "config": "configs/002_task_consequence_basin/p1_dev_noise_refinement.json",
+      "gpu": 7,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-refinement-v1-gpu7",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 64,
+        "decode": 3648,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 65.66465828404762,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 75.02190732955933,
+      "units": {
+        "worlds": 32,
+        "records": 3584
+      }
+    },
+    {
+      "experiment": "002-p1-dev-noise-refinement-v1",
+      "job_id": "2246795",
+      "commit": "7f5315d5c3418896b454acc27ad1f56a68a5a2f5",
+      "config": "configs/002_task_consequence_basin/p1_dev_noise_refinement.json",
+      "gpu": 8,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-refinement-v1-gpu8",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 64,
+        "decode": 3648,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 75.47006103902822,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 85.3019859790802,
+      "units": {
+        "worlds": 32,
+        "records": 3584
+      }
+    },
+    {
+      "experiment": "002-sentence-dev-v1",
+      "job_id": "2252222",
+      "commit": "494f083733948224514434b657cd0163e08e8824",
+      "config": "configs/002_task_consequence_basin/p1_dev_sentence.json",
+      "gpu": 7,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-sentence-dev-v1-gpu7",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 64,
+        "decode": 6720,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 119.05559722403996,
+      "peak_memory_gb": 2.355890176,
+      "launch_to_exit_seconds": 128.86530256271362,
+      "units": {
+        "worlds": 32,
+        "records": 6656
+      }
+    },
+    {
+      "experiment": "002-sentence-dev-v1",
+      "job_id": "2252228",
+      "commit": "494f083733948224514434b657cd0163e08e8824",
+      "config": "configs/002_task_consequence_basin/p1_dev_sentence.json",
+      "gpu": 8,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-sentence-dev-v1-gpu8",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 64,
+        "decode": 6720,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 137.75571373599814,
+      "peak_memory_gb": 2.355890176,
+      "launch_to_exit_seconds": 148.0227861404419,
+      "units": {
+        "worlds": 32,
+        "records": 6656
+      }
+    },
+    {
+      "experiment": "002-search-dev-v1",
+      "job_id": "2255341",
+      "commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "config": "configs/002_task_consequence_basin/p1_search_dev.json",
+      "gpu": 5,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-search-dev-v1",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 12,
+        "decode": 1964,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 51.207599093031604,
+      "peak_memory_gb": 2.571864576,
+      "launch_to_exit_seconds": 61.59422755241394,
+      "units": {
+        "worlds": 2,
+        "targets": 8,
+        "backward_steps": 1152,
+        "native_verifications": 808
+      }
+    },
+    {
+      "experiment": "002-p1-test-noise-v1",
+      "job_id": "2267500",
+      "commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "config": "configs/002_task_consequence_basin/p1_test_noise.json",
+      "gpu": 5,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-noise-v1-gpu5",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 8320,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 256.9024719549925,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 266.5073845386505,
+      "units": {
+        "worlds": 64,
+        "records": 8192
+      }
+    },
+    {
+      "experiment": "002-p1-test-noise-v1",
+      "job_id": "2267505",
+      "commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "config": "configs/002_task_consequence_basin/p1_test_noise.json",
+      "gpu": 6,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-noise-v1-gpu6",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 8320,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 250.6671533479821,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 259.875390291214,
+      "units": {
+        "worlds": 64,
+        "records": 8192
+      }
+    },
+    {
+      "experiment": "002-p1-test-noise-v1",
+      "job_id": "2267510",
+      "commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "config": "configs/002_task_consequence_basin/p1_test_noise.json",
+      "gpu": 7,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-noise-v1-gpu7",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 8320,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 211.33918738301145,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 220.66681742668152,
+      "units": {
+        "worlds": 64,
+        "records": 8192
+      }
+    },
+    {
+      "experiment": "002-p1-test-noise-v1",
+      "job_id": "2267515",
+      "commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "config": "configs/002_task_consequence_basin/p1_test_noise.json",
+      "gpu": 8,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-noise-v1-gpu8",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 8320,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 210.2735365870176,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 219.4747815132141,
+      "units": {
+        "worlds": 64,
+        "records": 8192
+      }
+    },
+    {
+      "experiment": "002-p1-test-search-v1",
+      "job_id": "2267520",
+      "commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "config": "configs/002_task_consequence_basin/p1_test_search.json",
+      "gpu": 5,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-search-v1-gpu5",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 192,
+        "decode": 31312,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 882.6485551100341,
+      "peak_memory_gb": 2.571864576,
+      "launch_to_exit_seconds": 896.6739180088043,
+      "units": {
+        "worlds": 32,
+        "targets": 128,
+        "backward_steps": 18432,
+        "native_verifications": 12816
+      }
+    },
+    {
+      "experiment": "002-p1-test-search-v1",
+      "job_id": "2267525",
+      "commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "config": "configs/002_task_consequence_basin/p1_test_search.json",
+      "gpu": 6,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-search-v1-gpu6",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 192,
+        "decode": 31152,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 891.5168533230317,
+      "peak_memory_gb": 2.571864576,
+      "launch_to_exit_seconds": 904.532636642456,
+      "units": {
+        "worlds": 32,
+        "targets": 128,
+        "backward_steps": 18432,
+        "native_verifications": 12656
+      }
+    },
+    {
+      "experiment": "002-p1-test-search-v1",
+      "job_id": "2267530",
+      "commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "config": "configs/002_task_consequence_basin/p1_test_search.json",
+      "gpu": 7,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-search-v1-gpu7",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 192,
+        "decode": 31248,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 753.3643353510415,
+      "peak_memory_gb": 2.571864576,
+      "launch_to_exit_seconds": 766.7571060657501,
+      "units": {
+        "worlds": 32,
+        "targets": 128,
+        "backward_steps": 18432,
+        "native_verifications": 12752
+      }
+    },
+    {
+      "experiment": "002-p1-test-search-v1",
+      "job_id": "2267535",
+      "commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "config": "configs/002_task_consequence_basin/p1_test_search.json",
+      "gpu": 8,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-search-v1-gpu8",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 192,
+        "decode": 31376,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 736.0317314899876,
+      "peak_memory_gb": 2.571864576,
+      "launch_to_exit_seconds": 749.3549571037292,
+      "units": {
+        "worlds": 32,
+        "targets": 128,
+        "backward_steps": 18432,
+        "native_verifications": 12880
+      }
+    },
+    {
+      "experiment": "002-control-source_recoverability-v1",
+      "job_id": "2270734",
+      "commit": "a2f9ebab8a247ec52e9abd93d4935942600f5c17",
+      "config": "configs/002_task_consequence_basin/control_source_recoverability.json",
+      "gpu": 5,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-control-source_recoverability-v1",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 1280,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 49.76659034198383,
+      "peak_memory_gb": null,
+      "launch_to_exit_seconds": 61.65333533287048,
+      "units": {
+        "worlds": 64,
+        "records": 1152
+      }
+    },
+    {
+      "experiment": "002-control-no_query-v1",
+      "job_id": "2270739",
+      "commit": "a2f9ebab8a247ec52e9abd93d4935942600f5c17",
+      "config": "configs/002_task_consequence_basin/control_no_query.json",
+      "gpu": 6,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-control-no_query-v1",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 1152,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 49.66170429199701,
+      "peak_memory_gb": 2.348271104,
+      "launch_to_exit_seconds": 58.7898223400116,
+      "units": {
+        "worlds": 64,
+        "records": 2048
+      }
+    },
+    {
+      "experiment": "002-control-query_only-v1",
+      "job_id": "2270745",
+      "commit": "a2f9ebab8a247ec52e9abd93d4935942600f5c17",
+      "config": "configs/002_task_consequence_basin/control_query_only.json",
+      "gpu": 7,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-control-query_only-v1",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 2176,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 68.97987739398377,
+      "peak_memory_gb": 2.344777728,
+      "launch_to_exit_seconds": 78.27037692070007,
+      "units": {
+        "worlds": 64,
+        "records": 2048
+      }
+    },
+    {
+      "experiment": "002-control-sentence-v1",
+      "job_id": "2270750",
+      "commit": "a2f9ebab8a247ec52e9abd93d4935942600f5c17",
+      "config": "configs/002_task_consequence_basin/control_sentence.json",
+      "gpu": 8,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-control-sentence-v1",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 2176,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 68.72999023500597,
+      "peak_memory_gb": 2.356579328,
+      "launch_to_exit_seconds": 78.01975440979004,
+      "units": {
+        "worlds": 64,
+        "records": 2048
+      }
+    },
+    {
+      "experiment": "002-geometry-features-v1",
+      "job_id": "2284398",
+      "commit": "edafcad7b3e3437d747cee945deea4db297a24d4",
+      "config": "configs/002_task_consequence_basin/geometry_features.json",
+      "gpu": 8,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-geometry-features-v1",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 256,
+        "decode": 768,
+        "dit_cond": 0,
+        "dit_uncond": 0,
+        "dit_history": 0
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 16.833984034950845,
+      "peak_memory_gb": null,
+      "launch_to_exit_seconds": 27.381280183792114,
+      "units": {
+        "worlds": 128,
+        "features": 512
+      }
+    },
+    {
+      "experiment": "002-p2-test-recovery-v1",
+      "job_id": "2293707",
+      "commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "config": "configs/002_task_consequence_basin/p2_test_recovery.json",
+      "gpu": 5,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-test-recovery-v1-gpu5",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 20608,
+        "dit_cond": 26624,
+        "dit_uncond": 26624,
+        "dit_history": 4096
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 4169.572172715969,
+      "peak_memory_gb": 9.783376896,
+      "launch_to_exit_seconds": 4178.558509349823,
+      "units": {
+        "worlds": 64,
+        "records": 20480
+      }
+    },
+    {
+      "experiment": "002-p2-test-recovery-v1",
+      "job_id": "2293716",
+      "commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "config": "configs/002_task_consequence_basin/p2_test_recovery.json",
+      "gpu": 6,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-test-recovery-v1-gpu6",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 20608,
+        "dit_cond": 26624,
+        "dit_uncond": 26624,
+        "dit_history": 4096
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 4296.955838273978,
+      "peak_memory_gb": 9.783376896,
+      "launch_to_exit_seconds": 4305.873724222183,
+      "units": {
+        "worlds": 64,
+        "records": 20480
+      }
+    },
+    {
+      "experiment": "002-p2-test-recovery-v1",
+      "job_id": "2293721",
+      "commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "config": "configs/002_task_consequence_basin/p2_test_recovery.json",
+      "gpu": 7,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-test-recovery-v1-gpu7",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 20608,
+        "dit_cond": 26624,
+        "dit_uncond": 26624,
+        "dit_history": 4096
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 3715.45585806499,
+      "peak_memory_gb": 9.783376896,
+      "launch_to_exit_seconds": 3724.722862958908,
+      "units": {
+        "worlds": 64,
+        "records": 20480
+      }
+    },
+    {
+      "experiment": "002-p2-test-recovery-v1",
+      "job_id": "2293726",
+      "commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "config": "configs/002_task_consequence_basin/p2_test_recovery.json",
+      "gpu": 8,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-test-recovery-v1-gpu8",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 128,
+        "decode": 20608,
+        "dit_cond": 26624,
+        "dit_uncond": 26624,
+        "dit_history": 4096
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 3672.5013496200554,
+      "peak_memory_gb": 9.783376896,
+      "launch_to_exit_seconds": 3682.028480529785,
+      "units": {
+        "worlds": 64,
+        "records": 20480
+      }
+    },
+    {
+      "experiment": "002-p2-cfg7-control-v1",
+      "job_id": "2293731",
+      "commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "config": "configs/002_task_consequence_basin/p2_cfg7_control.json",
+      "gpu": 5,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-cfg7-control-v1-gpu5",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 5152,
+        "dit_cond": 6656,
+        "dit_uncond": 6656,
+        "dit_history": 1024
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 1498.0428016019869,
+      "peak_memory_gb": 9.783376896,
+      "launch_to_exit_seconds": 1507.3953590393066,
+      "units": {
+        "worlds": 16,
+        "records": 5120
+      }
+    },
+    {
+      "experiment": "002-p2-cfg7-control-v1",
+      "job_id": "2293736",
+      "commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "config": "configs/002_task_consequence_basin/p2_cfg7_control.json",
+      "gpu": 6,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-cfg7-control-v1-gpu6",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 5152,
+        "dit_cond": 6656,
+        "dit_uncond": 6656,
+        "dit_history": 1024
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 1487.1160652880208,
+      "peak_memory_gb": 9.783376896,
+      "launch_to_exit_seconds": 1496.6291916370392,
+      "units": {
+        "worlds": 16,
+        "records": 5120
+      }
+    },
+    {
+      "experiment": "002-p2-cfg7-control-v1",
+      "job_id": "2293741",
+      "commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "config": "configs/002_task_consequence_basin/p2_cfg7_control.json",
+      "gpu": 7,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-cfg7-control-v1-gpu7",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 5152,
+        "dit_cond": 6656,
+        "dit_uncond": 6656,
+        "dit_history": 1024
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 1282.0171766930143,
+      "peak_memory_gb": 9.783376896,
+      "launch_to_exit_seconds": 1291.273274898529,
+      "units": {
+        "worlds": 16,
+        "records": 5120
+      }
+    },
+    {
+      "experiment": "002-p2-cfg7-control-v1",
+      "job_id": "2293746",
+      "commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "config": "configs/002_task_consequence_basin/p2_cfg7_control.json",
+      "gpu": 8,
+      "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-cfg7-control-v1-gpu8",
+      "exit_code": 0,
+      "instrumented_calls": {
+        "encode": 32,
+        "decode": 5152,
+        "dit_cond": 6656,
+        "dit_uncond": 6656,
+        "dit_history": 1024
+      },
+      "source_count_adjustments": {},
+      "reported_elapsed_seconds": 1281.2316602889914,
+      "peak_memory_gb": 9.783376896,
+      "launch_to_exit_seconds": 1290.2685124874115,
+      "units": {
+        "worlds": 16,
+        "records": 5120
+      }
+    }
+  ]
+}

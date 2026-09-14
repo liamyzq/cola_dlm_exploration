@@ -1,28 +1,26 @@
 # 002_task_consequence_basin: Task consequence and latent decoder geometry
 
-Status: P0, H1 random corruption, fixed-budget search, and the four interpretation controls are complete. H1 shows no positive primary protection signal; the output audit is pending. H2 is frozen at lambda_star=0.5 and the full CFG1 test is running under monitor-subagent supervision. The CFG7 control completed all 20,480 readouts. See [H1 readout](results/H1_REPORT.md) and [H2 calibration](results/P2_CALIBRATION.md).
+Status: core study complete. P0, H1 random corruption and fixed-budget search, H2 real/rotated residuals, CFG7 and interpretation controls, predictive analyses, and the blinded assistant audit are complete. Both primary effects are near zero with nondegenerate intervals inside the declared +/-2 percentage-point band. No training or natural/native-generation extension was activated.
 
-For the same source, complete answer, and fixed one-token replacement, does changing which field the question asks about change decoder protection? Does real denoising residual direction protect the currently critical field more than matched random channel rotations?
+Read the [final report](results/FINAL_REPORT.md), [completion audit](reviews/CORE_COMPLETION_AUDIT.md), and [execution protocol](PROTOCOL.md). The original H1 report is retained as an interim parser-v1 record. Final evidence and PDF/PNG figures are under `results/final_v2/`.
 
-The [execution protocol](PROTOCOL.md) implements the user-supplied proposal. The user subsequently supplied `task_consequence_basin_experiment_protocol_v1.md`; its exact templates, name pool and search settings govern this execution. The English execution protocol records implementation choices and departures.
+This idea tests encoded-reference conditional reconstruction: for the same source, complete answer, and fixed one-token replacement, does changing the queried field change decoder protection? Does real denoising residual direction preferentially protect that field relative to matched channel rotations? Idea 001 remains a separate native same-prefix study.
 
-Use the pinned shared official model and existing nebula launcher. The first idea's native same-prefix intervention remains a separate completed study; these are encoded-reference conditional reconstruction experiments.
+Primary storage is `/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/`. All 36 formal jobs have observed successful terminal events. Original artifacts remain unchanged; `rescored-v2/` applies the audited parser uniformly and `analysis-v2/` contains the final analysis. The original 100-item audit sample was retained after repair. Manual labels were committed before unblinding.
 
-Records use the shared experiment and job ledgers. Compact reports belong in `results/`; raw outputs belong under `/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/`.
+## Reproduce the final analysis
 
-## Continue after H2 completion
-
-The main group is `002-p2-test-recovery-v1-gpu5` through `gpu8` (64 worlds / 20,480 readouts each) ; the completed CFG7 group is `002-p2-cfg7-control-v1-gpu5` through `gpu8` (16 worlds / 5,120 readouts each). Their frozen implementation is `a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90`; do not edit their worktree.
-
-From a committed analysis checkout on nebula:
+Use the detached `002-scorer-v2` worktree at commit `52244c9` on nebula. The corrected record view already exists; its generating command and original-source paths are recorded in `results/final_v2/rescore_command.json` and `rescore_manifest.json`.
 
 ```bash
 source scripts/compute/nebula/env.sh
 "$COLA_PYTHON" -m scripts.run_task_basin_final_analysis \
-  --run-base /home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin \
+  --run-base /home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2 \
   --worlds /home/mlw0719/cola_dlm_exploration_storage/datasets/002_task_consequence_basin/v1/worlds.jsonl \
   --ledger /home/mlw0719/cola_dlm_exploration/jobs/jobs.jsonl \
-  --output /home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/analysis-v1
+  --output /home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/analysis-v2
 ```
 
-The entry point refuses incomplete worker artifacts, records analysis commands, and creates the 100-item blinded output sample. Review `blind_items.jsonl` without reading `audit_key.jsonl`; record field statuses and whole-fact correctness before comparing labels. An assistant audit must be labeled as such, not as a human study. If scoring changes, retain original scores and uniformly rescore all methods and outputs. Final interpretation and visual inspection are still required.
+Retain the existing `analysis-v2/blind_audit_v1/` before rerunning: these are the frozen audited items, not a new sample to redraw. Full analysis commands are in `results/final_v2/analysis_commands.json`; three supplementary control commands are in `results/final_v2/control_analysis_commands.json`.
+
+Decision: retain the shared measurement implementation and close this hypothesis test. A new CFG-support or native-task study needs a separately stated question; do not extend the same test until significance.

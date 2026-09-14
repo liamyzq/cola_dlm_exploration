@@ -1,0 +1,395 @@
+{
+  "protocol": "Post-recovery four-world-grouped-fold fixed-C=1 logistic prediction. Residual norm is not a pre-corruption feature.",
+  "worlds": 128,
+  "field_seed_rows": 16384,
+  "outcomes": {
+    "valid_wrong": {
+      "positive_rows": 184,
+      "folds": [
+        {
+          "fold": 0,
+          "train_positive": 151,
+          "test_positive": 33,
+          "estimable": true
+        },
+        {
+          "fold": 1,
+          "train_positive": 133,
+          "test_positive": 51,
+          "estimable": true
+        },
+        {
+          "fold": 2,
+          "train_positive": 128,
+          "test_positive": 56,
+          "estimable": true
+        },
+        {
+          "fold": 3,
+          "train_positive": 140,
+          "test_positive": 44,
+          "estimable": true
+        }
+      ],
+      "scored_rows": 16384,
+      "scores": {
+        "baseline": {
+          "log_loss": 0.05987302311623314,
+          "brier": 0.011182925649761737,
+          "auroc": 0.7124087493290392,
+          "fold_auroc": [
+            0.7347683082361891,
+            0.6824159577304345,
+            0.7065373055162659,
+            0.7601465045319933
+          ],
+          "calibration": [
+            {
+              "lower": 0.0,
+              "n": 16312,
+              "predicted": 0.01054209387809596,
+              "observed": 0.011157430112800392
+            },
+            {
+              "lower": 0.1,
+              "n": 68,
+              "predicted": 0.12741127199710714,
+              "observed": 0.029411764705882353
+            },
+            {
+              "lower": 0.2,
+              "n": 4,
+              "predicted": 0.2128752516371727,
+              "observed": 0.0
+            }
+          ]
+        },
+        "geometry": {
+          "log_loss": 0.06038020181864222,
+          "brier": 0.011223540468167878,
+          "auroc": 0.7047249060654858,
+          "fold_auroc": [
+            0.7394371974731315,
+            0.6558811410843695,
+            0.7146083804809054,
+            0.7581272996500045
+          ],
+          "calibration": [
+            {
+              "lower": 0.0,
+              "n": 16280,
+              "predicted": 0.010343421424018538,
+              "observed": 0.01117936117936118
+            },
+            {
+              "lower": 0.1,
+              "n": 90,
+              "predicted": 0.12757116356768666,
+              "observed": 0.022222222222222223
+            },
+            {
+              "lower": 0.2,
+              "n": 14,
+              "predicted": 0.22341492748932024,
+              "observed": 0.0
+            }
+          ]
+        }
+      },
+      "geometry_increment": {
+        "log_loss": {
+          "mean": -0.0005071787024090765,
+          "ci95": [
+            -0.0010788518034974249,
+            5.546367069269114e-05
+          ],
+          "worlds": 128,
+          "domains": {
+            "number": {
+              "mean": -0.0009888698222460803,
+              "ci95": [
+                -0.0019104238932441985,
+                -0.00020739495878062763
+              ],
+              "worlds": 64
+            },
+            "entity": {
+              "mean": -2.5487582572072595e-05,
+              "ci95": [
+                -0.0007618267340314492,
+                0.0007115593964658549
+              ],
+              "worlds": 64
+            }
+          },
+          "centered_bootstrap_two_sided_p": 0.07838432313537293,
+          "nondegenerate_bootstrap": true
+        },
+        "brier": {
+          "mean": -4.06148184061415e-05,
+          "ci95": [
+            -0.00010948768450412433,
+            1.1841893448200127e-05
+          ],
+          "worlds": 128,
+          "domains": {
+            "number": {
+              "mean": -8.304537568474811e-05,
+              "ci95": [
+                -0.00019580999921854368,
+                -1.4722264935676003e-05
+              ],
+              "worlds": 64
+            },
+            "entity": {
+              "mean": 1.8157388724651056e-06,
+              "ci95": [
+                -9.178668468774474e-05,
+                6.88638060109962e-05
+              ],
+              "worlds": 64
+            }
+          },
+          "centered_bootstrap_two_sided_p": 0.19196160767846432,
+          "nondegenerate_bootstrap": true
+        }
+      }
+    },
+    "damage": {
+      "positive_rows": 5828,
+      "folds": [
+        {
+          "fold": 0,
+          "train_positive": 4341,
+          "test_positive": 1487,
+          "estimable": true
+        },
+        {
+          "fold": 1,
+          "train_positive": 4392,
+          "test_positive": 1436,
+          "estimable": true
+        },
+        {
+          "fold": 2,
+          "train_positive": 4320,
+          "test_positive": 1508,
+          "estimable": true
+        },
+        {
+          "fold": 3,
+          "train_positive": 4431,
+          "test_positive": 1397,
+          "estimable": true
+        }
+      ],
+      "scored_rows": 16384,
+      "scores": {
+        "baseline": {
+          "log_loss": 0.08699912879551638,
+          "brier": 0.024147649505027742,
+          "auroc": 0.9954425175089979,
+          "fold_auroc": [
+            0.9961712379912996,
+            0.9957424026640417,
+            0.9949432496033519,
+            0.9954085701562896
+          ],
+          "calibration": [
+            {
+              "lower": 0.0,
+              "n": 9959,
+              "predicted": 0.009391760765336852,
+              "observed": 0.007028818154433176
+            },
+            {
+              "lower": 0.1,
+              "n": 292,
+              "predicted": 0.144405885960178,
+              "observed": 0.15753424657534246
+            },
+            {
+              "lower": 0.2,
+              "n": 144,
+              "predicted": 0.2484559232928609,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.30000000000000004,
+              "n": 134,
+              "predicted": 0.3508850227067113,
+              "observed": 0.4552238805970149
+            },
+            {
+              "lower": 0.4,
+              "n": 99,
+              "predicted": 0.4454808267725873,
+              "observed": 0.47474747474747475
+            },
+            {
+              "lower": 0.5,
+              "n": 111,
+              "predicted": 0.5589269339511669,
+              "observed": 0.5945945945945946
+            },
+            {
+              "lower": 0.6000000000000001,
+              "n": 151,
+              "predicted": 0.6493193967883145,
+              "observed": 0.8013245033112583
+            },
+            {
+              "lower": 0.7000000000000001,
+              "n": 206,
+              "predicted": 0.7521138729366668,
+              "observed": 0.7669902912621359
+            },
+            {
+              "lower": 0.8,
+              "n": 249,
+              "predicted": 0.8598942380114692,
+              "observed": 0.8795180722891566
+            },
+            {
+              "lower": 0.9,
+              "n": 5039,
+              "predicted": 0.9939457911035817,
+              "observed": 0.9859099027584838
+            }
+          ]
+        },
+        "geometry": {
+          "log_loss": 0.08711015758596989,
+          "brier": 0.024165026154039308,
+          "auroc": 0.9954296762334062,
+          "fold_auroc": [
+            0.9961480396217841,
+            0.9957586340503068,
+            0.9949109642955243,
+            0.9953677267993156
+          ],
+          "calibration": [
+            {
+              "lower": 0.0,
+              "n": 9966,
+              "predicted": 0.00948968926496653,
+              "observed": 0.007124222356010436
+            },
+            {
+              "lower": 0.1,
+              "n": 287,
+              "predicted": 0.14616053960208833,
+              "observed": 0.18466898954703834
+            },
+            {
+              "lower": 0.2,
+              "n": 148,
+              "predicted": 0.25098694128643684,
+              "observed": 0.4391891891891892
+            },
+            {
+              "lower": 0.30000000000000004,
+              "n": 127,
+              "predicted": 0.35225329992535553,
+              "observed": 0.48031496062992124
+            },
+            {
+              "lower": 0.4,
+              "n": 98,
+              "predicted": 0.44329078070737393,
+              "observed": 0.46938775510204084
+            },
+            {
+              "lower": 0.5,
+              "n": 111,
+              "predicted": 0.557715683696503,
+              "observed": 0.5585585585585585
+            },
+            {
+              "lower": 0.6000000000000001,
+              "n": 155,
+              "predicted": 0.6518303551286029,
+              "observed": 0.8193548387096774
+            },
+            {
+              "lower": 0.7000000000000001,
+              "n": 208,
+              "predicted": 0.7518240059011383,
+              "observed": 0.7644230769230769
+            },
+            {
+              "lower": 0.8,
+              "n": 245,
+              "predicted": 0.8604021472261681,
+              "observed": 0.8816326530612245
+            },
+            {
+              "lower": 0.9,
+              "n": 5039,
+              "predicted": 0.9939502993729663,
+              "observed": 0.9859099027584838
+            }
+          ]
+        }
+      },
+      "geometry_increment": {
+        "log_loss": {
+          "mean": -0.00011102879045350294,
+          "ci95": [
+            -0.0003728619680748291,
+            0.00013310896188014663
+          ],
+          "worlds": 128,
+          "domains": {
+            "number": {
+              "mean": -0.00017850077372164372,
+              "ci95": [
+                -0.0006260360778107829,
+                0.0002146067862188847
+              ],
+              "worlds": 64
+            },
+            "entity": {
+              "mean": -4.3556807185362144e-05,
+              "ci95": [
+                -0.0003044237103301296,
+                0.00023325679184251538
+              ],
+              "worlds": 64
+            }
+          },
+          "centered_bootstrap_two_sided_p": 0.395120975804839,
+          "nondegenerate_bootstrap": true
+        },
+        "brier": {
+          "mean": -1.737664901156778e-05,
+          "ci95": [
+            -0.0001086764259111571,
+            6.51326637401326e-05
+          ],
+          "worlds": 128,
+          "domains": {
+            "number": {
+              "mean": -1.4644824697946419e-05,
+              "ci95": [
+                -0.00018571121145407205,
+                0.0001324120007232596
+              ],
+              "worlds": 64
+            },
+            "entity": {
+              "mean": -2.0108473325189137e-05,
+              "ci95": [
+                -9.109424080790188e-05,
+                5.831660550270453e-05
+              ],
+              "worlds": 64
+            }
+          },
+          "centered_bootstrap_two_sided_p": 0.7010597880423916,
+          "nondegenerate_bootstrap": true
+        }
+      }
+    }
+  }
+}

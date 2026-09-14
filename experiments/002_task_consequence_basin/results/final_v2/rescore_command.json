@@ -1,0 +1,6 @@
+{
+  "working_directory": "/home/mlw0719/cola_dlm_exploration_storage/worktrees/002-scorer-v2",
+  "commit": "52244c9",
+  "command": "python -m scripts.rescore_task_basin --ledger /home/mlw0719/cola_dlm_exploration/jobs/jobs.jsonl --worlds /home/mlw0719/cola_dlm_exploration_storage/datasets/002_task_consequence_basin/v1/worlds.jsonl --output /home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2",
+  "fixed_audit_sample": "copied unchanged from analysis-v1/blind_audit_v1"
+}

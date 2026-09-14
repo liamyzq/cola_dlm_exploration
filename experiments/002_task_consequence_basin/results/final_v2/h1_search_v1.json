@@ -1,0 +1,432 @@
+{
+  "curves": [
+    {
+      "mode": "ray",
+      "radius": 0.4,
+      "population": "paired_clean",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 0.9921875,
+      "noncritical_success": 0.9921875
+    },
+    {
+      "mode": "ray",
+      "radius": 0.4,
+      "population": "all_fixed",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 0.9921875,
+      "noncritical_success": 0.9921875
+    },
+    {
+      "mode": "ray",
+      "radius": 0.8,
+      "population": "paired_clean",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 1.0,
+      "noncritical_success": 1.0
+    },
+    {
+      "mode": "ray",
+      "radius": 0.8,
+      "population": "all_fixed",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 1.0,
+      "noncritical_success": 1.0
+    },
+    {
+      "mode": "ray",
+      "radius": 1.6,
+      "population": "paired_clean",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 1.0,
+      "noncritical_success": 1.0
+    },
+    {
+      "mode": "ray",
+      "radius": 1.6,
+      "population": "all_fixed",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 1.0,
+      "noncritical_success": 1.0
+    },
+    {
+      "mode": "combined",
+      "radius": 0.4,
+      "population": "paired_clean",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 1.0,
+      "noncritical_success": 1.0
+    },
+    {
+      "mode": "combined",
+      "radius": 0.4,
+      "population": "all_fixed",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 1.0,
+      "noncritical_success": 1.0
+    },
+    {
+      "mode": "combined",
+      "radius": 0.8,
+      "population": "paired_clean",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 1.0,
+      "noncritical_success": 1.0
+    },
+    {
+      "mode": "combined",
+      "radius": 0.8,
+      "population": "all_fixed",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 1.0,
+      "noncritical_success": 1.0
+    },
+    {
+      "mode": "combined",
+      "radius": 1.6,
+      "population": "paired_clean",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 1.0,
+      "noncritical_success": 1.0
+    },
+    {
+      "mode": "combined",
+      "radius": 1.6,
+      "population": "all_fixed",
+      "estimate": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 128,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 64
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false
+      },
+      "critical_success": 1.0,
+      "noncritical_success": 1.0
+    }
+  ],
+  "targets": 512,
+  "paired_both_success_edits": 256,
+  "eligible_paired_edits": 256,
+  "median_log_critical_over_noncritical": -5.058676125518913e-05,
+  "failed_searches": 0,
+  "endpoint_exact": 512,
+  "backward_steps": 73728,
+  "native_verifications": 51104
+}

@@ -1,0 +1,726 @@
+{
+  "scorer_version": "task_basin_parser_v2",
+  "scorer_commit": "52244c9c04a2e4628bd2a4b7678e5a55b0d6d812",
+  "rule_change": "Reject standalone of, coordinating and/or, and dangling apostrophe-s entity values. Other lexical entity labels remain literal parsed labels, not evidence of plausible person identity.",
+  "raw_outputs_preserved": true,
+  "model_generations_repeated": false,
+  "elapsed_seconds": 7.648213708016556,
+  "runs": [
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p0-v1",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p0-v1",
+      "action": "unchanged reference: no parser-scored record table"
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-runner-smoke-v1",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-runner-smoke-v1",
+      "action": "rescored all rows",
+      "original_model_commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 64,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-v1-gpu5",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-dev-noise-v1-gpu5",
+      "action": "rescored all rows",
+      "original_model_commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 2560,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-v1-gpu6",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-dev-noise-v1-gpu6",
+      "action": "rescored all rows",
+      "original_model_commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 2560,
+          "changed_rows": 2,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 2
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-v1-gpu7",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-dev-noise-v1-gpu7",
+      "action": "rescored all rows",
+      "original_model_commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 2560,
+          "changed_rows": 2,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 2
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-v1-gpu8",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-dev-noise-v1-gpu8",
+      "action": "rescored all rows",
+      "original_model_commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 2560,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-dev-recovery-v1-gpu5",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-dev-recovery-v1-gpu5",
+      "action": "rescored all rows",
+      "original_model_commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 5120,
+          "changed_rows": 10,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 10
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-dev-recovery-v1-gpu6",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-dev-recovery-v1-gpu6",
+      "action": "rescored all rows",
+      "original_model_commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 5120,
+          "changed_rows": 20,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 20
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-dev-recovery-v1-gpu7",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-dev-recovery-v1-gpu7",
+      "action": "rescored all rows",
+      "original_model_commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 5120,
+          "changed_rows": 6,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 6
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-dev-recovery-v1-gpu8",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-dev-recovery-v1-gpu8",
+      "action": "rescored all rows",
+      "original_model_commit": "d4a4b0a7e5cf9309397e6e03c99bc74cb8e30421",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 5120,
+          "changed_rows": 5,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 5
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-refinement-v1-gpu7",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-dev-noise-refinement-v1-gpu7",
+      "action": "rescored all rows",
+      "original_model_commit": "7f5315d5c3418896b454acc27ad1f56a68a5a2f5",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 3584,
+          "changed_rows": 22,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 22
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 64,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-dev-noise-refinement-v1-gpu8",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-dev-noise-refinement-v1-gpu8",
+      "action": "rescored all rows",
+      "original_model_commit": "7f5315d5c3418896b454acc27ad1f56a68a5a2f5",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 3584,
+          "changed_rows": 30,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 30
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 64,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-sentence-dev-v1-gpu7",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-sentence-dev-v1-gpu7",
+      "action": "rescored all rows",
+      "original_model_commit": "494f083733948224514434b657cd0163e08e8824",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 6656,
+          "changed_rows": 5,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 5
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 64,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-sentence-dev-v1-gpu8",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-sentence-dev-v1-gpu8",
+      "action": "rescored all rows",
+      "original_model_commit": "494f083733948224514434b657cd0163e08e8824",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 6656,
+          "changed_rows": 14,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 14
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 64,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-search-dev-v1",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-search-dev-v1",
+      "action": "unchanged reference: no parser-scored record table"
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-noise-v1-gpu5",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-test-noise-v1-gpu5",
+      "action": "rescored all rows",
+      "original_model_commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 8192,
+          "changed_rows": 11,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 11
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-noise-v1-gpu6",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-test-noise-v1-gpu6",
+      "action": "rescored all rows",
+      "original_model_commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 8192,
+          "changed_rows": 22,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 22
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-noise-v1-gpu7",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-test-noise-v1-gpu7",
+      "action": "rescored all rows",
+      "original_model_commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 8192,
+          "changed_rows": 18,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 18
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-noise-v1-gpu8",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-test-noise-v1-gpu8",
+      "action": "rescored all rows",
+      "original_model_commit": "ab3956f6d2bf21493f268c8e9251c09341c85a7d",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 8192,
+          "changed_rows": 28,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 30
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-search-v1-gpu5",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-test-search-v1-gpu5",
+      "action": "unchanged reference: no parser-scored record table"
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-search-v1-gpu6",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-test-search-v1-gpu6",
+      "action": "unchanged reference: no parser-scored record table"
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-search-v1-gpu7",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-test-search-v1-gpu7",
+      "action": "unchanged reference: no parser-scored record table"
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p1-test-search-v1-gpu8",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p1-test-search-v1-gpu8",
+      "action": "unchanged reference: no parser-scored record table"
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-control-source_recoverability-v1",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-control-source_recoverability-v1",
+      "action": "rescored all rows",
+      "original_model_commit": "a2f9ebab8a247ec52e9abd93d4935942600f5c17",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 1152,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-control-no_query-v1",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-control-no_query-v1",
+      "action": "rescored all rows",
+      "original_model_commit": "a2f9ebab8a247ec52e9abd93d4935942600f5c17",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 2048,
+          "changed_rows": 12,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 12
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-control-query_only-v1",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-control-query_only-v1",
+      "action": "rescored all rows",
+      "original_model_commit": "a2f9ebab8a247ec52e9abd93d4935942600f5c17",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 2048,
+          "changed_rows": 9,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 9
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-control-sentence-v1",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-control-sentence-v1",
+      "action": "rescored all rows",
+      "original_model_commit": "a2f9ebab8a247ec52e9abd93d4935942600f5c17",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 2048,
+          "changed_rows": 37,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 37
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-geometry-features-v1",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-geometry-features-v1",
+      "action": "unchanged reference: no parser-scored record table"
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-test-recovery-v1-gpu5",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-test-recovery-v1-gpu5",
+      "action": "rescored all rows",
+      "original_model_commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 20480,
+          "changed_rows": 46,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 46
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-test-recovery-v1-gpu6",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-test-recovery-v1-gpu6",
+      "action": "rescored all rows",
+      "original_model_commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 20480,
+          "changed_rows": 51,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 51
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-test-recovery-v1-gpu7",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-test-recovery-v1-gpu7",
+      "action": "rescored all rows",
+      "original_model_commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 20480,
+          "changed_rows": 66,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 66
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-test-recovery-v1-gpu8",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-test-recovery-v1-gpu8",
+      "action": "rescored all rows",
+      "original_model_commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 20480,
+          "changed_rows": 77,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 77
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 128,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-cfg7-control-v1-gpu5",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-cfg7-control-v1-gpu5",
+      "action": "rescored all rows",
+      "original_model_commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 5120,
+          "changed_rows": 50,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 50
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-cfg7-control-v1-gpu6",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-cfg7-control-v1-gpu6",
+      "action": "rescored all rows",
+      "original_model_commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 5120,
+          "changed_rows": 17,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 17
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-cfg7-control-v1-gpu7",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-cfg7-control-v1-gpu7",
+      "action": "rescored all rows",
+      "original_model_commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 5120,
+          "changed_rows": 48,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 48
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    },
+    {
+      "source": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/002-p2-cfg7-control-v1-gpu8",
+      "view": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2/002-p2-cfg7-control-v1-gpu8",
+      "action": "rescored all rows",
+      "original_model_commit": "a23ab19f66ee33a5b6a93fb68d3fc2bf97ff0e90",
+      "tables": [
+        {
+          "table": "records.jsonl",
+          "rows": 5120,
+          "changed_rows": 49,
+          "field_transitions": {
+            "valid_wrong -> unparseable": 49
+          },
+          "total_damage_changes": 0
+        },
+        {
+          "table": "anchors.jsonl",
+          "rows": 32,
+          "changed_rows": 0,
+          "field_transitions": {},
+          "total_damage_changes": 0
+        }
+      ]
+    }
+  ]
+}

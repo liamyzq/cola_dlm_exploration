@@ -1,5 +1,7 @@
 # H1 and interpretation controls: completed-run readout
 
+Historical parser-v1 interim readout. Superseded by the [final parser-v2 core report](FINAL_REPORT.md); original evidence is retained.
+
 The frozen random-corruption test does not show task-role protection at sigma=0.4. The paired equal-domain estimate is -0.049 percentage points (95% world interval [-0.208, 0.122]). All 256 fixed worlds reconstruct exactly under both questions. This is the initial parser-version readout; the predefined 100-output blinded audit will accompany the final core report.
 
 ## Random corruption

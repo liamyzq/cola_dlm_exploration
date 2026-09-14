@@ -1,0 +1,31 @@
+{
+  "analysis_commit": "52244c9c04a2e4628bd2a4b7678e5a55b0d6d812",
+  "run_base": "/home/mlw0719/cola_dlm_exploration_storage/runs/002_task_consequence_basin/rescored-v2",
+  "primary_tests": {
+    "H1": {
+      "point": 0.4,
+      "metric": "protection",
+      "estimate": -0.00048828125,
+      "ci95": [
+        -0.0020751953125,
+        0.001220703125
+      ],
+      "raw_p": 0.6160767846430714,
+      "nondegenerate": true,
+      "holm_p": 1.0
+    },
+    "H2": {
+      "point": 0.5,
+      "metric": "G_selective",
+      "estimate": -0.00091552734375,
+      "ci95": [
+        -0.0036026000976562495,
+        0.001953125
+      ],
+      "raw_p": 0.5358928214357128,
+      "nondegenerate": true,
+      "holm_p": 1.0
+    }
+  },
+  "audit_requires_independent_labels": true
+}

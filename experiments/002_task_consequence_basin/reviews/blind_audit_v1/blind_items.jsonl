@@ -1,0 +1,100 @@
+{"audit_id": "A001", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Elena", "Hazel"], "gold_answer": "North: Elena; South: Hazel.", "output": "North: Elena; South: Hazel Evaluation"}
+{"audit_id": "A002", "domain": "number", "keys": ["red", "blue"], "gold_values": ["44", "9"], "gold_answer": "Blue: 9; Red: 44.", "output": "Blue: 8; Red: 44."}
+{"audit_id": "A003", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Teresa", "Naomi"], "gold_answer": "East: Teresa; West: Naomi.", "output": "East: Teresa; West: Naomi."}
+{"audit_id": "A004", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Quinn", "Laura"], "gold_answer": "Blue: Laura; Red: Quinn.", "output": "Blue: Laura; Red: Quinn."}
+{"audit_id": "A005", "domain": "number", "keys": ["north", "south"], "gold_values": ["90", "26"], "gold_answer": "North: 90; South: 26.", "output": "North: 90; South: 26."}
+{"audit_id": "A006", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["63", "96"], "gold_answer": "Gold: 63; Silver: 96.", "output": "Gold: 63; Silver: 962"}
+{"audit_id": "A007", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["Peter", "Adam"], "gold_answer": "Gold: Peter; Silver: Adam.", "output": "Gold: Peter; b:function.\n\n"}
+{"audit_id": "A008", "domain": "number", "keys": ["east", "west"], "gold_values": ["51", "89"], "gold_answer": "East: 51; West: 89.", "output": " subcontract:F included the the:  The Chapter"}
+{"audit_id": "A009", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["Peter", "Jacob"], "gold_answer": "Silver: Jacob; Gold: Peter.", "output": "Silver: Jacob; Gold: Jul.\n\n"}
+{"audit_id": "A010", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["96", "49"], "gold_answer": "Silver: 49; Gold: 96.", "output": " -:  their, raised to 96."}
+{"audit_id": "A011", "domain": "number", "keys": ["east", "west"], "gold_values": ["31", "72"], "gold_answer": "East: 31; West: 72.", "output": "East: 31; West: 721"}
+{"audit_id": "A012", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["Linda", "Walter"], "gold_answer": "Gold: Linda; Silver: Walter.", "output": " intimidated, people a arbitration  thousand)\n\n"}
+{"audit_id": "A013", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Wendy", "Marcus"], "gold_answer": "East: Wendy; West: Marcus.", "output": "East: Wendy; West: Marcus."}
+{"audit_id": "A014", "domain": "number", "keys": ["red", "blue"], "gold_values": ["16", "68"], "gold_answer": "Red: 16; Blue: 68.", "output": "Red  16; Blue:  photo."}
+{"audit_id": "A015", "domain": "number", "keys": ["red", "blue"], "gold_values": ["47", "34"], "gold_answer": "The book count for the red shelf is 47. The book count for the blue shelf is 34.", "output": "The book count for the red shelf is 47. The book count for the blue shelf is 34."}
+{"audit_id": "A016", "domain": "number", "keys": ["east", "west"], "gold_values": ["6", "8"], "gold_answer": "East: 6; West: 8.", "output": "East. 6; West: 8."}
+{"audit_id": "A017", "domain": "number", "keys": ["red", "blue"], "gold_values": ["46", "35"], "gold_answer": "Blue: 35; Red: 46.", "output": "Blue: 35; Red: 46."}
+{"audit_id": "A018", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["11", "61"], "gold_answer": "Silver: 61; Gold: 11.", "output": "Silver: 96; gold: 99\n"}
+{"audit_id": "A019", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["Zoe", "Hazel"], "gold_answer": "Gold: Zoe; Silver: Hazel.", "output": " creativity: wreckage; Richard: silver."}
+{"audit_id": "A020", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Walter", "Riley"], "gold_answer": "Red: Walter; Blue: Riley.", "output": "Red: Pin; Blue: Gal a"}
+{"audit_id": "A021", "domain": "number", "keys": ["east", "west"], "gold_values": ["51", "89"], "gold_answer": "East: 51; West: 89.", "output": "East: 51; West: 89."}
+{"audit_id": "A022", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Zoe", "Mason"], "gold_answer": "North: Zoe; South: Mason.", "output": "North: tumble; South: Mason."}
+{"audit_id": "A023", "domain": "number", "keys": ["north", "south"], "gold_values": ["85", "41"], "gold_answer": "South: 41; North: 85.", "output": "South: 41; North: 85."}
+{"audit_id": "A024", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Henry", "Aaron"], "gold_answer": "Blue: Aaron; Red: Henry.", "output": "Blue: licensed; Red: raise."}
+{"audit_id": "A025", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Hannah", "Oscar"], "gold_answer": "East: Hannah; West: Oscar.", "output": "East: Hannah; de: Oscar."}
+{"audit_id": "A026", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Emma", "Leo"], "gold_answer": "West: Leo; East: Emma.", "output": "West: Leo; East: Emma and"}
+{"audit_id": "A027", "domain": "number", "keys": ["red", "blue"], "gold_values": ["39", "41"], "gold_answer": "Red: 39; Blue: 41.", "output": "Red: 39; Blue: 41."}
+{"audit_id": "A028", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Oscar", "Thomas"], "gold_answer": "Blue: Thomas; Red: Oscar.", "output": "Blue: Thomas; Red:ENT."}
+{"audit_id": "A029", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Leo", "Victor"], "gold_answer": "Red: Leo; Blue: Victor.", "output": "red: Leo; Blue: Victor."}
+{"audit_id": "A030", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Zoe", "Paula"], "gold_answer": "The representative of the east team is Zoe. The representative of the west team is Paula.", "output": "The representative of the east team is allege. The representative of the west team is Paula."}
+{"audit_id": "A031", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Irene", "Vera"], "gold_answer": "East: Irene; West: Vera.", "output": " Tong: the; a specifiedAnonymous."}
+{"audit_id": "A032", "domain": "number", "keys": ["north", "south"], "gold_values": ["19", "98"], "gold_answer": "South: 98; North: 19.", "output": "South  98; North: 19."}
+{"audit_id": "A033", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Teresa", "Naomi"], "gold_answer": "East: Teresa; West: Naomi.", "output": "East: Teresa; West: Naomi."}
+{"audit_id": "A034", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["52", "80"], "gold_answer": "Silver: 80; Gold: 52.", "output": "Silver: 80; Gold: 52."}
+{"audit_id": "A035", "domain": "number", "keys": ["east", "west"], "gold_values": ["76", "87"], "gold_answer": "West: 87; East: 76.", "output": "West: 87; East: 200."}
+{"audit_id": "A036", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["Grace", "Thomas"], "gold_answer": "The representative of the gold team is Grace. The representative of the silver team is Thomas.", "output": "The representative of the gold team is Grace. The representative of the silver team is subject."}
+{"audit_id": "A037", "domain": "number", "keys": ["red", "blue"], "gold_values": ["60", "91"], "gold_answer": "Blue: 91; Red: 60.", "output": "Blue: 91; Red: 60."}
+{"audit_id": "A038", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["13", "14"], "gold_answer": "Gold: 13; Silver: 14.", "output": "Gold: 13; Silver: 14."}
+{"audit_id": "A039", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["44", "28"], "gold_answer": "Gold: 44; Silver: 28.", "output": "Gold: 44\nSilver: 28\n"}
+{"audit_id": "A040", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Daniel", "Henry"], "gold_answer": "Blue: Henry; Red: Daniel.", "output": " foroving Henrymy the: Daniel,"}
+{"audit_id": "A041", "domain": "number", "keys": ["red", "blue"], "gold_values": ["47", "34"], "gold_answer": "Red: 47; Blue: 34.", "output": "Red: 47; Blue: 34."}
+{"audit_id": "A042", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["Peter", "Jacob"], "gold_answer": "Silver: Jacob; Gold: Peter.", "output": "Silver: Jacob; Gold: Jul.\n\n"}
+{"audit_id": "A043", "domain": "number", "keys": ["red", "blue"], "gold_values": ["84", "33"], "gold_answer": "Blue: 33; Red: 84.", "output": "Red: 33\nBlue: 106\n\n\n"}
+{"audit_id": "A044", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Owen", "Linda"], "gold_answer": "North: Owen; South: Linda.", "output": "272: Owen; South: Linda."}
+{"audit_id": "A045", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Peter", "Gavin"], "gold_answer": "East: Peter; West: Gavin.", "output": "East: Peter129 West: Gavin."}
+{"audit_id": "A046", "domain": "number", "keys": ["red", "blue"], "gold_values": ["15", "62"], "gold_answer": "Blue: 62; Red: 15.", "output": " to, Generic, Factor, Leap = 1"}
+{"audit_id": "A047", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["47", "43"], "gold_answer": "Gold: 47; Silver: 43.", "output": "Gold a 47; Silver: 43."}
+{"audit_id": "A048", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Wendy", "Walter"], "gold_answer": "North: Wendy; South: Walter.", "output": " six: programmer body can toTA:"}
+{"audit_id": "A049", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["42", "76"], "gold_answer": "Silver: 76; Gold: 42.", "output": " the: 76; trait: 42."}
+{"audit_id": "A050", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["67", "61"], "gold_answer": "Silver: 61; Gold: 67.", "output": "Silver: 61; Gold: 67."}
+{"audit_id": "A051", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Rose", "David"], "gold_answer": "East: Rose; West: David.", "output": "East: Rose; West: David."}
+{"audit_id": "A052", "domain": "number", "keys": ["north", "south"], "gold_values": ["20", "45"], "gold_answer": "The south box holds 45 balls. The north box holds 20 balls.", "output": "The right box holds 45 balls. the north box holds 20 balls."}
+{"audit_id": "A053", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Walter", "Linda"], "gold_answer": "East: Walter; West: Linda.", "output": " M: Walter; West: Linda."}
+{"audit_id": "A054", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Bob", "Grace"], "gold_answer": "South: Grace; North: Bob.", "output": "South: Grace; North: Bob and"}
+{"audit_id": "A055", "domain": "number", "keys": ["east", "west"], "gold_values": ["76", "87"], "gold_answer": "West: 87; East: 76.", "output": "West: 87); East: 76."}
+{"audit_id": "A056", "domain": "number", "keys": ["east", "west"], "gold_values": ["55", "42"], "gold_answer": "West: 42; East: 55.", "output": " purposely: 42; volume: 55.\n\n"}
+{"audit_id": "A057", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Kevin", "Sarah"], "gold_answer": "North: Kevin; South: Sarah.", "output": "North: Kevin; m: Sarah."}
+{"audit_id": "A058", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["11", "61"], "gold_answer": "Silver: 61; Gold: 11.", "output": "Silver: 61; Gold: 11 gold"}
+{"audit_id": "A059", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["78", "65"], "gold_answer": "The book count for the silver shelf is 65. The book count for the gold shelf is 78.", "output": "The book count for the silver shelf is 65. The book count for the gold shelf is 88."}
+{"audit_id": "A060", "domain": "number", "keys": ["north", "south"], "gold_values": ["48", "33"], "gold_answer": "North: 48; South: 33.", "output": " awakened: 48, Production: 33."}
+{"audit_id": "A061", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Daniel", "Henry"], "gold_answer": "Blue: Henry; Red: Daniel.", "output": ": of_type201 a to more and"}
+{"audit_id": "A062", "domain": "number", "keys": ["north", "south"], "gold_values": ["39", "16"], "gold_answer": "South: 16; North: 39.", "output": "South: 16; North: 39."}
+{"audit_id": "A063", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Nora", "Aaron"], "gold_answer": "East: Nora; West: Aaron.", "output": "East: Nora; West: Aaron."}
+{"audit_id": "A064", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Uma", "Mason"], "gold_answer": "The manager of the north branch is Uma. The manager of the south branch is Mason.", "output": "The manager of the north branch are and, The manager of the south branch isrieg."}
+{"audit_id": "A065", "domain": "number", "keys": ["north", "south"], "gold_values": ["20", "45"], "gold_answer": "South: 45; North: 20.", "output": "South: The stride; North:  total."}
+{"audit_id": "A066", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["12", "65"], "gold_answer": "Silver: 65; Gold: 12.", "output": "Silver: 65; Gold: 12."}
+{"audit_id": "A067", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Oscar", "Thomas"], "gold_answer": "Blue: Thomas; Red: Oscar.", "output": "Blue: Thomas; Red: Oscar."}
+{"audit_id": "A068", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["10", "20"], "gold_answer": "Gold: 10; Silver: 20.", "output": "Gold = 10\n Silver = 20\n"}
+{"audit_id": "A069", "domain": "number", "keys": ["red", "blue"], "gold_values": ["85", "42"], "gold_answer": "Blue: 42; Red: 85.", "output": "Blue: 75; Red: 85."}
+{"audit_id": "A070", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["David", "Isaac"], "gold_answer": "Gold: David; Silver: Isaac.", "output": "Gold: David; b: Isaac."}
+{"audit_id": "A071", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["47", "43"], "gold_answer": "Gold: 47; Silver: 43.", "output": "Gold a 47; Silver: 43."}
+{"audit_id": "A072", "domain": "number", "keys": ["east", "west"], "gold_values": ["90", "24"], "gold_answer": "West: 24; East: 90.", "output": " keep last  Barrierunch cup to Trophy demographics."}
+{"audit_id": "A073", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["Xavier", "Caleb"], "gold_answer": "Gold: Xavier; Silver: Caleb.", "output": "Gold: Xavier; Silver: Caleb."}
+{"audit_id": "A074", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["Frank", "Jack"], "gold_answer": "Silver: Jack; Gold: Frank.", "output": "Silver: Jack; Gold:ip."}
+{"audit_id": "A075", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["5", "34"], "gold_answer": "Gold: 5; Silver: 34.", "output": "Gold: 5; Silver: 33."}
+{"audit_id": "A076", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Walter", "Thomas"], "gold_answer": "Red: Walter; Blue: Thomas.", "output": "Red:ator;-color  Tub and"}
+{"audit_id": "A077", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Wendy", "Marcus"], "gold_answer": "East: Wendy; West: Marcus.", "output": " territories:houndNote from: DHCP,"}
+{"audit_id": "A078", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Simon", "Nora"], "gold_answer": "The captain of the red team is Simon. The captain of the blue team is Nora.", "output": "The captain of the red team is Simon. The captain of the blue team is Nora."}
+{"audit_id": "A079", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Henry", "Aaron"], "gold_answer": "Blue: Aaron; Red: Henry.", "output": "Blue: Aaron; Red: Henry."}
+{"audit_id": "A080", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["19", "11"], "gold_answer": "Gold: 19; Silver: 11.", "output": "Gold: 19; Silver: 1119"}
+{"audit_id": "A081", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["David", "Isaac"], "gold_answer": "Gold: David; Silver: Isaac.", "output": "hen: David;me: Isaac."}
+{"audit_id": "A082", "domain": "number", "keys": ["red", "blue"], "gold_values": ["60", "91"], "gold_answer": "Blue: 91; Red: 60.", "output": " cur\n\n  are; to of E\n"}
+{"audit_id": "A083", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Zoe", "Mason"], "gold_answer": "North: Zoe; South: Mason.", "output": "North: tumble; South: Mason."}
+{"audit_id": "A084", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["Frank", "Oscar"], "gold_answer": "The manager of the silver branch is Oscar. The manager of the gold branch is Frank.", "output": " the manager of the traps branch is Oscar. The manager of the gold branch is Frank."}
+{"audit_id": "A085", "domain": "number", "keys": ["east", "west"], "gold_values": ["90", "24"], "gold_answer": "West: 24; East: 90.", "output": " overst.)  Northernitize in to gam there,"}
+{"audit_id": "A086", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Victor", "Irene"], "gold_answer": "Blue: Irene; Red: Victor.", "output": "Blue: Irene; Red: Victor."}
+{"audit_id": "A087", "domain": "number", "keys": ["north", "south"], "gold_values": ["74", "95"], "gold_answer": "South: 95; North: 74.", "output": "South: 95; North: 74."}
+{"audit_id": "A088", "domain": "number", "keys": ["east", "west"], "gold_values": ["76", "87"], "gold_answer": "West: 87; East: 76.", "output": "West: 87; East: 76."}
+{"audit_id": "A089", "domain": "number", "keys": ["east", "west"], "gold_values": ["87", "19"], "gold_answer": "The west team finished with 19 points. The east team finished with 87 points.", "output": "The west team finished with 69 points. The east team finished with 87 points."}
+{"audit_id": "A090", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Alice", "Karen"], "gold_answer": "Blue: Karen; Red: Alice.", "output": "Blue:of; Red: Alice's"}
+{"audit_id": "A091", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Oscar", "Daniel"], "gold_answer": "Blue: Daniel; Red: Oscar.", "output": "Blue: Daniel; Red: Oscar and"}
+{"audit_id": "A092", "domain": "entity", "keys": ["red", "blue"], "gold_values": ["Gavin", "Bob"], "gold_answer": "The manager of the red branch is Gavin. The manager of the blue branch is Bob.", "output": "The manager of the red branch is Gavin. The manager of the blue branch is Bob."}
+{"audit_id": "A093", "domain": "number", "keys": ["north", "south"], "gold_values": ["77", "83"], "gold_answer": "North: 77; South: 83.", "output": "North: 77; South: 83."}
+{"audit_id": "A094", "domain": "number", "keys": ["gold", "silver"], "gold_values": ["47", "43"], "gold_answer": "Gold: 47; Silver: 43.", "output": "Gold a 47; b: 43."}
+{"audit_id": "A095", "domain": "number", "keys": ["red", "blue"], "gold_values": ["31", "92"], "gold_answer": "Blue: 92; Red: 31.", "output": "Blue. 92; Red: 31."}
+{"audit_id": "A096", "domain": "entity", "keys": ["east", "west"], "gold_values": ["Teresa", "Irene"], "gold_answer": "West: Irene; East: Teresa.", "output": "West: Irene; East: Teresa."}
+{"audit_id": "A097", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Will", "Bob"], "gold_answer": "South: Bob; North: Will.", "output": "South: Bob; North: Will."}
+{"audit_id": "A098", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Will", "Isaac"], "gold_answer": "South: Isaac; North: Will.", "output": " immediately  in.ong: a:"}
+{"audit_id": "A099", "domain": "entity", "keys": ["north", "south"], "gold_values": ["Nora", "Gavin"], "gold_answer": "South: Gavin; North: Nora.", "output": "South: Gavin; North: Nora."}
+{"audit_id": "A100", "domain": "entity", "keys": ["gold", "silver"], "gold_values": ["Zoe", "Hazel"], "gold_answer": "Gold: Zoe; Silver: Hazel.", "output": "Gold: Zoe; Silver: Hazel Das"}

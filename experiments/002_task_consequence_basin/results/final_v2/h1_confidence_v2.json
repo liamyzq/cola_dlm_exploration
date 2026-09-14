@@ -1,0 +1,104 @@
+{
+  "adjusted_protection": {
+    "mean": -0.0003998100742152299,
+    "domain_means": {
+      "number": -0.000393820658045647,
+      "entity": -0.00040579949038481276
+    },
+    "worlds": 256
+  },
+  "adjusted_protection_interpretation": "Descriptive held-out model probability difference after toggling only the role feature at fixed confidence covariates; predictive standardization, not a causal effect. No significance test is attached to this fitted-model contrast. Probability-score increments retain their separate world-resampled intervals.",
+  "protocol": "fixed C=1 regularized logistic; four world-grouped folds; probability score increments, not causal mediation",
+  "clean_gap_quantiles_by_role": {
+    "0": [
+      10.3359375,
+      15.99609375,
+      19.8828125,
+      23.09375,
+      28.125
+    ],
+    "1": [
+      10.4140625,
+      15.9609375,
+      19.89501953125,
+      23.072265625,
+      28.125
+    ]
+  },
+  "field_query_rows": 1024,
+  "worlds": 256,
+  "role_coefficients": [
+    9.165555132543412e-05,
+    0.0017616796092292236,
+    0.0007973176800958396,
+    0.0012792490170646406
+  ],
+  "mean_scores": {
+    "confidence": {
+      "log_loss": 0.6917528420670322,
+      "brier": 0.24375288122216
+    },
+    "confidence_plus_role": {
+      "log_loss": 0.6920222321345598,
+      "brier": 0.2438955566749589
+    }
+  },
+  "role_increment": {
+    "log_loss": {
+      "mean": -0.00026939006752772483,
+      "ci95": [
+        -0.0009626852537684398,
+        0.0003840005471610049
+      ],
+      "worlds": 256,
+      "domains": {
+        "number": {
+          "mean": -0.0010490133834982502,
+          "ci95": [
+            -0.0023268677882871867,
+            0.00012996426515000576
+          ],
+          "worlds": 128
+        },
+        "entity": {
+          "mean": 0.0005102332484428005,
+          "ci95": [
+            2.025578396741129e-05,
+            0.0009966976242743917
+          ],
+          "worlds": 128
+        }
+      },
+      "centered_bootstrap_two_sided_p": 0.4325134973005399,
+      "nondegenerate_bootstrap": true
+    },
+    "brier": {
+      "mean": -0.00014267545279891163,
+      "ci95": [
+        -0.00041914954700177293,
+        0.00011374113617720288
+      ],
+      "worlds": 256,
+      "domains": {
+        "number": {
+          "mean": -0.0004817077631542252,
+          "ci95": [
+            -0.000991511443452871,
+            -6.2737699362541965e-06
+          ],
+          "worlds": 128
+        },
+        "entity": {
+          "mean": 0.0001963568575564019,
+          "ci95": [
+            -2.0665578080030642e-06,
+            0.00039137859979233543
+          ],
+          "worlds": 128
+        }
+      },
+      "centered_bootstrap_two_sided_p": 0.2953409318136373,
+      "nondegenerate_bootstrap": true
+    }
+  }
+}

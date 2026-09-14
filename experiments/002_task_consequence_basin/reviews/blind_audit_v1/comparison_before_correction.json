@@ -1,0 +1,60 @@
+{
+  "items": 100,
+  "item_agreements": 96,
+  "field_disagreements": 5,
+  "whole_fact_judgments": {
+    "uncertain": 47,
+    "incorrect": 13,
+    "correct": 40
+  },
+  "discrepancies": [
+    {
+      "audit_id": "A026",
+      "expected": [
+        "unparseable",
+        "correct"
+      ],
+      "actual": [
+        "valid_wrong",
+        "correct"
+      ],
+      "note": "Dangling conjunction after Emma does not identify a complete single entity."
+    },
+    {
+      "audit_id": "A054",
+      "expected": [
+        "unparseable",
+        "correct"
+      ],
+      "actual": [
+        "valid_wrong",
+        "correct"
+      ],
+      "note": "Dangling conjunction after Bob does not identify a complete single entity."
+    },
+    {
+      "audit_id": "A090",
+      "expected": [
+        "unparseable",
+        "unparseable"
+      ],
+      "actual": [
+        "valid_wrong",
+        "valid_wrong"
+      ],
+      "note": "Orphan of and a dangling possessive do not identify complete entities."
+    },
+    {
+      "audit_id": "A091",
+      "expected": [
+        "unparseable",
+        "correct"
+      ],
+      "actual": [
+        "valid_wrong",
+        "correct"
+      ],
+      "note": "Dangling conjunction after Oscar does not identify a complete single entity."
+    }
+  ]
+}

@@ -1,0 +1,1652 @@
+[
+  {
+    "point": 0.4,
+    "estimates": {
+      "protection": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 64,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 32
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 32
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false,
+        "leave_one_template_out": {
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0
+        },
+        "per_template": {
+          "4": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          },
+          "5": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          },
+          "6": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          },
+          "7": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          }
+        },
+        "nonzero_world_effects": 0,
+        "world_values": [
+          {
+            "world_id": "test-number-4-00",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-01",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-02",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-03",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-04",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-05",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-06",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-07",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-00",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-01",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-02",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-03",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-04",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-05",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-06",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-07",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-00",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-01",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-02",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-03",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-04",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-05",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-06",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-07",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-00",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-01",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-02",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-03",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-04",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-05",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-06",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-07",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-00",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-01",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-02",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-03",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-04",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-05",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-06",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-07",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-00",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-01",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-02",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-03",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-04",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-05",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-06",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-07",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-00",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-01",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-02",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-03",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-04",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-05",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-06",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-07",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-00",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-01",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-02",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-03",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-04",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-05",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-06",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-07",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          }
+        ]
+      },
+      "unparseable_protection": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 64,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 32
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 32
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false,
+        "leave_one_template_out": {
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0
+        },
+        "per_template": {
+          "4": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          },
+          "5": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          },
+          "6": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          },
+          "7": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          }
+        },
+        "nonzero_world_effects": 0,
+        "world_values": [
+          {
+            "world_id": "test-number-4-00",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-01",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-02",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-03",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-04",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-05",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-06",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-07",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-00",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-01",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-02",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-03",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-04",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-05",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-06",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-07",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-00",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-01",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-02",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-03",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-04",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-05",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-06",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-07",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-00",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-01",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-02",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-03",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-04",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-05",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-06",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-07",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-00",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-01",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-02",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-03",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-04",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-05",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-06",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-07",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-00",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-01",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-02",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-03",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-04",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-05",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-06",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-07",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-00",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-01",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-02",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-03",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-04",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-05",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-06",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-07",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-00",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-01",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-02",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-03",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-04",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-05",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-06",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-07",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          }
+        ]
+      },
+      "value_protection": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "worlds": 64,
+        "domains": {
+          "number": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 32
+          },
+          "entity": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 32
+          }
+        },
+        "centered_bootstrap_two_sided_p": 1.0,
+        "nondegenerate_bootstrap": false,
+        "leave_one_template_out": {
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0
+        },
+        "per_template": {
+          "4": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          },
+          "5": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          },
+          "6": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          },
+          "7": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "worlds": 16,
+            "domains": {
+              "number": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              },
+              "entity": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "worlds": 8
+              }
+            },
+            "centered_bootstrap_two_sided_p": 1.0,
+            "nondegenerate_bootstrap": false
+          }
+        },
+        "nonzero_world_effects": 0,
+        "world_values": [
+          {
+            "world_id": "test-number-4-00",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-01",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-02",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-03",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-04",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-05",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-06",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-4-07",
+            "domain": "number",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-00",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-01",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-02",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-03",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-04",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-05",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-06",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-5-07",
+            "domain": "number",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-00",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-01",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-02",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-03",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-04",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-05",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-06",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-6-07",
+            "domain": "number",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-00",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-01",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-02",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-03",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-04",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-05",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-06",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-number-7-07",
+            "domain": "number",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-00",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-01",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-02",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-03",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-04",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-05",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-06",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-4-07",
+            "domain": "entity",
+            "template": 4,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-00",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-01",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-02",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-03",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-04",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-05",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-06",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-5-07",
+            "domain": "entity",
+            "template": 5,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-00",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-01",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-02",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-03",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-04",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-05",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-06",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-6-07",
+            "domain": "entity",
+            "template": 6,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-00",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-01",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-02",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-03",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-04",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-05",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-06",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          },
+          {
+            "world_id": "test-entity-7-07",
+            "domain": "entity",
+            "template": 7,
+            "value": 0.0
+          }
+        ]
+      }
+    },
+    "descriptive": {
+      "all_fixed/noise": {
+        "records": 2048,
+        "damaged_worlds_by_domain": {
+          "number": 32,
+          "entity": 32
+        },
+        "valid_wrong_worlds_by_domain": {
+          "number": 7,
+          "entity": 31
+        },
+        "word_edit_distance": 0.2255859375,
+        "queried_damage": 0.34619140625,
+        "nonqueried_damage": 0.34619140625,
+        "valid_wrong": 0.0625,
+        "unparseable": 0.28369140625,
+        "full_fact_failure": 0.56640625,
+        "token_disagreement": 0.0861328125
+      },
+      "paired_clean/noise": {
+        "records": 2048,
+        "damaged_worlds_by_domain": {
+          "number": 32,
+          "entity": 32
+        },
+        "valid_wrong_worlds_by_domain": {
+          "number": 7,
+          "entity": 31
+        },
+        "word_edit_distance": 0.2255859375,
+        "queried_damage": 0.34619140625,
+        "nonqueried_damage": 0.34619140625,
+        "valid_wrong": 0.0625,
+        "unparseable": 0.28369140625,
+        "full_fact_failure": 0.56640625,
+        "token_disagreement": 0.0861328125
+      }
+    },
+    "fixed_worlds": 64,
+    "paired_clean_worlds": 64
+  }
+]
