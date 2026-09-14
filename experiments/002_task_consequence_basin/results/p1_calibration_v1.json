@@ -1,0 +1,89 @@
+{
+  "stage": "noise",
+  "selection": "paired-clean lexical disagreement closest to 0.10; smaller point breaks ties",
+  "chosen_point": 0.32,
+  "measurement_range_valid": false,
+  "grid": [
+    {
+      "point": 0.005,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.01,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.02,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.04,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.08,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.16,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.32,
+      "lexical_disagreement": 0.0200927734375,
+      "any_field_damage": 0.15625,
+      "unparseable_fraction": 0.056640625,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.64,
+      "lexical_disagreement": 0.437939453125,
+      "any_field_damage": 0.9970703125,
+      "unparseable_fraction": 0.91455078125,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 1.28,
+      "lexical_disagreement": 0.8009033203125,
+      "any_field_damage": 1.0,
+      "unparseable_fraction": 0.99951171875,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 2.56,
+      "lexical_disagreement": 0.9238281250000001,
+      "any_field_damage": 1.0,
+      "unparseable_fraction": 1.0,
+      "worlds": 64,
+      "records": 1024
+    }
+  ],
+  "role_effects_used_for_selection": false
+}

@@ -1,0 +1,145 @@
+{
+  "stage": "noise",
+  "selection": "paired-clean lexical disagreement closest to 0.10; smaller point breaks ties",
+  "chosen_point": 0.4,
+  "measurement_range_valid": true,
+  "grid": [
+    {
+      "point": 0.005,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.01,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.02,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.04,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.08,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.16,
+      "lexical_disagreement": 0.0,
+      "any_field_damage": 0.0,
+      "unparseable_fraction": 0.0,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.32,
+      "lexical_disagreement": 0.0200927734375,
+      "any_field_damage": 0.15625,
+      "unparseable_fraction": 0.056640625,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.36,
+      "lexical_disagreement": 0.045092773437500004,
+      "any_field_damage": 0.31640625,
+      "unparseable_fraction": 0.13232421875,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.4,
+      "lexical_disagreement": 0.0818115234375,
+      "any_field_damage": 0.54296875,
+      "unparseable_fraction": 0.2548828125,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.44,
+      "lexical_disagreement": 0.128857421875,
+      "any_field_damage": 0.736328125,
+      "unparseable_fraction": 0.39013671875,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.48,
+      "lexical_disagreement": 0.192626953125,
+      "any_field_damage": 0.8779296875,
+      "unparseable_fraction": 0.54345703125,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.52,
+      "lexical_disagreement": 0.26040039062500003,
+      "any_field_damage": 0.9521484375,
+      "unparseable_fraction": 0.69873046875,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.56,
+      "lexical_disagreement": 0.3248779296875,
+      "any_field_damage": 0.9794921875,
+      "unparseable_fraction": 0.8037109375,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.6,
+      "lexical_disagreement": 0.38525390625,
+      "any_field_damage": 0.994140625,
+      "unparseable_fraction": 0.87548828125,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 0.64,
+      "lexical_disagreement": 0.437939453125,
+      "any_field_damage": 0.9970703125,
+      "unparseable_fraction": 0.91455078125,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 1.28,
+      "lexical_disagreement": 0.8009033203125,
+      "any_field_damage": 1.0,
+      "unparseable_fraction": 0.99951171875,
+      "worlds": 64,
+      "records": 1024
+    },
+    {
+      "point": 2.56,
+      "lexical_disagreement": 0.9238281250000001,
+      "any_field_damage": 1.0,
+      "unparseable_fraction": 1.0,
+      "worlds": 64,
+      "records": 1024
+    }
+  ],
+  "role_effects_used_for_selection": false
+}
