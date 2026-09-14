@@ -16,8 +16,9 @@ original routes had no success or eligible full-block roots. See the R0/R1 repor
 
 R2 Copy succeeds 3/64 with 59/64 correct first edges. Chain and Branch each
 succeed 0/64 and provide no eligible F roots. No Branch sample reaches the
-first branch after a correct trunk. These are task-capability limitations,
-not evidence about H1a or the choice between branch arms. See the R2 report.
+first branch after a correct trunk. The weak first-edge and trunk performance are task-capability limitations.
+Branch also has no canonical predecision F layout because its common trunk is
+only 8-14 tokens. Neither observation tests H1a or branch-arm selection. See the R2 report.
 
 R3 locks eta=0.03 with exact tokens and epsilon=0.01. F uses 45 development
 sources for 32 pairs; M uses 41 for 32. Calibration and collection have different
@@ -53,6 +54,5 @@ the original human-reviewed transfer study remain deferred outside this revision
 Prepared follow-ups use committed fixed inputs: a bounded eight-root Branch-M
 public-reward probe after GPUs become free, and the unchanged eight-development-
 root cache localization only if positive mechanism evidence activates it.
-Branch has no canonical F layout on its short 8-14-token common trunk; its lack
-of F roots is not solely a model-capability finding. The independent confirmation
-continues unchanged while these limited follow-ups are prepared.
+The independent confirmation continues unchanged while these limited follow-ups
+are prepared.

@@ -24,3 +24,11 @@ The English audit and accompanying Chinese summary label confirmation stages sli
 The R3 root cap is explicit per named cohort: at most 128 attempts for up to 32 pairs, with at most F and M. R4 runs one primary setting selected on development data. Confirmation starts with 128 fixed source roots; exclusions are reported rather than replaced after observing outcomes. No stage may silently expand to fill favorable results.
 
 The original 32-example engine evidence remains valid for its tested path. M, the H_token statistic, and the complete candidate runner need their own targeted validation. Existing untracked P0 candidate-runner/config drafts remain unvalidated and must not be launched as the revised R-series implementation.
+
+## Subsequent execution evidence
+
+The adoption-time pending checks above are now resolved: [R0](../results/R0_REPORT.md)
+reproduced the saved outputs and static layout counts, and [R1](../results/R1_REPORT.md)
+validated the pinned official inference paths and recorded the bounded capability
+subset. Those reports contain project measurements; the supplied review remains
+unchanged as historical source material.
