@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "paired_noise_within_splits": true,
+  "independent_split_noise": true,
+  "identity_h_token": 0.0,
+  "real_pair": {
+    "root_id": 1,
+    "source_id": "Party_leaders_of_the_United_States_House_of_Representatives",
+    "candidates": 2,
+    "h_token": 0.0,
+    "future_tokens": 32,
+    "samples_a": 2,
+    "samples_b": 2,
+    "future_seconds": 27.441649202024564,
+    "calls": {
+      "dit_cond": 256,
+      "dit_uncond": 256,
+      "dit_commit": 20,
+      "decoder": 20,
+      "encode": 2
+    },
+    "split_costs": {
+      "A": {
+        "seconds": 13.323015194007894,
+        "calls": {
+          "dit_cond": 128,
+          "dit_uncond": 128,
+          "dit_commit": 8,
+          "decoder": 8,
+          "encode": 0
+        },
+        "seeds": [
+          310010000,
+          310010001
+        ]
+      },
+      "B": {
+        "seconds": 13.29810188798001,
+        "calls": {
+          "dit_cond": 128,
+          "dit_uncond": 128,
+          "dit_commit": 8,
+          "decoder": 8,
+          "encode": 0
+        },
+        "seeds": [
+          410010000,
+          410010001
+        ]
+      }
+    }
+  }
+}
