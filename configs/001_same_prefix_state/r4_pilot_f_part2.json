@@ -1,0 +1,23 @@
+{
+  "experiment_id": "001-r4-pilot-f-part2-v1",
+  "phase": "R4 pilot scheduled part2 of one fixed F setting",
+  "cohort": "F",
+  "pair_manifest": "experiments/001_same_prefix_state/data/r4_pilot_f_part2_pairs.json",
+  "eta": 0.03,
+  "epsilon": 0.01,
+  "euler_steps": 16,
+  "cfg": 7.0,
+  "repetition_penalty": 1.0,
+  "noise_seed_a": 310000000,
+  "noise_seed_b": 410000000,
+  "samples_a": 4,
+  "samples_b": 4,
+  "future_tokens": 32,
+  "primary_metric": "conditional_cross_split_H_token",
+  "comparator": "native reference with exact emitted IDs; independent A/B paired noise",
+  "budget": "16 remaining fixed pairs x2 candidates x8 futures=256; the disjoint part1 contributes256 for512 total",
+  "stopping_rule": "Complete these16 pairs exactly once; combine with part1 only after both are terminal",
+  "invalidation_conditions": "Wrong candidate replay, changed emitted IDs, A/B noise overlap, missing manifest roots, or changed source pin invalidates the affected measurement",
+  "source_revision": "7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c",
+  "checkpoint_revision": "c1eafdd9cfd8064aeb917d569ef70a075b353eed"
+}

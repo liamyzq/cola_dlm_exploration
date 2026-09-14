@@ -1,0 +1,226 @@
+[
+  {
+    "root_id": 0,
+    "source_id": "Norfolk_Island",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-f-v1-gpu5/candidates/pair-root-0-eta-0.03.pt",
+    "origin_experiment": "001-r3-eta-f-v1",
+    "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+  },
+  {
+    "root_id": 3,
+    "source_id": "John,_King_of_England",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-f-v1-gpu6/candidates/pair-root-3-eta-0.03.pt",
+    "origin_experiment": "001-r3-eta-f-v1",
+    "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+  },
+  {
+    "root_id": 5,
+    "source_id": "Thuringia",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-f-v1-gpu6/candidates/pair-root-5-eta-0.03.pt",
+    "origin_experiment": "001-r3-eta-f-v1",
+    "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+  },
+  {
+    "root_id": 6,
+    "source_id": "Green",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-f-v1-gpu5/candidates/pair-root-6-eta-0.03.pt",
+    "origin_experiment": "001-r3-eta-f-v1",
+    "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+  },
+  {
+    "root_id": 7,
+    "source_id": "New_York_City",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-eta-f-v1-gpu6/candidates/pair-root-7-eta-0.03.pt",
+    "origin_experiment": "001-r3-eta-f-v1",
+    "commit": "3209858356d467e620e93e83ff93982e14666d0f"
+  },
+  {
+    "root_id": 8,
+    "source_id": "Crimean_War",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-8-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 10,
+    "source_id": "United_States_presidential_election,_2004",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-10-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 12,
+    "source_id": "Human_Development_Index",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-12-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 14,
+    "source_id": "Franco-Prussian_War",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-14-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 15,
+    "source_id": "Neolithic",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-15-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 16,
+    "source_id": "Nonprofit_organization",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-16-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 17,
+    "source_id": "Oklahoma",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-17-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 18,
+    "source_id": "Hellenistic_period",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-18-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 20,
+    "source_id": "Dissolution_of_the_Soviet_Union",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-20-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 21,
+    "source_id": "Gramophone_record",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-21-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 25,
+    "source_id": "Child_labour",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-25-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 26,
+    "source_id": "Hokkien",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-26-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 27,
+    "source_id": "Lighting",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-27-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 28,
+    "source_id": "George_VI",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-28-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 29,
+    "source_id": "Jews",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-29-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 32,
+    "source_id": "Glacier",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-32-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 33,
+    "source_id": "History_of_India",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-33-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 34,
+    "source_id": "Circadian_rhythm",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-34-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 36,
+    "source_id": "Pesticide",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-36-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 37,
+    "source_id": "Dell",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-37-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 38,
+    "source_id": "Iran",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-38-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 39,
+    "source_id": "Law_of_the_United_States",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-39-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 40,
+    "source_id": "Westminster_Abbey",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-40-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 41,
+    "source_id": "Indigenous_peoples_of_the_Americas",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-41-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 42,
+    "source_id": "Clothing",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-42-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 43,
+    "source_id": "Buddhism",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-43-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 44,
+    "source_id": "Phonology",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-44-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  }
+]

@@ -32,3 +32,11 @@ claims remain unsupported. See the R2 report for scope and termination costs.
 The first 16 F pairs are frozen for pilot part1 on an available GPU; effect
 outputs remain unread until ordered F collection is terminal. Both pilot parts
 share one setting and a combined 512-future cap.
+
+
+F collection is terminal:27 additional strict pairs from37 new roots, yielding
+32 pairs across45 attempted development sources including calibration. The
+complete pilot manifest is frozen; part1 and part2 contain16 disjoint pairs
+each with unchanged4 A/4 B settings. No formal effect was read before this
+collection completed. Independent confirmation remains the fixed128-source
+F configuration.

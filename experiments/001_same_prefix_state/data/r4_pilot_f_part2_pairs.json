@@ -1,0 +1,114 @@
+[
+  {
+    "root_id": 26,
+    "source_id": "Hokkien",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-26-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 27,
+    "source_id": "Lighting",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-27-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 28,
+    "source_id": "George_VI",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-28-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 29,
+    "source_id": "Jews",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-29-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 32,
+    "source_id": "Glacier",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-32-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 33,
+    "source_id": "History_of_India",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-33-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 34,
+    "source_id": "Circadian_rhythm",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-34-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 36,
+    "source_id": "Pesticide",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-36-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 37,
+    "source_id": "Dell",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-37-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 38,
+    "source_id": "Iran",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-38-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 39,
+    "source_id": "Law_of_the_United_States",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-39-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 40,
+    "source_id": "Westminster_Abbey",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-40-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 41,
+    "source_id": "Indigenous_peoples_of_the_Americas",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-41-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 42,
+    "source_id": "Clothing",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-42-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 43,
+    "source_id": "Buddhism",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-43-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  },
+  {
+    "root_id": 44,
+    "source_id": "Phonology",
+    "pair_file": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r3-collection-f-v1/candidates/pair-root-44-eta-0.03.pt",
+    "origin_experiment": "001-r3-collection-f-v1",
+    "commit": "5d2d743cb4a3ae8ca92d834e9f48c906ac17838b"
+  }
+]
