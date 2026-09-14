@@ -3,9 +3,10 @@
 ## Current state
 
 The revised no-training protocol governs idea 001. R0 and R1 are complete;
-three R2 cells are complete and Matched-full is running. R3 reached 32 strict
-native pairs in each F/M cohort. The one-setting F distribution pilot is active.
-No formal H1a/H1b/H2/H3 conclusion is available yet. No model training has run.
+R2 is complete with only Copy succeeding (3/64). R3 reached 32 strict
+native pairs in each F/M cohort. The F pilot is complete: H_token mean 0,
+95% source interval [-0.000214,0.000244]. Independent confirmation is next.
+The pilot does not establish H1a; H1b/H2/H3 remain unmeasured. No model training has run.
 
 ## Evidence and interpretation
 
@@ -31,16 +32,15 @@ These validate execution without establishing a future-distribution effect.
 
 ## Active work and next decisions
 
-GPU 5 runs R2 Matched-full. GPUs 6-8 run the fixed F pilot in two disjoint parts:
-32 pairs total, two candidates, four A and four B futures per pair, 32 tokens per
-future. All pair inclusion was fixed before effect inspection. Both F/M candidate
-collections are terminal. Actual PIDs, commits and artifact paths are in jobs/jobs.jsonl.
-GPT-5.6 Luna at max reasoning monitors waits and reports terminal events.
+All R2, R3 and pilot workers are terminal. The pilot completed 512 futures on
+32 source-disjoint development pairs. Although 156/256 paired suffixes differ,
+the independent cross-split endpoint is centered at zero. See the pilot report.
 
-Complete and summarize R2 and the full pilot. If the pilot supports an interpretable
-positive mechanism, run the predeclared eight-root cache-path diagnostic. Then
-complete the fixed 128-source independent F confirmation with eight A/eight B
-samples, preserving failed roots and reference fallbacks. Do not top up by outcomes.
+Launch the locked 128-source independent F confirmation with eight A/eight B
+samples, preserving all failed roots and reference fallbacks. Do not top up by
+outcomes or change the primary setting. The positive-effect cache-path diagnostic
+is not activated by the pilot. Actual jobs and artifact paths are in jobs/jobs.jsonl;
+GPT-5.6 Luna at max reasoning monitors long waits.
 
 R5 remains conditional on suitable task-value evidence. Natural continuation has
 no task reward here and cannot support a selection or inference-utility claim.

@@ -1,0 +1,61 @@
+[
+  {
+    "cell": "matched_full",
+    "tasks": 32,
+    "samples": 64,
+    "source_topologies": 20,
+    "artifact_dir": "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r2-matched-full-v1",
+    "reward": {
+      "count": 0,
+      "mean": 0.0,
+      "empirical_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "ci95": null,
+      "interval_note": "The all-zero nonparametric bootstrap is degenerate and does not provide a useful population upper bound."
+    },
+    "parseable": {
+      "count": 28,
+      "mean": 0.4375,
+      "ci95": [
+        0.3088235294117647,
+        0.578125
+      ]
+    },
+    "first_edge_correct": {
+      "count": 3,
+      "mean": 0.046875,
+      "ci95": [
+        0.0,
+        0.109375
+      ]
+    },
+    "best_of_2_success": 0,
+    "eligible_mixed": 2,
+    "eligible_full": 0,
+    "termination_within_horizon": 36,
+    "post_termination_tokens": 3677,
+    "legal_prefix_towns_histogram": {
+      "0": 45,
+      "1": 16,
+      "2": 3
+    },
+    "first_branch": {
+      "crossed_after_correct_trunk": 0,
+      "can_reach_waypoint": 0,
+      "irreversible_bypass": 0,
+      "unlisted_edge": 0
+    },
+    "worker_seconds": 940.1385931129917,
+    "calls": {
+      "dit_cond": 9216,
+      "dit_uncond": 9216,
+      "dit_commit": 640,
+      "decoder": 640,
+      "encode": 64
+    },
+    "eligible_full_with_reference_success": 0,
+    "eligible_mixed_with_reference_success": 0
+  }
+]

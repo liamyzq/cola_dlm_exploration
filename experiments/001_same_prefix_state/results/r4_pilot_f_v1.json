@@ -1,0 +1,289 @@
+{
+  "sources": 32,
+  "roots": 32,
+  "measured_roots": 32,
+  "h_token": {
+    "mean": 0.0,
+    "ci95": [
+      -0.000213623046875,
+      0.000244140625
+    ]
+  },
+  "stage": "pilot",
+  "cohort": "F",
+  "attempted_roots": 32,
+  "paired_roots": 32,
+  "root_statuses": {
+    "live": 32
+  },
+  "future_trajectories": 512,
+  "future_worker_seconds": 1632.2197197940259,
+  "per_root": [
+    {
+      "root_id": 0,
+      "source_id": "Norfolk_Island",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.12109375
+    },
+    {
+      "root_id": 3,
+      "source_id": "John,_King_of_England",
+      "h_token": 0.0009765625,
+      "paired_future_count": 8,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.20703125
+    },
+    {
+      "root_id": 5,
+      "source_id": "Thuringia",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 1,
+      "token_position_disagreement": 0.0078125
+    },
+    {
+      "root_id": 6,
+      "source_id": "Green",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 3,
+      "token_position_disagreement": 0.046875
+    },
+    {
+      "root_id": 7,
+      "source_id": "New_York_City",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.12109375
+    },
+    {
+      "root_id": 8,
+      "source_id": "Crimean_War",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 1,
+      "token_position_disagreement": 0.0546875
+    },
+    {
+      "root_id": 10,
+      "source_id": "United_States_presidential_election,_2004",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 3,
+      "token_position_disagreement": 0.02734375
+    },
+    {
+      "root_id": 12,
+      "source_id": "Human_Development_Index",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.15234375
+    },
+    {
+      "root_id": 14,
+      "source_id": "Franco-Prussian_War",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 4,
+      "token_position_disagreement": 0.08984375
+    },
+    {
+      "root_id": 15,
+      "source_id": "Neolithic",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 4,
+      "token_position_disagreement": 0.10546875
+    },
+    {
+      "root_id": 16,
+      "source_id": "Nonprofit_organization",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.16015625
+    },
+    {
+      "root_id": 17,
+      "source_id": "Oklahoma",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.1640625
+    },
+    {
+      "root_id": 18,
+      "source_id": "Hellenistic_period",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 3,
+      "token_position_disagreement": 0.08203125
+    },
+    {
+      "root_id": 20,
+      "source_id": "Dissolution_of_the_Soviet_Union",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 2,
+      "token_position_disagreement": 0.01171875
+    },
+    {
+      "root_id": 21,
+      "source_id": "Gramophone_record",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 3,
+      "token_position_disagreement": 0.09375
+    },
+    {
+      "root_id": 25,
+      "source_id": "Child_labour",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.1640625
+    },
+    {
+      "root_id": 27,
+      "source_id": "Lighting",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.10546875
+    },
+    {
+      "root_id": 29,
+      "source_id": "Jews",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 7,
+      "token_position_disagreement": 0.078125
+    },
+    {
+      "root_id": 33,
+      "source_id": "History_of_India",
+      "h_token": 0.0029296875,
+      "paired_future_count": 8,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.18359375
+    },
+    {
+      "root_id": 37,
+      "source_id": "Dell",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.15625
+    },
+    {
+      "root_id": 39,
+      "source_id": "Law_of_the_United_States",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.09375
+    },
+    {
+      "root_id": 41,
+      "source_id": "Indigenous_peoples_of_the_Americas",
+      "h_token": -0.0009765625,
+      "paired_future_count": 8,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.20703125
+    },
+    {
+      "root_id": 43,
+      "source_id": "Buddhism",
+      "h_token": -0.0009765625,
+      "paired_future_count": 8,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.11328125
+    },
+    {
+      "root_id": 26,
+      "source_id": "Hokkien",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.12109375
+    },
+    {
+      "root_id": 28,
+      "source_id": "George_VI",
+      "h_token": -0.0009765625,
+      "paired_future_count": 8,
+      "any_token_disagreements": 8,
+      "token_position_disagreement": 0.15234375
+    },
+    {
+      "root_id": 32,
+      "source_id": "Glacier",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 3,
+      "token_position_disagreement": 0.0546875
+    },
+    {
+      "root_id": 34,
+      "source_id": "Circadian_rhythm",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 5,
+      "token_position_disagreement": 0.203125
+    },
+    {
+      "root_id": 36,
+      "source_id": "Pesticide",
+      "h_token": -0.0009765625,
+      "paired_future_count": 8,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.1015625
+    },
+    {
+      "root_id": 38,
+      "source_id": "Iran",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 3,
+      "token_position_disagreement": 0.01171875
+    },
+    {
+      "root_id": 40,
+      "source_id": "Westminster_Abbey",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 6,
+      "token_position_disagreement": 0.140625
+    },
+    {
+      "root_id": 42,
+      "source_id": "Clothing",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 4,
+      "token_position_disagreement": 0.0625
+    },
+    {
+      "root_id": 44,
+      "source_id": "Phonology",
+      "h_token": 0.0,
+      "paired_future_count": 8,
+      "any_token_disagreements": 7,
+      "token_position_disagreement": 0.109375
+    }
+  ],
+  "runs": [
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r4-pilot-f-part1-v1",
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r4-pilot-f-part2-v1-gpu6",
+    "/home/mlw0719/cola_dlm_exploration_storage/runs/001_same_prefix_state/001-r4-pilot-f-part2-v1-gpu7"
+  ],
+  "paired_future_count": 256,
+  "any_token_disagreements": 156,
+  "mean_token_position_disagreement": 0.1094970703125,
+  "bootstrap_degenerate": false,
+  "disagreement_note": "Paired suffix disagreement is a coupling diagnostic, not evidence by itself of different marginal future distributions."
+}
