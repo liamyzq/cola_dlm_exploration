@@ -46,3 +46,21 @@ against H1b/H2. Do not train to rescue the route task.
 Matched-full generation cost 940.14 worker-seconds; all four cells together used 3,733.67 worker-seconds for 256 generations.
 
 ![R2 task diagnosis](../figures/r2_route_diagnosis.png)
+
+
+## Intended-format boundary audit
+
+A CPU reconstruction of the saved task layouts separates intended-format
+availability from observed model prefixes. Copy, Chain and Matched-full each
+have a canonical pre-decision F boundary on all 32 tasks. Branch has none:
+its common trunk contains only 8-14 tokens, shorter than a full generated block.
+It has a canonical M opportunity on 26/32 tasks. See the
+[layout records](r2_canonical_layouts_v1.json).
+
+Thus Branch's zero observed F roots cannot be attributed solely to model
+competence. The separate facts that only 6/64 first edges are correct and no
+sample reaches a branch after the correct trunk still describe a capability
+limitation. Use M for the bounded Branch value probe; do not add filler or a
+gold prefix to manufacture F availability. The eight selected M roots' valid
+answers span 18-27 tokens; the full R2 Branch set spans 18-30 in its supplied
+canonical solutions.

@@ -1,0 +1,1218 @@
+[
+  {
+    "cell": "copy",
+    "tasks": 32,
+    "canonical_full_eligible": 32,
+    "canonical_mixed_eligible": 32,
+    "trunk_tokens_range": [
+      29,
+      35
+    ],
+    "answer_tokens_range": [
+      30,
+      36
+    ],
+    "records": [
+      {
+        "task_id": 0,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 1,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 2,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 3,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 4,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 5,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 6,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 7,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 8,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 9,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 10,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 11,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 12,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 13,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 14,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 15,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 16,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 17,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 18,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 19,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 20,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 21,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 22,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 23,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 24,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 25,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 26,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 27,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 28,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 29,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 30,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 31,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      }
+    ]
+  },
+  {
+    "cell": "chain",
+    "tasks": 32,
+    "canonical_full_eligible": 32,
+    "canonical_mixed_eligible": 32,
+    "trunk_tokens_range": [
+      29,
+      35
+    ],
+    "answer_tokens_range": [
+      30,
+      36
+    ],
+    "records": [
+      {
+        "task_id": 0,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 1,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 2,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 3,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 4,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 5,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 6,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 7,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 8,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 9,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 10,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 11,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 12,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 13,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 14,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 15,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 16,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 17,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 18,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 19,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 20,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 21,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 22,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 23,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 24,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 25,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 26,
+        "prompt_remainder": 4,
+        "canonical_answer_tokens": 33,
+        "trunk_tokens": 32,
+        "first_full_boundary": 28,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 27,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 28,
+        "prompt_remainder": 10,
+        "canonical_answer_tokens": 36,
+        "trunk_tokens": 35,
+        "first_full_boundary": 22,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 29,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 30,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 31,
+        "prompt_remainder": 14,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 29,
+        "first_full_boundary": 18,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      }
+    ]
+  },
+  {
+    "cell": "branch",
+    "tasks": 32,
+    "canonical_full_eligible": 0,
+    "canonical_mixed_eligible": 26,
+    "trunk_tokens_range": [
+      8,
+      14
+    ],
+    "answer_tokens_range": [
+      18,
+      30
+    ],
+    "records": [
+      {
+        "task_id": 0,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 11,
+        "first_full_boundary": 27,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 1,
+        "prompt_remainder": 13,
+        "canonical_answer_tokens": 21,
+        "trunk_tokens": 8,
+        "first_full_boundary": 19,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 2,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 8,
+        "first_full_boundary": 17,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 3,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 11,
+        "first_full_boundary": 21,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 4,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 27,
+        "trunk_tokens": 14,
+        "first_full_boundary": 21,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 5,
+        "prompt_remainder": 9,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 11,
+        "first_full_boundary": 23,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 6,
+        "prompt_remainder": 3,
+        "canonical_answer_tokens": 21,
+        "trunk_tokens": 8,
+        "first_full_boundary": 29,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "branch_already_crossed"
+      },
+      {
+        "task_id": 7,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 27,
+        "trunk_tokens": 11,
+        "first_full_boundary": 17,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 8,
+        "prompt_remainder": 9,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 14,
+        "first_full_boundary": 23,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 9,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 27,
+        "trunk_tokens": 11,
+        "first_full_boundary": 21,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 10,
+        "prompt_remainder": 3,
+        "canonical_answer_tokens": 21,
+        "trunk_tokens": 11,
+        "first_full_boundary": 29,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "branch_already_crossed"
+      },
+      {
+        "task_id": 11,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 8,
+        "first_full_boundary": 17,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 12,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 14,
+        "first_full_boundary": 27,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 13,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 27,
+        "trunk_tokens": 11,
+        "first_full_boundary": 27,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 14,
+        "prompt_remainder": 3,
+        "canonical_answer_tokens": 18,
+        "trunk_tokens": 8,
+        "first_full_boundary": 29,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "branch_already_crossed"
+      },
+      {
+        "task_id": 15,
+        "prompt_remainder": 9,
+        "canonical_answer_tokens": 18,
+        "trunk_tokens": 8,
+        "first_full_boundary": 23,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 16,
+        "prompt_remainder": 9,
+        "canonical_answer_tokens": 21,
+        "trunk_tokens": 8,
+        "first_full_boundary": 23,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 17,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 27,
+        "trunk_tokens": 11,
+        "first_full_boundary": 17,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 18,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 8,
+        "first_full_boundary": 17,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 19,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 8,
+        "first_full_boundary": 27,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "branch_already_crossed"
+      },
+      {
+        "task_id": 20,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 27,
+        "trunk_tokens": 14,
+        "first_full_boundary": 17,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 21,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 14,
+        "first_full_boundary": 27,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 22,
+        "prompt_remainder": 1,
+        "canonical_answer_tokens": 27,
+        "trunk_tokens": 11,
+        "first_full_boundary": 31,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "branch_already_crossed"
+      },
+      {
+        "task_id": 23,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 8,
+        "first_full_boundary": 17,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 24,
+        "prompt_remainder": 13,
+        "canonical_answer_tokens": 18,
+        "trunk_tokens": 8,
+        "first_full_boundary": 19,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 25,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 27,
+        "trunk_tokens": 11,
+        "first_full_boundary": 27,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 26,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 30,
+        "trunk_tokens": 14,
+        "first_full_boundary": 17,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 27,
+        "prompt_remainder": 1,
+        "canonical_answer_tokens": 27,
+        "trunk_tokens": 14,
+        "first_full_boundary": 31,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 28,
+        "prompt_remainder": 13,
+        "canonical_answer_tokens": 18,
+        "trunk_tokens": 8,
+        "first_full_boundary": 19,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 29,
+        "prompt_remainder": 9,
+        "canonical_answer_tokens": 21,
+        "trunk_tokens": 8,
+        "first_full_boundary": 23,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 30,
+        "prompt_remainder": 3,
+        "canonical_answer_tokens": 18,
+        "trunk_tokens": 8,
+        "first_full_boundary": 29,
+        "canonical_full_status": "answer_ends_before_boundary",
+        "canonical_mixed_status": "branch_already_crossed"
+      },
+      {
+        "task_id": 31,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 24,
+        "trunk_tokens": 11,
+        "first_full_boundary": 21,
+        "canonical_full_status": "branch_already_crossed",
+        "canonical_mixed_status": "eligible"
+      }
+    ]
+  },
+  {
+    "cell": "matched-full",
+    "tasks": 32,
+    "canonical_full_eligible": 32,
+    "canonical_mixed_eligible": 32,
+    "trunk_tokens_range": [
+      29,
+      35
+    ],
+    "answer_tokens_range": [
+      42,
+      54
+    ],
+    "records": [
+      {
+        "task_id": 0,
+        "prompt_remainder": 1,
+        "canonical_answer_tokens": 51,
+        "trunk_tokens": 35,
+        "first_full_boundary": 31,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 1,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 45,
+        "trunk_tokens": 29,
+        "first_full_boundary": 21,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 2,
+        "prompt_remainder": 9,
+        "canonical_answer_tokens": 42,
+        "trunk_tokens": 29,
+        "first_full_boundary": 23,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 3,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 32,
+        "first_full_boundary": 17,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 4,
+        "prompt_remainder": 1,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 35,
+        "first_full_boundary": 31,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 5,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 45,
+        "trunk_tokens": 29,
+        "first_full_boundary": 17,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 6,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 45,
+        "trunk_tokens": 29,
+        "first_full_boundary": 27,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 7,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 51,
+        "trunk_tokens": 32,
+        "first_full_boundary": 21,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 8,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 29,
+        "first_full_boundary": 21,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 9,
+        "prompt_remainder": 1,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 32,
+        "first_full_boundary": 31,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 10,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 45,
+        "trunk_tokens": 29,
+        "first_full_boundary": 17,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 11,
+        "prompt_remainder": 13,
+        "canonical_answer_tokens": 51,
+        "trunk_tokens": 32,
+        "first_full_boundary": 19,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 12,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 29,
+        "first_full_boundary": 17,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 13,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 29,
+        "first_full_boundary": 21,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 14,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 54,
+        "trunk_tokens": 35,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 15,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 35,
+        "first_full_boundary": 21,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 16,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 54,
+        "trunk_tokens": 35,
+        "first_full_boundary": 21,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 17,
+        "prompt_remainder": 11,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 32,
+        "first_full_boundary": 21,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 18,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 51,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 19,
+        "prompt_remainder": 1,
+        "canonical_answer_tokens": 45,
+        "trunk_tokens": 32,
+        "first_full_boundary": 31,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 20,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 45,
+        "trunk_tokens": 29,
+        "first_full_boundary": 27,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 21,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 45,
+        "trunk_tokens": 29,
+        "first_full_boundary": 17,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 22,
+        "prompt_remainder": 1,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 35,
+        "first_full_boundary": 31,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 23,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 35,
+        "first_full_boundary": 27,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 24,
+        "prompt_remainder": 7,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 32,
+        "first_full_boundary": 25,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 25,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 48,
+        "trunk_tokens": 29,
+        "first_full_boundary": 27,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 26,
+        "prompt_remainder": 15,
+        "canonical_answer_tokens": 42,
+        "trunk_tokens": 29,
+        "first_full_boundary": 17,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 27,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 45,
+        "trunk_tokens": 29,
+        "first_full_boundary": 27,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 28,
+        "prompt_remainder": 3,
+        "canonical_answer_tokens": 54,
+        "trunk_tokens": 35,
+        "first_full_boundary": 29,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 29,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 51,
+        "trunk_tokens": 35,
+        "first_full_boundary": 27,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 30,
+        "prompt_remainder": 5,
+        "canonical_answer_tokens": 51,
+        "trunk_tokens": 35,
+        "first_full_boundary": 27,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      },
+      {
+        "task_id": 31,
+        "prompt_remainder": 3,
+        "canonical_answer_tokens": 54,
+        "trunk_tokens": 35,
+        "first_full_boundary": 29,
+        "canonical_full_status": "eligible",
+        "canonical_mixed_status": "eligible"
+      }
+    ]
+  }
+]

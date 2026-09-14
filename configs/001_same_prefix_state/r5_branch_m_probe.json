@@ -1,0 +1,28 @@
+{
+  "experiment_id": "001-r5-branch-m-probe-v1",
+  "phase": "R5 bounded task-value development probe",
+  "cohort": "M",
+  "root_manifest": "experiments/001_same_prefix_state/data/r5_branch_m_probe_roots.json",
+  "eta": 0.03,
+  "epsilon": 0.01,
+  "max_proposals": 32,
+  "euler_steps": 16,
+  "cfg": 7.0,
+  "repetition_penalty": 1.0,
+  "proposal_noise_seed": 890000000,
+  "noise_seed_a": 910000000,
+  "noise_seed_b": 1010000000,
+  "samples_a": 4,
+  "samples_b": 4,
+  "future_tokens": 32,
+  "primary_metrics": [
+    "H_reward",
+    "independent_B_selection_gain"
+  ],
+  "comparator": "original native Branch M state, same emitted IDs, public graph reward",
+  "budget": "All8 existing eligible Branch M roots; at most32 proposals/root, K<=2, at most128 future trajectories of32 tokens; no new reference search",
+  "stopping_rule": "Complete the eight fixed roots. If no useful conditional reward is observed, do not enlarge this floor probe or train. Any R5 confirmation requires a separately frozen variance-based plan.",
+  "invalidation_conditions": "Mismatch from saved first-block prefix, changed known prompt latents, token/KL violation, A/B overlap, root selection using future outcomes, or scorer mismatch invalidates the affected evidence",
+  "source_revision": "7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c",
+  "checkpoint_revision": "c1eafdd9cfd8064aeb917d569ef70a075b353eed"
+}

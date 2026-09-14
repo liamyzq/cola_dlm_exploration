@@ -1,0 +1,1168 @@
+[
+  {
+    "root_id": 0,
+    "source_id": "branch-topology-7",
+    "task": {
+      "roads": [
+        [
+          "Fox Hollow",
+          "Snow Peak"
+        ],
+        [
+          "Deer Run",
+          "Meadow Brook"
+        ],
+        [
+          "Deer Run",
+          "Cedar Bay"
+        ],
+        [
+          "Meadow Brook",
+          "Blue Mountain"
+        ],
+        [
+          "Elm Falls",
+          "Silver Lake"
+        ],
+        [
+          "Silver Lake",
+          "Deer Run"
+        ],
+        [
+          "Pine Valley",
+          "Elm Falls"
+        ],
+        [
+          "Cedar Bay",
+          "Rose Garden"
+        ],
+        [
+          "Rose Garden",
+          "Snow Peak"
+        ],
+        [
+          "Deer Run",
+          "Stone Bridge"
+        ],
+        [
+          "River Bend",
+          "Rose Garden"
+        ],
+        [
+          "Blue Mountain",
+          "River Bend"
+        ],
+        [
+          "Stone Bridge",
+          "Fox Hollow"
+        ]
+      ],
+      "start": "Pine Valley",
+      "target": "Snow Peak",
+      "waypoint": "Rose Garden",
+      "trunk": [
+        "Pine Valley",
+        "Elm Falls",
+        "Silver Lake",
+        "Deer Run"
+      ],
+      "solution": [
+        "Pine Valley",
+        "Elm Falls",
+        "Silver Lake",
+        "Deer Run",
+        "Meadow Brook",
+        "Blue Mountain",
+        "River Bend",
+        "Rose Garden",
+        "Snow Peak"
+      ],
+      "bad_solution": [
+        "Pine Valley",
+        "Elm Falls",
+        "Silver Lake",
+        "Deer Run",
+        "Stone Bridge",
+        "Fox Hollow",
+        "Snow Peak"
+      ],
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "topology_nodes": 12,
+      "prompt": "Roads: Deer Run -> Walnut Park; Willow Creek -> Snow Peak; Red Cliff -> Rose Garden; Silver Lake -> Cherry Grove; Deer Run -> Silver Lake; Golden Field -> Birch Point; Rose Garden -> Deer Run; Birch Point -> Red Cliff; Snow Peak -> Sunset Beach; Fox Hollow -> Willow Creek; Cherry Grove -> Clear Water; Clear Water -> Sunset Beach; Deer Run -> Fox Hollow; Walnut Park -> Clear Water.\nFrom Golden Field to Sunset Beach, visit Clear Water. Use listed directed roads, no repeated town.\nRoute: Golden Field -> Birch Point -> Red Cliff -> Rose Garden -> Deer Run -> Silver Lake -> Cherry Grove -> Clear Water -> Sunset Beach.\n\nRoads: Fox Hollow -> Snow Peak; Deer Run -> Meadow Brook; Deer Run -> Cedar Bay; Meadow Brook -> Blue Mountain; Elm Falls -> Silver Lake; Silver Lake -> Deer Run; Pine Valley -> Elm Falls; Cedar Bay -> Rose Garden; Rose Garden -> Snow Peak; Deer Run -> Stone Bridge; River Bend -> Rose Garden; Blue Mountain -> River Bend; Stone Bridge -> Fox Hollow.\nFrom Pine Valley to Snow Peak, visit Rose Garden. Use listed directed roads, no repeated town.\nRoute:",
+      "id": 7,
+      "cell": "branch",
+      "source_id": "branch-topology-7",
+      "prompt_tokens": 239,
+      "allocated_total": 368,
+      "blocks": 9
+    },
+    "original_task_id": 7,
+    "repeat": 0,
+    "reference_noise_seed": 194070000,
+    "prefix_ids": [
+      42609
+    ],
+    "prefix_generated_tokens": 1,
+    "source_experiment": "001-r2-branch-v1",
+    "source_commit": "8e2ab3f19f7d6bcfa8ad1338e1a256d358f41278"
+  },
+  {
+    "root_id": 1,
+    "source_id": "branch-topology-7",
+    "task": {
+      "roads": [
+        [
+          "Fox Hollow",
+          "Snow Peak"
+        ],
+        [
+          "Deer Run",
+          "Meadow Brook"
+        ],
+        [
+          "Deer Run",
+          "Cedar Bay"
+        ],
+        [
+          "Meadow Brook",
+          "Blue Mountain"
+        ],
+        [
+          "Elm Falls",
+          "Silver Lake"
+        ],
+        [
+          "Silver Lake",
+          "Deer Run"
+        ],
+        [
+          "Pine Valley",
+          "Elm Falls"
+        ],
+        [
+          "Cedar Bay",
+          "Rose Garden"
+        ],
+        [
+          "Rose Garden",
+          "Snow Peak"
+        ],
+        [
+          "Deer Run",
+          "Stone Bridge"
+        ],
+        [
+          "River Bend",
+          "Rose Garden"
+        ],
+        [
+          "Blue Mountain",
+          "River Bend"
+        ],
+        [
+          "Stone Bridge",
+          "Fox Hollow"
+        ]
+      ],
+      "start": "Pine Valley",
+      "target": "Snow Peak",
+      "waypoint": "Rose Garden",
+      "trunk": [
+        "Pine Valley",
+        "Elm Falls",
+        "Silver Lake",
+        "Deer Run"
+      ],
+      "solution": [
+        "Pine Valley",
+        "Elm Falls",
+        "Silver Lake",
+        "Deer Run",
+        "Meadow Brook",
+        "Blue Mountain",
+        "River Bend",
+        "Rose Garden",
+        "Snow Peak"
+      ],
+      "bad_solution": [
+        "Pine Valley",
+        "Elm Falls",
+        "Silver Lake",
+        "Deer Run",
+        "Stone Bridge",
+        "Fox Hollow",
+        "Snow Peak"
+      ],
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "topology_nodes": 12,
+      "prompt": "Roads: Deer Run -> Walnut Park; Willow Creek -> Snow Peak; Red Cliff -> Rose Garden; Silver Lake -> Cherry Grove; Deer Run -> Silver Lake; Golden Field -> Birch Point; Rose Garden -> Deer Run; Birch Point -> Red Cliff; Snow Peak -> Sunset Beach; Fox Hollow -> Willow Creek; Cherry Grove -> Clear Water; Clear Water -> Sunset Beach; Deer Run -> Fox Hollow; Walnut Park -> Clear Water.\nFrom Golden Field to Sunset Beach, visit Clear Water. Use listed directed roads, no repeated town.\nRoute: Golden Field -> Birch Point -> Red Cliff -> Rose Garden -> Deer Run -> Silver Lake -> Cherry Grove -> Clear Water -> Sunset Beach.\n\nRoads: Fox Hollow -> Snow Peak; Deer Run -> Meadow Brook; Deer Run -> Cedar Bay; Meadow Brook -> Blue Mountain; Elm Falls -> Silver Lake; Silver Lake -> Deer Run; Pine Valley -> Elm Falls; Cedar Bay -> Rose Garden; Rose Garden -> Snow Peak; Deer Run -> Stone Bridge; River Bend -> Rose Garden; Blue Mountain -> River Bend; Stone Bridge -> Fox Hollow.\nFrom Pine Valley to Snow Peak, visit Rose Garden. Use listed directed roads, no repeated town.\nRoute:",
+      "id": 7,
+      "cell": "branch",
+      "source_id": "branch-topology-7",
+      "prompt_tokens": 239,
+      "allocated_total": 368,
+      "blocks": 9
+    },
+    "original_task_id": 7,
+    "repeat": 1,
+    "reference_noise_seed": 194070001,
+    "prefix_ids": [
+      42609
+    ],
+    "prefix_generated_tokens": 1,
+    "source_experiment": "001-r2-branch-v1",
+    "source_commit": "8e2ab3f19f7d6bcfa8ad1338e1a256d358f41278"
+  },
+  {
+    "root_id": 2,
+    "source_id": "branch-topology-10",
+    "task": {
+      "roads": [
+        [
+          "Green Wood",
+          "River Bend"
+        ],
+        [
+          "Clear Water",
+          "Aspen Ridge"
+        ],
+        [
+          "Stone Bridge",
+          "Oak Harbor"
+        ],
+        [
+          "Eagle Rock",
+          "Crystal Spring"
+        ],
+        [
+          "Morning Star",
+          "Crystal Spring"
+        ],
+        [
+          "Green Wood",
+          "Rose Garden"
+        ],
+        [
+          "Fox Hollow",
+          "Morning Star"
+        ],
+        [
+          "Oak Harbor",
+          "Green Wood"
+        ],
+        [
+          "River Bend",
+          "Eagle Rock"
+        ],
+        [
+          "Green Wood",
+          "Clear Water"
+        ],
+        [
+          "Cedar Bay",
+          "Eagle Rock"
+        ],
+        [
+          "Rose Garden",
+          "Fox Hollow"
+        ],
+        [
+          "Aspen Ridge",
+          "Cedar Bay"
+        ]
+      ],
+      "start": "Stone Bridge",
+      "target": "Crystal Spring",
+      "waypoint": "Eagle Rock",
+      "trunk": [
+        "Stone Bridge",
+        "Oak Harbor",
+        "Green Wood"
+      ],
+      "solution": [
+        "Stone Bridge",
+        "Oak Harbor",
+        "Green Wood",
+        "Clear Water",
+        "Aspen Ridge",
+        "Cedar Bay",
+        "Eagle Rock",
+        "Crystal Spring"
+      ],
+      "bad_solution": [
+        "Stone Bridge",
+        "Oak Harbor",
+        "Green Wood",
+        "Rose Garden",
+        "Fox Hollow",
+        "Morning Star",
+        "Crystal Spring"
+      ],
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "topology_nodes": 12,
+      "prompt": "Roads: Deer Run -> Walnut Park; Willow Creek -> Snow Peak; Red Cliff -> Rose Garden; Silver Lake -> Cherry Grove; Deer Run -> Silver Lake; Golden Field -> Birch Point; Rose Garden -> Deer Run; Birch Point -> Red Cliff; Snow Peak -> Sunset Beach; Fox Hollow -> Willow Creek; Cherry Grove -> Clear Water; Clear Water -> Sunset Beach; Deer Run -> Fox Hollow; Walnut Park -> Clear Water.\nFrom Golden Field to Sunset Beach, visit Clear Water. Use listed directed roads, no repeated town.\nRoute: Golden Field -> Birch Point -> Red Cliff -> Rose Garden -> Deer Run -> Silver Lake -> Cherry Grove -> Clear Water -> Sunset Beach.\n\nRoads: Green Wood -> River Bend; Clear Water -> Aspen Ridge; Stone Bridge -> Oak Harbor; Eagle Rock -> Crystal Spring; Morning Star -> Crystal Spring; Green Wood -> Rose Garden; Fox Hollow -> Morning Star; Oak Harbor -> Green Wood; River Bend -> Eagle Rock; Green Wood -> Clear Water; Cedar Bay -> Eagle Rock; Rose Garden -> Fox Hollow; Aspen Ridge -> Cedar Bay.\nFrom Stone Bridge to Crystal Spring, visit Eagle Rock. Use listed directed roads, no repeated town.\nRoute:",
+      "id": 11,
+      "cell": "branch",
+      "source_id": "branch-topology-10",
+      "prompt_tokens": 239,
+      "allocated_total": 368,
+      "blocks": 9
+    },
+    "original_task_id": 11,
+    "repeat": 0,
+    "reference_noise_seed": 194110000,
+    "prefix_ids": [
+      14637
+    ],
+    "prefix_generated_tokens": 1,
+    "source_experiment": "001-r2-branch-v1",
+    "source_commit": "8e2ab3f19f7d6bcfa8ad1338e1a256d358f41278"
+  },
+  {
+    "root_id": 3,
+    "source_id": "branch-topology-10",
+    "task": {
+      "roads": [
+        [
+          "Green Wood",
+          "River Bend"
+        ],
+        [
+          "Clear Water",
+          "Aspen Ridge"
+        ],
+        [
+          "Stone Bridge",
+          "Oak Harbor"
+        ],
+        [
+          "Eagle Rock",
+          "Crystal Spring"
+        ],
+        [
+          "Morning Star",
+          "Crystal Spring"
+        ],
+        [
+          "Green Wood",
+          "Rose Garden"
+        ],
+        [
+          "Fox Hollow",
+          "Morning Star"
+        ],
+        [
+          "Oak Harbor",
+          "Green Wood"
+        ],
+        [
+          "River Bend",
+          "Eagle Rock"
+        ],
+        [
+          "Green Wood",
+          "Clear Water"
+        ],
+        [
+          "Cedar Bay",
+          "Eagle Rock"
+        ],
+        [
+          "Rose Garden",
+          "Fox Hollow"
+        ],
+        [
+          "Aspen Ridge",
+          "Cedar Bay"
+        ]
+      ],
+      "start": "Stone Bridge",
+      "target": "Crystal Spring",
+      "waypoint": "Eagle Rock",
+      "trunk": [
+        "Stone Bridge",
+        "Oak Harbor",
+        "Green Wood"
+      ],
+      "solution": [
+        "Stone Bridge",
+        "Oak Harbor",
+        "Green Wood",
+        "Clear Water",
+        "Aspen Ridge",
+        "Cedar Bay",
+        "Eagle Rock",
+        "Crystal Spring"
+      ],
+      "bad_solution": [
+        "Stone Bridge",
+        "Oak Harbor",
+        "Green Wood",
+        "Rose Garden",
+        "Fox Hollow",
+        "Morning Star",
+        "Crystal Spring"
+      ],
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "topology_nodes": 12,
+      "prompt": "Roads: Deer Run -> Walnut Park; Willow Creek -> Snow Peak; Red Cliff -> Rose Garden; Silver Lake -> Cherry Grove; Deer Run -> Silver Lake; Golden Field -> Birch Point; Rose Garden -> Deer Run; Birch Point -> Red Cliff; Snow Peak -> Sunset Beach; Fox Hollow -> Willow Creek; Cherry Grove -> Clear Water; Clear Water -> Sunset Beach; Deer Run -> Fox Hollow; Walnut Park -> Clear Water.\nFrom Golden Field to Sunset Beach, visit Clear Water. Use listed directed roads, no repeated town.\nRoute: Golden Field -> Birch Point -> Red Cliff -> Rose Garden -> Deer Run -> Silver Lake -> Cherry Grove -> Clear Water -> Sunset Beach.\n\nRoads: Green Wood -> River Bend; Clear Water -> Aspen Ridge; Stone Bridge -> Oak Harbor; Eagle Rock -> Crystal Spring; Morning Star -> Crystal Spring; Green Wood -> Rose Garden; Fox Hollow -> Morning Star; Oak Harbor -> Green Wood; River Bend -> Eagle Rock; Green Wood -> Clear Water; Cedar Bay -> Eagle Rock; Rose Garden -> Fox Hollow; Aspen Ridge -> Cedar Bay.\nFrom Stone Bridge to Crystal Spring, visit Eagle Rock. Use listed directed roads, no repeated town.\nRoute:",
+      "id": 11,
+      "cell": "branch",
+      "source_id": "branch-topology-10",
+      "prompt_tokens": 239,
+      "allocated_total": 368,
+      "blocks": 9
+    },
+    "original_task_id": 11,
+    "repeat": 1,
+    "reference_noise_seed": 194110001,
+    "prefix_ids": [
+      14637
+    ],
+    "prefix_generated_tokens": 1,
+    "source_experiment": "001-r2-branch-v1",
+    "source_commit": "8e2ab3f19f7d6bcfa8ad1338e1a256d358f41278"
+  },
+  {
+    "root_id": 4,
+    "source_id": "branch-topology-1",
+    "task": {
+      "roads": [
+        [
+          "Walnut Park",
+          "Oak Harbor"
+        ],
+        [
+          "Oak Harbor",
+          "Snow Peak"
+        ],
+        [
+          "Walnut Park",
+          "Stone Bridge"
+        ],
+        [
+          "Birch Point",
+          "Snow Peak"
+        ],
+        [
+          "Stone Bridge",
+          "Morning Star"
+        ],
+        [
+          "Walnut Park",
+          "Willow Creek"
+        ],
+        [
+          "Snow Peak",
+          "Morning Star"
+        ],
+        [
+          "Willow Creek",
+          "Birch Point"
+        ],
+        [
+          "Cedar Bay",
+          "Walnut Park"
+        ],
+        [
+          "Fair Haven",
+          "Cedar Bay"
+        ]
+      ],
+      "start": "Fair Haven",
+      "target": "Morning Star",
+      "waypoint": "Snow Peak",
+      "trunk": [
+        "Fair Haven",
+        "Cedar Bay",
+        "Walnut Park"
+      ],
+      "solution": [
+        "Fair Haven",
+        "Cedar Bay",
+        "Walnut Park",
+        "Oak Harbor",
+        "Snow Peak",
+        "Morning Star"
+      ],
+      "bad_solution": [
+        "Fair Haven",
+        "Cedar Bay",
+        "Walnut Park",
+        "Stone Bridge",
+        "Morning Star"
+      ],
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "topology_nodes": 9,
+      "prompt": "Roads: Deer Run -> Walnut Park; Willow Creek -> Snow Peak; Red Cliff -> Rose Garden; Silver Lake -> Cherry Grove; Deer Run -> Silver Lake; Golden Field -> Birch Point; Rose Garden -> Deer Run; Birch Point -> Red Cliff; Snow Peak -> Sunset Beach; Fox Hollow -> Willow Creek; Cherry Grove -> Clear Water; Clear Water -> Sunset Beach; Deer Run -> Fox Hollow; Walnut Park -> Clear Water.\nFrom Golden Field to Sunset Beach, visit Clear Water. Use listed directed roads, no repeated town.\nRoute: Golden Field -> Birch Point -> Red Cliff -> Rose Garden -> Deer Run -> Silver Lake -> Cherry Grove -> Clear Water -> Sunset Beach.\n\nRoads: Walnut Park -> Oak Harbor; Oak Harbor -> Snow Peak; Walnut Park -> Stone Bridge; Birch Point -> Snow Peak; Stone Bridge -> Morning Star; Walnut Park -> Willow Creek; Snow Peak -> Morning Star; Willow Creek -> Birch Point; Cedar Bay -> Walnut Park; Fair Haven -> Cedar Bay.\nFrom Fair Haven to Morning Star, visit Snow Peak. Use listed directed roads, no repeated town.\nRoute:",
+      "id": 24,
+      "cell": "branch",
+      "source_id": "branch-topology-1",
+      "prompt_tokens": 221,
+      "allocated_total": 352,
+      "blocks": 9
+    },
+    "original_task_id": 24,
+    "repeat": 0,
+    "reference_noise_seed": 194240000,
+    "prefix_ids": [
+      14930,
+      42714,
+      1492
+    ],
+    "prefix_generated_tokens": 3,
+    "source_experiment": "001-r2-branch-v1",
+    "source_commit": "8e2ab3f19f7d6bcfa8ad1338e1a256d358f41278"
+  },
+  {
+    "root_id": 5,
+    "source_id": "branch-topology-1",
+    "task": {
+      "roads": [
+        [
+          "Walnut Park",
+          "Oak Harbor"
+        ],
+        [
+          "Oak Harbor",
+          "Snow Peak"
+        ],
+        [
+          "Walnut Park",
+          "Stone Bridge"
+        ],
+        [
+          "Birch Point",
+          "Snow Peak"
+        ],
+        [
+          "Stone Bridge",
+          "Morning Star"
+        ],
+        [
+          "Walnut Park",
+          "Willow Creek"
+        ],
+        [
+          "Snow Peak",
+          "Morning Star"
+        ],
+        [
+          "Willow Creek",
+          "Birch Point"
+        ],
+        [
+          "Cedar Bay",
+          "Walnut Park"
+        ],
+        [
+          "Fair Haven",
+          "Cedar Bay"
+        ]
+      ],
+      "start": "Fair Haven",
+      "target": "Morning Star",
+      "waypoint": "Snow Peak",
+      "trunk": [
+        "Fair Haven",
+        "Cedar Bay",
+        "Walnut Park"
+      ],
+      "solution": [
+        "Fair Haven",
+        "Cedar Bay",
+        "Walnut Park",
+        "Oak Harbor",
+        "Snow Peak",
+        "Morning Star"
+      ],
+      "bad_solution": [
+        "Fair Haven",
+        "Cedar Bay",
+        "Walnut Park",
+        "Stone Bridge",
+        "Morning Star"
+      ],
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "topology_nodes": 9,
+      "prompt": "Roads: Deer Run -> Walnut Park; Willow Creek -> Snow Peak; Red Cliff -> Rose Garden; Silver Lake -> Cherry Grove; Deer Run -> Silver Lake; Golden Field -> Birch Point; Rose Garden -> Deer Run; Birch Point -> Red Cliff; Snow Peak -> Sunset Beach; Fox Hollow -> Willow Creek; Cherry Grove -> Clear Water; Clear Water -> Sunset Beach; Deer Run -> Fox Hollow; Walnut Park -> Clear Water.\nFrom Golden Field to Sunset Beach, visit Clear Water. Use listed directed roads, no repeated town.\nRoute: Golden Field -> Birch Point -> Red Cliff -> Rose Garden -> Deer Run -> Silver Lake -> Cherry Grove -> Clear Water -> Sunset Beach.\n\nRoads: Walnut Park -> Oak Harbor; Oak Harbor -> Snow Peak; Walnut Park -> Stone Bridge; Birch Point -> Snow Peak; Stone Bridge -> Morning Star; Walnut Park -> Willow Creek; Snow Peak -> Morning Star; Willow Creek -> Birch Point; Cedar Bay -> Walnut Park; Fair Haven -> Cedar Bay.\nFrom Fair Haven to Morning Star, visit Snow Peak. Use listed directed roads, no repeated town.\nRoute:",
+      "id": 24,
+      "cell": "branch",
+      "source_id": "branch-topology-1",
+      "prompt_tokens": 221,
+      "allocated_total": 352,
+      "blocks": 9
+    },
+    "original_task_id": 24,
+    "repeat": 1,
+    "reference_noise_seed": 194240001,
+    "prefix_ids": [
+      14930,
+      42714,
+      1492
+    ],
+    "prefix_generated_tokens": 3,
+    "source_experiment": "001-r2-branch-v1",
+    "source_commit": "8e2ab3f19f7d6bcfa8ad1338e1a256d358f41278"
+  },
+  {
+    "root_id": 6,
+    "source_id": "branch-topology-23",
+    "task": {
+      "roads": [
+        [
+          "Fox Hollow",
+          "Meadow Brook"
+        ],
+        [
+          "Fox Hollow",
+          "Eagle Rock"
+        ],
+        [
+          "Eagle Rock",
+          "Elm Falls"
+        ],
+        [
+          "Fox Hollow",
+          "Green Wood"
+        ],
+        [
+          "River Bend",
+          "Willow Creek"
+        ],
+        [
+          "Green Wood",
+          "Pine Valley"
+        ],
+        [
+          "Elm Falls",
+          "Fair Haven"
+        ],
+        [
+          "Willow Creek",
+          "Fox Hollow"
+        ],
+        [
+          "Meadow Brook",
+          "Elm Falls"
+        ],
+        [
+          "Pine Valley",
+          "Fair Haven"
+        ]
+      ],
+      "start": "River Bend",
+      "target": "Fair Haven",
+      "waypoint": "Elm Falls",
+      "trunk": [
+        "River Bend",
+        "Willow Creek",
+        "Fox Hollow"
+      ],
+      "solution": [
+        "River Bend",
+        "Willow Creek",
+        "Fox Hollow",
+        "Eagle Rock",
+        "Elm Falls",
+        "Fair Haven"
+      ],
+      "bad_solution": [
+        "River Bend",
+        "Willow Creek",
+        "Fox Hollow",
+        "Green Wood",
+        "Pine Valley",
+        "Fair Haven"
+      ],
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "topology_nodes": 9,
+      "prompt": "Roads: Deer Run -> Walnut Park; Willow Creek -> Snow Peak; Red Cliff -> Rose Garden; Silver Lake -> Cherry Grove; Deer Run -> Silver Lake; Golden Field -> Birch Point; Rose Garden -> Deer Run; Birch Point -> Red Cliff; Snow Peak -> Sunset Beach; Fox Hollow -> Willow Creek; Cherry Grove -> Clear Water; Clear Water -> Sunset Beach; Deer Run -> Fox Hollow; Walnut Park -> Clear Water.\nFrom Golden Field to Sunset Beach, visit Clear Water. Use listed directed roads, no repeated town.\nRoute: Golden Field -> Birch Point -> Red Cliff -> Rose Garden -> Deer Run -> Silver Lake -> Cherry Grove -> Clear Water -> Sunset Beach.\n\nRoads: Fox Hollow -> Meadow Brook; Fox Hollow -> Eagle Rock; Eagle Rock -> Elm Falls; Fox Hollow -> Green Wood; River Bend -> Willow Creek; Green Wood -> Pine Valley; Elm Falls -> Fair Haven; Willow Creek -> Fox Hollow; Meadow Brook -> Elm Falls; Pine Valley -> Fair Haven.\nFrom River Bend to Fair Haven, visit Elm Falls. Use listed directed roads, no repeated town.\nRoute:",
+      "id": 28,
+      "cell": "branch",
+      "source_id": "branch-topology-23",
+      "prompt_tokens": 221,
+      "allocated_total": 352,
+      "blocks": 9
+    },
+    "original_task_id": 28,
+    "repeat": 0,
+    "reference_noise_seed": 194280000,
+    "prefix_ids": [
+      11188,
+      48838,
+      1492
+    ],
+    "prefix_generated_tokens": 3,
+    "source_experiment": "001-r2-branch-v1",
+    "source_commit": "8e2ab3f19f7d6bcfa8ad1338e1a256d358f41278"
+  },
+  {
+    "root_id": 7,
+    "source_id": "branch-topology-23",
+    "task": {
+      "roads": [
+        [
+          "Fox Hollow",
+          "Meadow Brook"
+        ],
+        [
+          "Fox Hollow",
+          "Eagle Rock"
+        ],
+        [
+          "Eagle Rock",
+          "Elm Falls"
+        ],
+        [
+          "Fox Hollow",
+          "Green Wood"
+        ],
+        [
+          "River Bend",
+          "Willow Creek"
+        ],
+        [
+          "Green Wood",
+          "Pine Valley"
+        ],
+        [
+          "Elm Falls",
+          "Fair Haven"
+        ],
+        [
+          "Willow Creek",
+          "Fox Hollow"
+        ],
+        [
+          "Meadow Brook",
+          "Elm Falls"
+        ],
+        [
+          "Pine Valley",
+          "Fair Haven"
+        ]
+      ],
+      "start": "River Bend",
+      "target": "Fair Haven",
+      "waypoint": "Elm Falls",
+      "trunk": [
+        "River Bend",
+        "Willow Creek",
+        "Fox Hollow"
+      ],
+      "solution": [
+        "River Bend",
+        "Willow Creek",
+        "Fox Hollow",
+        "Eagle Rock",
+        "Elm Falls",
+        "Fair Haven"
+      ],
+      "bad_solution": [
+        "River Bend",
+        "Willow Creek",
+        "Fox Hollow",
+        "Green Wood",
+        "Pine Valley",
+        "Fair Haven"
+      ],
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "topology_nodes": 9,
+      "prompt": "Roads: Deer Run -> Walnut Park; Willow Creek -> Snow Peak; Red Cliff -> Rose Garden; Silver Lake -> Cherry Grove; Deer Run -> Silver Lake; Golden Field -> Birch Point; Rose Garden -> Deer Run; Birch Point -> Red Cliff; Snow Peak -> Sunset Beach; Fox Hollow -> Willow Creek; Cherry Grove -> Clear Water; Clear Water -> Sunset Beach; Deer Run -> Fox Hollow; Walnut Park -> Clear Water.\nFrom Golden Field to Sunset Beach, visit Clear Water. Use listed directed roads, no repeated town.\nRoute: Golden Field -> Birch Point -> Red Cliff -> Rose Garden -> Deer Run -> Silver Lake -> Cherry Grove -> Clear Water -> Sunset Beach.\n\nRoads: Fox Hollow -> Meadow Brook; Fox Hollow -> Eagle Rock; Eagle Rock -> Elm Falls; Fox Hollow -> Green Wood; River Bend -> Willow Creek; Green Wood -> Pine Valley; Elm Falls -> Fair Haven; Willow Creek -> Fox Hollow; Meadow Brook -> Elm Falls; Pine Valley -> Fair Haven.\nFrom River Bend to Fair Haven, visit Elm Falls. Use listed directed roads, no repeated town.\nRoute:",
+      "id": 28,
+      "cell": "branch",
+      "source_id": "branch-topology-23",
+      "prompt_tokens": 221,
+      "allocated_total": 352,
+      "blocks": 9
+    },
+    "original_task_id": 28,
+    "repeat": 1,
+    "reference_noise_seed": 194280001,
+    "prefix_ids": [
+      11188,
+      48838,
+      1492
+    ],
+    "prefix_generated_tokens": 3,
+    "source_experiment": "001-r2-branch-v1",
+    "source_commit": "8e2ab3f19f7d6bcfa8ad1338e1a256d358f41278"
+  }
+]
