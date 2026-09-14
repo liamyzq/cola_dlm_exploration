@@ -85,3 +85,7 @@ The tokenizer merges the answer's final period with the trailer newline when the
 Sentence-format controls preserve all 64 predefined worlds. Their value edits can span multiple tokens after moving a name to sentence-initial position; they are a separately labeled format/word-span noise control, not part of single-token headline effects or targeted boundary search. A tokenizer-only audit found 52 of 256 development/control query layouts fail the record's single-token constraint under sentence formatting. Retain these worlds in the sentence noise diagnostic; its parser scores complete field values. Any saved confidence for this supplementary format is first-changed-token confidence, not a span aggregate.
 
 Source-present destruction uses a zero answer replacement once and eight independent Gaussian answer replacements with coordinate standard deviation 4.0. This is outside ordinary local support and is labeled as a conditional recoverability diagnostic.
+
+## Development amendment: one noise-grid refinement
+
+The initial 64-world calibration (10,240 readouts at `d4a4b0a`) has 2.009% token disagreement at sigma=0.32 and 43.794% at 0.64, with no original point in the required 3%-25% range. Invoke the single allowed global development refinement: add [0.36,0.40,0.44,0.48,0.52,0.56,0.60] using the same eight paired seeds and all 64 worlds. Reuse the original grid's records. Select the nearest lexical 10% point from the union without reading role contrasts. No test model outputs have been accessed.

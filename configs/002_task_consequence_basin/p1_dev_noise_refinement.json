@@ -1,0 +1,22 @@
+{
+  "protocol": "task_consequence_decoder_boundary_v1",
+  "checkpoint": "/home/mlw0719/cola_dlm_exploration_storage/checkpoints/Cola-DLM-c1eafdd",
+  "worlds": "/home/mlw0719/cola_dlm_exploration_storage/datasets/002_task_consequence_basin/v1/worlds.jsonl",
+  "source_revision": "7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c",
+  "checkpoint_revision": "c1eafdd9cfd8064aeb917d569ef70a075b353eed",
+  "seed": 20260914,
+  "precision": "fp32 parameters, bf16 autocast; fp32 finite-difference check",
+  "stage": "noise",
+  "split": "dev",
+  "seeds": 8,
+  "sigmas": [
+    0.36,
+    0.4,
+    0.44,
+    0.48,
+    0.52,
+    0.56,
+    0.6
+  ],
+  "revision_reason": "One permitted development-only refinement: the initial grid jumps from 2.01% to 43.79% token disagreement and has no point in the declared 3%-25% band. Reuse all original grid records; add only these seven points."
+}
