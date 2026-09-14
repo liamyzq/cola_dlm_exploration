@@ -14,7 +14,7 @@ The H1a kernel passed explicit-feature, signed-split, identity, EOS, and source-
 
 ## Active work and next actions
 
-The 16-case M/F engineering suite `001-r3-m-engineering-v1` completed successfully on GPUs 6-8 from commit `7e757d8`. All prompt remainders 0..15 passed. Eight cases yielded accepted alternatives; this engineering sample does not estimate natural-passage coverage. R1 and M workers are terminal. Next is candidate-artifact replay validation and reward-blind eta calibration.
+The 16-case M/F engineering suite `001-r3-m-engineering-v1` completed successfully on GPUs 6-8 from commit `7e757d8`. All prompt remainders 0..15 passed. Eight cases yielded accepted alternatives; this engineering sample does not estimate natural-passage coverage. R1 and M workers are terminal. Candidate-artifact replay passed for F and M. Reward-blind eta calibration is running on GPUs 5-8 under experiment IDs 001-r3-eta-f-v1 and 001-r3-eta-m-v1. The independent A/B runner and bounded R2 task diagnosis are implemented for targeted validation.
 
 1. Complete M validation, then freeze and run R3 native candidate feasibility on natural passages. Implement the complete R4 continuation runner with explicit independent A/B noise and full cost records.
 2. Run the bounded R2 Copy/Chain/Branch/Matched-full diagnosis, keeping route and natural-continuation results separate.

@@ -1,0 +1,22 @@
+{
+  "experiment_id": "001-r2-branch-v1",
+  "phase": "R2 bounded task diagnosis",
+  "cell": "branch",
+  "tasks": 32,
+  "samples_per_task": 2,
+  "task_seed": 920002,
+  "demonstration_seed": 920099,
+  "max_layout_draws": 10000,
+  "generated_tokens": 128,
+  "noise_seed": 194000000,
+  "euler_steps": 16,
+  "cfg": 7.0,
+  "repetition_penalty": 1.0,
+  "primary_metric": "complete_public_constraint_success",
+  "comparator": "Four diagnostic cells with two-word names and one matching-format demonstration; not a single-factor causal comparison",
+  "budget": "32 tasks x 2 samples; fixed 128-token requested horizon with native block rounding; total allocated positions <=512",
+  "stopping_rule": "All fixed tasks and repeats; no performance-dependent resampling",
+  "invalidation_conditions": "Wrong reference answers, recoverable purported bad branch, context overflow, missing samples, or changed decoding invalidate the affected cell",
+  "source_revision": "7d1daeea1455a6cb9e23ddd4f06b8a2e59e63a8c",
+  "checkpoint_revision": "c1eafdd9cfd8064aeb917d569ef70a075b353eed"
+}
