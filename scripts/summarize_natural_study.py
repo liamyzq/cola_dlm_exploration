@@ -27,7 +27,25 @@ def summarize(runs,expected,kind):
     result['paired_future_count']=sum(x['paired_future_count'] for x in diagnostics)
     result['any_token_disagreements']=sum(x['any_token_disagreements'] for x in diagnostics)
     result['mean_token_position_disagreement']=float(np.mean([x['token_position_disagreement'] for x in diagnostics])) if diagnostics else None
-    if kind=='confirmation':result['total_worker_seconds']=sum(x['total_seconds'] for x in records)
+    if kind=='confirmation':
+        proposals=[p for x in records for p in x.get('proposals',[])]
+        accepted=[p for p in proposals if p['accepted']]
+        assert len(accepted)==len(diagnostics)
+        result.update(total_worker_seconds=sum(x['total_seconds'] for x in records),
+            live_roots=sum(x['candidates']>=1 for x in records),
+            reference_only_roots=sum(x['candidates']==1 for x in records),
+            construction_worker_seconds=sum(x.get('construction_seconds',x['total_seconds']) for x in records),
+            proposal_attempt_seconds=sum(p['elapsed_seconds'] for p in proposals),
+            proposal_count=len(proposals),same_token_proposals=sum(p['same_tokens'] for p in proposals),
+            same_token_kl_rejected=sum(p['same_tokens'] and (p['kl_sum']>.01 or p['kl_max']>.0025) for p in proposals),
+            raw_duplicates=sum(p['duplicate'] for p in proposals),
+            effective_duplicates=sum(p.get('effective_cache_duplicate') is True for p in proposals),
+            accepted_kl_sum_range=[min(p['kl_sum'] for p in accepted),max(p['kl_sum'] for p in accepted)] if accepted else None,
+            accepted_kl_max=max((p['kl_max'] for p in accepted),default=None),
+            accepted_latent_delta_median=float(np.median([p['delta_norm'] for p in accepted])) if accepted else None,
+            accepted_bf16_delta_median=float(np.median([p['dit_input_bf16_delta_norm'] for p in accepted])) if accepted else None,
+            total_calls={key:sum(x['total_calls'][key] for x in records) for key in records[0]['total_calls']},
+            future_calls={key:sum(x.get('calls',{}).get(key,0) for x in records) for key in records[0]['total_calls']})
     h=result['h_token']
     result['bootstrap_degenerate']=h is not None and h['ci95'][0]==h['ci95'][1]
     if result['bootstrap_degenerate']:
