@@ -1,6 +1,6 @@
 # CoLA and Continuous DLM Exploration
 
-This repository supports idea exploration around CoLA DLM and related continuous diffusion language models. It currently contains the research workspace and operating conventions. A model implementation and runnable baseline have not yet been selected or integrated.
+This repository supports idea exploration around CoLA DLM and related continuous diffusion language models. The released CoLa model is integrated through a resumable state engine using pinned official modules. Its 32-example native-parity and cache-replay suite passed; route-task capability calibration for the first idea is running.
 
 ## Workspace
 
@@ -30,7 +30,7 @@ Use short-lived development branches for code changes. After baseline integratio
 - [PROGRESS.md](PROGRESS.md): current understanding, unresolved questions, and next actions.
 - [experiments/results.tsv](experiments/results.tsv): formal experimental facts and decisions.
 - [COMPUTE.md](COMPUTE.md): storage and compute procedures.
-- [jobs/jobs.jsonl](jobs/jobs.jsonl): actual job events; currently empty because no jobs have been launched.
+- [jobs/jobs.jsonl](jobs/jobs.jsonl): actual job events, including the current nebula calibration workers.
 - [AGENTS.md](AGENTS.md): persistent project instructions, informed by `research-repo` and `ccf-humanization`.
 
-The first research step is to identify the exact CoLA source, revision, checkpoint, and evaluation protocol, then establish the shared baseline before attributing improvements to new methods.
+The first idea is [future value beyond the emitted prefix](experiments/001_same_prefix_state/README.md). Its [English protocol](experiments/001_same_prefix_state/PROTOCOL.md) specifies capability calibration, native same-token proposals, independent continuation-value measurement, and conditional selector and cost studies. No H1-H3 scientific result has been established yet.
