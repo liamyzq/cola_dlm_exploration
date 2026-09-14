@@ -54,3 +54,19 @@ main agent does not inspect formal effect outputs until F collection is
 terminal. Candidate collection continues under its unchanged fixed cap and
 acceptance-only rule. The final manifest must equal the disjoint union of
 both parts; scheduling does not add a cohort or a setting search.
+
+
+## Positive-confirmation localization trigger
+
+The zero-centered pilot did not activate localization. Before inspecting any
+confirmation effects, the existing positive-mechanism requirement is clarified:
+if the independent confirmation's source-clustered 95% interval lies strictly
+above zero, run the same preselected eight-root development diagnostic. This
+clarification occurs while confirmation is running and does not change its
+endpoint, setting, inclusion, or budget. It adds no diagnostic roots or futures.
+
+The fixed IDs are 0, 3, 5, 6, 7, 8, 10, and 12, the first eight entries of the
+already frozen pilot manifest. Reuse their archived A/B noise and native-state
+futures. Check both hybrid cache components and exact emitted IDs before
+counterfactual futures. Treat each single-path contrast as a diagnostic; the
+quadratic heterogeneity values are not an additive mediation decomposition.

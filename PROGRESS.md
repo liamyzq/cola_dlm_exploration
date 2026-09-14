@@ -48,3 +48,11 @@ no task reward here and cannot support a selection or inference-utility claim.
 Keep route limitations and negative outcomes visible. The final report must give
 an explicit disposition for every conditional stage. LoRA, learned selectors and
 the original human-reviewed transfer study remain deferred outside this revision.
+
+
+Prepared follow-ups use committed fixed inputs: a bounded eight-root Branch-M
+public-reward probe after GPUs become free, and the unchanged eight-development-
+root cache localization only if positive mechanism evidence activates it.
+Branch has no canonical F layout on its short 8-14-token common trunk; its lack
+of F roots is not solely a model-capability finding. The independent confirmation
+continues unchanged while these limited follow-ups are prepared.
